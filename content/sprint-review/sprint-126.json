@@ -339,8 +339,8 @@
       "heading": "5. TinaCloud PostHog Metrics",
       "items": [
         {
-          "image": "/uploads/sprint-126/commits.png",
-          "caption": "Total Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 41,876 (up 28% on the previous period)",
+          "image": "/uploads/sprint-126/commits-2.png",
+          "caption": "Total Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 42,006 (up 28% on the previous period)",
           "sourceLabel": "PostHog Dashboard",
           "sourceUrl": "https://us.posthog.com/project/237683/dashboard/615466"
         },
@@ -369,8 +369,8 @@
           "sourceUrl": "https://us.posthog.com/project/237683/dashboard/1284436"
         },
         {
-          "image": "/uploads/sprint-126/geo.png",
-          "caption": "Distribution of unique TinaCMS users over the past 30 days - US is our top country with 1,657 users, up 101 on the previous 30 days, ahead of Germany on 615 and the UK on 486",
+          "image": "/uploads/sprint-126/geo-2.png",
+          "caption": "Distribution of unique TinaCMS users over the last 30 days - US is our top country with 1,657 users, up 101 on the prior 30 days, ahead of Germany on 615 and the UK on 486",
           "sourceLabel": "PostHog Dashboard",
           "sourceUrl": "https://us.posthog.com/project/237683/dashboard/1284436"
         }
