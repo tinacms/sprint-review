@@ -116,20 +116,13 @@
           "bonus": true
         },
         {
-          "title": "Plugin System - Screen - Media Manager",
-          "url": "https://github.com/tinacms/tinacms/issues/6891",
-          "assignees": "joshbermanssw",
-          "estimate": 8,
-          "status": "done",
-          "bonus": true
-        },
-        {
           "title": "Plugin System - Sidebar",
           "url": "https://github.com/tinacms/tinacms/issues/6881",
           "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "done",
-          "bonus": true
+          "bonus": true,
+          "bold": true
         },
         {
           "title": "Identity API authorizer timeouts return 500s after 10 seconds",
@@ -193,7 +186,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "done",
-          "bonus": true
+          "bonus": true,
+          "bold": true
         },
         {
           "title": "Take the October dependency group with the AWS types split resolved",
@@ -217,6 +211,14 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
+          "bonus": true
+        },
+        {
+          "title": "Plugin System - Screen - Media Manager",
+          "url": "https://github.com/tinacms/tinacms/issues/6891",
+          "assignees": "joshbermanssw",
+          "estimate": 8,
+          "status": "inReview",
           "bonus": true
         },
         {
