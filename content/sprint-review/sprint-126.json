@@ -327,8 +327,8 @@
       "items": [
         {
           "image": "/uploads/sprint-126/sprint-126-cloudwatch.png",
-          "caption": "Application Health Dashboard Overview",
-          "sourceLabel": "TinaCloud CloudWatch Dashboard",
+          "caption": "Application Health Dashboard Overview. Identity API HTTP 500s dropped from 339 to 93. Content API HTTP 500s increased from 263 to 1.69K -",
+          "sourceLabel": "TinaCloud CloudWatch Dashboard. ",
           "sourceUrl": "https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview",
           "placeholder": "CloudWatch dashboard to be pasted - not captured on the scheduled run"
         }
