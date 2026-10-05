@@ -503,7 +503,10 @@
     },
     {
       "heading": "R&D",
-      "entries": [],
+      "entries": [
+        "v4 TinaCMS - Josh ",
+        "Jev PBI Classifier - Josh "
+      ],
       "placeholder": "Added at the review",
       "_template": "list"
     },
