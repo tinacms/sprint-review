@@ -25,7 +25,9 @@
     {
       "text": "1 TinaCMS v4 PBI"
     },
-    {}
+    {
+      "text": "1 WorkOS Migration PBI"
+    }
   ],
   "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
   "sections": [
