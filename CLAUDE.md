@@ -26,8 +26,10 @@ cd ~/Projects/tina-sprint-review && for f in $(cd ../sprint-review-starter && fi
 ```
 
 Team name, logo, Project Portal link, masthead headings and the HTML signature are content, in
-`content/settings/settings.json`. The logo is one SVG, `public/brand/tinacms-and-tinacloud.svg`,
-drawn to match the old two-logos-and-ampersand masthead pixel for pixel.
+`content/settings/settings.json`. The logo is one SVG, `public/uploads/brand/tinacms-and-tinacloud.svg`,
+drawn to match the old two-logos-and-ampersand masthead pixel for pixel. It must sit under
+`public/uploads/`: TinaCloud serves every image field from assets.tina.io, which only holds the media
+folder, so a logo anywhere else 404s on the deployed site.
 
 ## The sheet IS the email
 
