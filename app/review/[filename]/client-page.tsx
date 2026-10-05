@@ -1,0 +1,122 @@
+"use client";
+import React from "react";
+import { tinaField, useTina } from "tinacms/dist/react";
+import type { SprintReviewQuery } from "../../../tina/__generated__/types";
+import { statusMeta } from "../../../components/sprint/status";
+import { Block, H2, H3, List, Pending, Section, Sheet } from "../../../components/email/primitives";
+import { colour, text } from "../../../components/email/theme";
+import { Signature, SprintActions, SprintMasthead } from "../../../components/sprint/sprint-frame";
+import { Sections } from "../../../components/sprint/sections";
+import type { Settings } from "../../../lib/settings";
+import type { SiblingLink } from "../../../lib/sibling";
+import { linkify } from "../../../lib/refs";
+
+interface ClientPageProps {
+  query: string;
+  variables: { relativePath: string };
+  data: SprintReviewQuery;
+  settings: Settings;
+  sibling: SiblingLink;
+}
+
+const RETRO = [
+  { key: "wentWell", title: "✅ What went well" },
+  { key: "didntGoWell", title: "❌ What didn't go so well" },
+  { key: "improvements", title: "💡 Improvements for next Sprint" },
+] as const;
+
+export default function SprintReviewPage(props: ClientPageProps) {
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  });
+
+  const { settings } = props;
+  const review = data.sprintReview;
+
+  return (
+    <div className="review">
+      <SprintActions
+        doc={review}
+        sibling={props.sibling}
+        defaultSubject={`${settings.teamName} Sprint ${review.number} Review + Retro`}
+      />
+
+      <div className="sheet-host">
+        <Sheet>
+          <SprintMasthead
+            doc={review}
+            settings={settings}
+            label="Sprint Review + Retro"
+            recordingLabel="Watch the review"
+            recordingPending="Added after the meeting"
+          />
+
+          <Section first>
+            <H2>Sprint Goals</H2>
+            {review.goals?.length ? (
+              review.goals.map((goal, index) => (
+                <Block key={index} bottom={10}>
+                  <table
+                    style={{
+                      width: "100%",
+                      borderCollapse: "collapse",
+                      backgroundColor: colour.paper,
+                      border: `1px solid ${colour.line}`,
+                    }}
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          data-tina-field={goal ? tinaField(goal, "status") : undefined}
+                          style={text(16, colour.ink, { width: "35px", padding: "14px 0 14px 14px", verticalAlign: "top" })}
+                        >
+                          {statusMeta(goal?.status).icon}
+                        </td>
+                        <td
+                          data-tina-field={goal ? tinaField(goal, "text") : undefined}
+                          style={text(16, colour.ink, { padding: "14px 16px 14px 0", verticalAlign: "top" })}
+                        >
+                          {linkify(goal?.text ?? "", settings.githubOwner)}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </Block>
+              ))
+            ) : (
+              <div data-tina-field={tinaField(review, "goals")}>
+                <Pending>Copied from the Sprint Forecast</Pending>
+              </div>
+            )}
+          </Section>
+
+          <Sections sections={review.sections} kind="review" githubOwner={settings.githubOwner} />
+
+          <Section tinaField={tinaField(review, "retro")}>
+            <H2>Sprint Retrospective</H2>
+            {RETRO.map((column, index) => {
+              const entries = review.retro?.[column.key];
+              return (
+                <div
+                  key={column.key}
+                  data-tina-field={review.retro && !entries?.length ? tinaField(review.retro, column.key) : undefined}
+                >
+                  <H3 top={index === 0 ? 8 : 20}>{column.title}</H3>
+                  {entries?.length ? (
+                    <List items={entries} itemField={(item) => tinaField(review.retro, column.key, item)} />
+                  ) : (
+                    <Pending>Captured live at the retro</Pending>
+                  )}
+                </div>
+              );
+            })}
+          </Section>
+
+          <Signature signature={settings.signature} />
+        </Sheet>
+      </div>
+    </div>
+  );
+}

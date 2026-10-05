@@ -1,0 +1,107 @@
+{
+  "number": 127,
+  "startDate": "2026-10-06T00:00:00.000Z",
+  "endDate": "2026-10-13T00:00:00.000Z",
+  "durationLabel": "1 week",
+  "productOwner": "Matt W",
+  "recordingUrl": "",
+  "attendees": [
+    "Adam",
+    "Matt",
+    "Eli",
+    "Kaha",
+    "Harley",
+    "Josh",
+    "Hark",
+    "Anton",
+    "Alex"
+  ],
+  "email": {
+    "subject": "TinaCloud/TinaCMS Sprint 127 Forecast",
+    "to": "MattWicks@ssw.com.au",
+    "cc": "SSWSprintReviews@ssw.com.au; AdamCogan@ssw.com.au; SSWTinaCloud@ssw.com.au; Calum@ssw.com.au"
+  },
+  "goals": [],
+  "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
+  "sections": [
+    {
+      "heading": "Forecast Backlog",
+      "items": [
+        {
+          "title": "🚚 Migration | Cognito → WorkOS account migration: export, scan and account rules",
+          "url": "https://github.com/tinacms/tinacloud/issues/4138",
+          "assignees": "KahaMason",
+          "estimate": 16,
+          "status": "inProgress"
+        },
+        {
+          "title": "Support - Monitor Discord Chat - Sprint 127",
+          "url": "",
+          "assignees": "kulesy, brookjeynes-ssw",
+          "estimate": 4,
+          "status": "inProgress"
+        },
+        {
+          "title": "Support - Tech Debt Payback - Sprint 127",
+          "url": "",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "inProgress"
+        },
+        {
+          "title": "Social media - Monitor Tina socials - Sprint 127",
+          "url": "",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "inProgress"
+        },
+        {
+          "title": "ci(windows): setup a process for signing windows binaries",
+          "url": "https://github.com/tinacms/tinacloud-cli/issues/67",
+          "assignees": "harley-j",
+          "estimate": 8,
+          "status": "backlog"
+        },
+        {
+          "title": "💄 UI/UX Review - Branding Baseline",
+          "url": "https://github.com/tinacms/tinacms/issues/7669",
+          "assignees": "designbyalex",
+          "estimate": 8,
+          "status": "backlog"
+        },
+        {
+          "title": "🔭 UI/UX Review - Layout & Navigation",
+          "url": "https://github.com/tinacms/tinacms/issues/7670",
+          "assignees": "designbyalex",
+          "estimate": 8,
+          "status": "backlog"
+        },
+        {
+          "title": "🔭 UI/UX Review - Flow Map",
+          "url": "https://github.com/tinacms/tinacms/issues/7668",
+          "assignees": "designbyalex",
+          "estimate": 4,
+          "status": "backlog"
+        }
+      ],
+      "note": "",
+      "_template": "backlog"
+    },
+    {
+      "heading": "AI Stats - Copilot",
+      "items": [
+        {
+          "image": "",
+          "caption": "",
+          "placeholder": "Copilot stats pasted at Planning"
+        }
+      ],
+      "_template": "figures"
+    },
+    {
+      "body": "This is as per the rule [Do you create a Sprint Forecast?](https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)",
+      "small": true,
+      "_template": "text"
+    }
+  ]
+}
