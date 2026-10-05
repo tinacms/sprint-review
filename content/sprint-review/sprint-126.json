@@ -324,7 +324,7 @@
       "heading": "4. Application Health",
       "items": [
         {
-          "image": "",
+          "image": "/uploads/sprint-126/sprint-126-cloudwatch.png",
           "caption": "Application Health Dashboard Overview",
           "sourceLabel": "TinaCloud CloudWatch Dashboard",
           "sourceUrl": "https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview",
@@ -421,8 +421,6 @@
     },
     {
       "heading": "Epics - Progress",
-      "sourceLabel": "Epics · TinaCloud",
-      "sourceUrl": "https://github.com/orgs/tinacms/projects/38/views/12",
       "items": [
         {
           "name": "TinaCMS v4 Field Type Implementation",
@@ -497,12 +495,14 @@
           "previousPercent": 0
         }
       ],
+      "sourceLabel": "Epics · TinaCloud",
+      "sourceUrl": "https://github.com/orgs/tinacms/projects/38/views/12",
       "_template": "progress"
     },
     {
       "heading": "R&D",
-      "placeholder": "Added at the review",
       "entries": [],
+      "placeholder": "Added at the review",
       "_template": "list"
     },
     {
