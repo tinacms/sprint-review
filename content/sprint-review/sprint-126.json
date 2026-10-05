@@ -516,11 +516,6 @@
       "subsection": true,
       "items": [
         {
-          "person": "Isaac",
-          "tools": "Codex (5.6 Sol, 6 Astra), YakShaver",
-          "limits": "No Limits"
-        },
-        {
           "person": "Kaha",
           "tools": "Claude Code (Opus 5.5)",
           "limits": "No Limits"
