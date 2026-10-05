@@ -68,6 +68,30 @@
           "bonus": false
         },
         {
+          "title": "Support - Monitor Discord Chat - Sprint 126",
+          "url": "https://github.com/tinacms/tinacloud/issues/4318",
+          "assignees": "kulesy, brookjeynes-ssw",
+          "estimate": 4,
+          "status": "done",
+          "bonus": false
+        },
+        {
+          "title": "Support - Tech Debt Payback - Sprint 126",
+          "url": "https://github.com/tinacms/tinacloud/issues/4319",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "done",
+          "bonus": false
+        },
+        {
+          "title": "Social media - Monitor Tina socials - Sprint 126",
+          "url": "https://github.com/tinacms/tinacloud/issues/4320",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "done",
+          "bonus": false
+        },
+        {
           "title": "🔐 Auth | Add \"Sign out of all other sessions\" to the Security tab",
           "url": "https://github.com/tinacms/tinacloud/issues/4276",
           "assignees": "harley-j",
@@ -206,6 +230,14 @@
           "bonus": true
         },
         {
+          "title": "⚡ Performance Improvements - Parallelize `_batch()` and `_clear()` in `dynamodb-level.ts` and pass larger batch size",
+          "url": "https://github.com/tinacms/tinacloud/issues/3303",
+          "assignees": "kulesy, joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true
+        },
+        {
           "title": "Plugin System - Field",
           "url": "https://github.com/tinacms/tinacms/issues/6879",
           "assignees": "joshbermanssw",
@@ -230,35 +262,11 @@
           "bonus": false
         },
         {
-          "title": "Support - Monitor Discord Chat - Sprint 126",
-          "url": "https://github.com/tinacms/tinacloud/issues/4318",
-          "assignees": "kulesy, brookjeynes-ssw",
-          "estimate": 4,
-          "status": "inProgress",
-          "bonus": false
-        },
-        {
-          "title": "Support - Tech Debt Payback - Sprint 126",
-          "url": "https://github.com/tinacms/tinacloud/issues/4319",
-          "assignees": "kulesy",
-          "estimate": 4,
-          "status": "inProgress",
-          "bonus": false
-        },
-        {
-          "title": "Social media - Monitor Tina socials - Sprint 126",
-          "url": "https://github.com/tinacms/tinacloud/issues/4320",
-          "assignees": "ianhoffmanx",
-          "estimate": 4,
-          "status": "inProgress",
-          "bonus": false
-        },
-        {
           "title": "ci(windows): setup a process for signing windows binaries",
           "url": "https://github.com/tinacms/tinacloud-cli/issues/67",
           "assignees": "harley-j",
           "estimate": 8,
-          "status": "backlog",
+          "status": "blocked",
           "bonus": false
         },
         {
@@ -284,8 +292,7 @@
           "estimate": 4,
           "status": "backlog",
           "bonus": false
-        },
-        {}
+        }
       ],
       "note": "",
       "_template": "backlog"
