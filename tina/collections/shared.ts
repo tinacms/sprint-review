@@ -6,6 +6,7 @@ export const STATUSES = [
   { value: "done", label: "✅ Done" },
   { value: "inReview", label: "👀 In review" },
   { value: "inProgress", label: "🏗 In progress" },
+  { value: "blocked", label: "🚧 Blocked" },
   { value: "backlog", label: "📋 Backlog - Not Ready" },
   { value: "wontDo", label: "❌ Won't do" },
 ];

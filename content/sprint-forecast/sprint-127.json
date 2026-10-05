@@ -28,6 +28,13 @@
       "heading": "Forecast Backlog",
       "items": [
         {
+          "title": "Plugin System - Screen - Media Manager",
+          "url": "https://github.com/tinacms/tinacms/issues/6891",
+          "assignees": "joshbermanssw",
+          "estimate": 8,
+          "status": "inReview"
+        },
+        {
           "title": "🚚 Migration | Cognito → WorkOS account migration: export, scan and account rules",
           "url": "https://github.com/tinacms/tinacloud/issues/4138",
           "assignees": "KahaMason",
@@ -36,23 +43,37 @@
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 127",
-          "url": "",
+          "url": "https://github.com/tinacms/tinacloud/issues/4419",
           "assignees": "kulesy, brookjeynes-ssw",
           "estimate": 4,
           "status": "inProgress"
         },
         {
           "title": "Support - Tech Debt Payback - Sprint 127",
-          "url": "",
+          "url": "https://github.com/tinacms/tinacloud/issues/4420",
           "assignees": "kulesy",
           "estimate": 4,
           "status": "inProgress"
         },
         {
           "title": "Social media - Monitor Tina socials - Sprint 127",
-          "url": "",
+          "url": "https://github.com/tinacms/tinacloud/issues/4421",
           "assignees": "ianhoffmanx",
           "estimate": 4,
+          "status": "inProgress"
+        },
+        {
+          "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
+          "url": "https://github.com/tinacms/tinacms/issues/7667",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "inProgress"
+        },
+        {
+          "title": "💄 Nav bar gives no scroll cue when items overflow",
+          "url": "https://github.com/tinacms/tinacloud/issues/4307",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
           "status": "inProgress"
         },
         {
@@ -60,7 +81,7 @@
           "url": "https://github.com/tinacms/tinacloud-cli/issues/67",
           "assignees": "harley-j",
           "estimate": 8,
-          "status": "backlog"
+          "status": "blocked"
         },
         {
           "title": "💄 UI/UX Review - Branding Baseline",

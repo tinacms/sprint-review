@@ -17,6 +17,8 @@ export const colour = {
   doneLight: "#e8f7ef",
   reviewText: "#0574e4",
   reviewLight: "#dceeff",
+  blockedText: "#b42318",
+  blockedLight: "#fee4e2",
   idleText: "#64748b",
   idleLight: "#f1f5f9",
 };
@@ -63,4 +65,5 @@ export const STATUS_COLOURS: Record<string, { text: string; background: string }
   done: { text: colour.doneText, background: colour.doneLight },
   inReview: { text: colour.reviewText, background: colour.reviewLight },
   inProgress: { text: colour.accentText, background: colour.accentLight },
+  blocked: { text: colour.blockedText, background: colour.blockedLight },
 };
