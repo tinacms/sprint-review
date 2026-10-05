@@ -1,6 +1,6 @@
 import { Block, Figure, Grid, Td } from "../email/primitives";
 import { colour, gap, text } from "../email/theme";
-import { field, signed, type Maybe, type SectionRenderer } from "./section-kit";
+import { field, type Maybe, type SectionRenderer } from "./section-kit";
 
 type Team = {
   team?: Maybe<string>;
@@ -14,6 +14,12 @@ type Team = {
 };
 type Person = { person?: Maybe<string>; tools?: Maybe<string>; limits?: Maybe<string> };
 
+const hoursChange = (hours?: Maybe<number>, previous?: Maybe<number>) => {
+  if (hours == null || previous == null) return null;
+  if (hours === previous) return "same as last Sprint";
+  return `${hours > previous ? "up" : "down"} from ${previous} h last Sprint`;
+};
+
 const Hours: SectionRenderer = ({ section }) => {
   const items: Maybe<Team>[] = section.items ?? [];
   return (
@@ -26,7 +32,7 @@ const Hours: SectionRenderer = ({ section }) => {
             <span style={{ fontSize: "21.6px", fontWeight: 620, letterSpacing: "-0.02em" }}>{entry?.hours} h</span>
             {gap(2)}
             <span style={{ fontSize: "13.6px", color: colour.inkFaint }}>
-              {signed((entry?.hours ?? 0) - (entry?.previousHours ?? 0))} on {entry?.previousHours} h last Sprint
+              {hoursChange(entry?.hours, entry?.previousHours)}
             </span>
           </p>
           <Figure
