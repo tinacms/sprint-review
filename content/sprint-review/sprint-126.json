@@ -68,30 +68,6 @@
           "bonus": false
         },
         {
-          "title": "Support - Monitor Discord Chat - Sprint 126",
-          "url": "https://github.com/tinacms/tinacloud/issues/4318",
-          "assignees": "kulesy, brookjeynes-ssw",
-          "estimate": 4,
-          "status": "done",
-          "bonus": false
-        },
-        {
-          "title": "Support - Tech Debt Payback - Sprint 126",
-          "url": "https://github.com/tinacms/tinacloud/issues/4319",
-          "assignees": "kulesy",
-          "estimate": 4,
-          "status": "done",
-          "bonus": false
-        },
-        {
-          "title": "Social media - Monitor Tina socials - Sprint 126",
-          "url": "https://github.com/tinacms/tinacloud/issues/4320",
-          "assignees": "ianhoffmanx",
-          "estimate": 4,
-          "status": "done",
-          "bonus": false
-        },
-        {
           "title": "🔐 Auth | Add \"Sign out of all other sessions\" to the Security tab",
           "url": "https://github.com/tinacms/tinacloud/issues/4276",
           "assignees": "harley-j",
@@ -189,14 +165,6 @@
           "bonus": true
         },
         {
-          "title": "⚡ Performance Improvements - Parallelize `_batch()` and `_clear()` in `dynamodb-level.ts` and pass larger batch size",
-          "url": "https://github.com/tinacms/tinacloud/issues/3303",
-          "assignees": "kulesy, joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true
-        },
-        {
           "title": "Upgrade the dashboard to react-final-form 7 and final-form 5",
           "url": "https://github.com/tinacms/tinacloud/issues/4292",
           "assignees": "kulesy",
@@ -262,19 +230,35 @@
           "bonus": false
         },
         {
-          "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
-          "url": "https://github.com/tinacms/tinacms/issues/7667",
-          "assignees": "joshbermanssw",
+          "title": "Support - Monitor Discord Chat - Sprint 126",
+          "url": "https://github.com/tinacms/tinacloud/issues/4318",
+          "assignees": "kulesy, brookjeynes-ssw",
           "estimate": 4,
           "status": "inProgress",
-          "bonus": true
+          "bonus": false
+        },
+        {
+          "title": "Support - Tech Debt Payback - Sprint 126",
+          "url": "https://github.com/tinacms/tinacloud/issues/4319",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": false
+        },
+        {
+          "title": "Social media - Monitor Tina socials - Sprint 126",
+          "url": "https://github.com/tinacms/tinacloud/issues/4320",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": false
         },
         {
           "title": "ci(windows): setup a process for signing windows binaries",
           "url": "https://github.com/tinacms/tinacloud-cli/issues/67",
           "assignees": "harley-j",
           "estimate": 8,
-          "status": "blocked",
+          "status": "backlog",
           "bonus": false
         },
         {
@@ -404,12 +388,6 @@
           "current": 60
         },
         {
-          "label": "tinacms/tina-nextjs-starter",
-          "url": "https://github.com/tinacms/tina-nextjs-starter/graphs/traffic",
-          "previous": 43,
-          "current": 20
-        },
-        {
           "label": "tinacms/tina-react-starter",
           "url": "https://github.com/tinacms/tina-react-starter/graphs/traffic",
           "previous": 39,
@@ -420,6 +398,12 @@
           "url": "https://github.com/tinacms/tina-self-hosted-demo/graphs/traffic",
           "previous": 29,
           "current": 29
+        },
+        {
+          "label": "tinacms/tina-nextjs-starter",
+          "url": "https://github.com/tinacms/tina-nextjs-starter/graphs/traffic",
+          "previous": 43,
+          "current": 20
         }
       ],
       "note": "Current Sprint counts cover Tue 29 Sep to Sun 4 Oct - GitHub's traffic API had not published Mon 5 Oct when this was built.",
