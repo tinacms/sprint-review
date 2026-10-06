@@ -12,7 +12,7 @@ type Team = {
   sourceUrl?: Maybe<string>;
   placeholder?: Maybe<string>;
 };
-type Person = { person?: Maybe<string>; tools?: Maybe<string>; limits?: Maybe<string>; usage?: Maybe<string> };
+type Person = { person?: Maybe<string>; tools?: Maybe<string>; limits?: Maybe<string>; expiry?: Maybe<string> };
 
 const hoursChange = (hours?: Maybe<number>, previous?: Maybe<number>) => {
   if (hours == null || previous == null) return null;
@@ -52,13 +52,13 @@ const Hours: SectionRenderer = ({ section }) => {
 const AiTools: SectionRenderer = ({ section }) => {
   const items: Maybe<Person>[] = section.items ?? [];
   return (
-    <Grid top={0} head={[{ label: "Person" }, { label: "Tools" }, { label: "Limits" }, { label: "Usage" }]}>
+    <Grid top={0} head={[{ label: "Person" }, { label: "Tools" }, { label: "Limits" }, { label: "Expiry" }]}>
       {items.map((row, index) => (
         <tr key={index}>
           <Td tinaField={field(row, "person")}>{row?.person}</Td>
           <Td tinaField={field(row, "tools")}>{row?.tools}</Td>
           <Td tinaField={field(row, "limits")}>{row?.limits}</Td>
-          <Td tinaField={field(row, "usage")}>{row?.usage}</Td>
+          <Td tinaField={field(row, "expiry")}>{row?.expiry}</Td>
         </tr>
       ))}
     </Grid>

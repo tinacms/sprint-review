@@ -37,7 +37,7 @@ export const customSectionTemplates: Template[] = [
           { type: "string", name: "person", label: "Person" },
           { type: "string", name: "tools", label: "Tools" },
           { type: "string", name: "limits", label: "Limits" },
-          { type: "string", name: "usage", label: "Usage", description: "How much of the limit is used, for example 88% weekly" },
+          { type: "string", name: "expiry", label: "Expiry", description: "When the limit resets, for example Fri 9 Oct" },
         ],
         ui: { itemProps: (item) => ({ label: item?.person }) },
       },
