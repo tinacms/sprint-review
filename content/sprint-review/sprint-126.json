@@ -236,7 +236,8 @@
           "assignees": "kulesy, joshbermanssw",
           "estimate": 2,
           "status": "done",
-          "bonus": true
+          "bonus": true,
+          "bold": true
         },
         {
           "title": "Plugin System - Field",
