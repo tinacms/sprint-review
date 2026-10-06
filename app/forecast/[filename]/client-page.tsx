@@ -5,7 +5,7 @@ import type { SprintForecastQuery } from "../../../tina/__generated__/types";
 import { statusMeta } from "../../../components/sprint/status";
 import { Block, H2, Pending, Section, Sheet } from "../../../components/email/primitives";
 import { colour, text } from "../../../components/email/theme";
-import { Signature, SprintActions, SprintMasthead } from "../../../components/sprint/sprint-frame";
+import { Signature, SprintActions, SprintFooterLinks, SprintMasthead } from "../../../components/sprint/sprint-frame";
 import { Sections } from "../../../components/sprint/sections";
 import type { Settings } from "../../../lib/settings";
 import type { SiblingLink } from "../../../lib/sibling";
@@ -97,6 +97,8 @@ export default function SprintForecastPage(props: ClientPageProps) {
           <Signature signature={settings.signature} />
         </Sheet>
       </div>
+
+      <SprintFooterLinks sibling={props.sibling} />
     </div>
   );
 }
