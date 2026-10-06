@@ -35,18 +35,18 @@
       "heading": "Forecast Backlog",
       "items": [
         {
-          "title": "Plugin System - Screen - Media Manager",
-          "url": "https://github.com/tinacms/tinacms/issues/6891",
-          "assignees": "joshbermanssw",
-          "estimate": 8,
+          "title": "✨ Enable Markdown content negotiation across Tina web properties",
+          "url": "https://github.com/tinacms/tina.io/issues/4896",
+          "assignees": "isaaclombardssw",
+          "estimate": 4,
           "status": "inReview"
         },
         {
-          "title": "🚚 Migration | Cognito → WorkOS account migration: export, scan and account rules",
-          "url": "https://github.com/tinacms/tinacloud/issues/4138",
-          "assignees": "KahaMason",
-          "estimate": 16,
-          "status": "inProgress"
+          "title": "Plugin System - Screen - Media Manager",
+          "url": "https://github.com/tinacms/tinacms/issues/6891",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview"
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 127",
@@ -70,9 +70,9 @@
           "status": "inProgress"
         },
         {
-          "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
-          "url": "https://github.com/tinacms/tinacms/issues/7667",
-          "assignees": "joshbermanssw",
+          "title": "🚚 Migration | Cognito → WorkOS account migration: export, scan and account rules",
+          "url": "https://github.com/tinacms/tinacloud/issues/4138",
+          "assignees": "KahaMason",
           "estimate": 4,
           "status": "inProgress"
         },
@@ -84,11 +84,11 @@
           "status": "inProgress"
         },
         {
-          "title": "ci(windows): setup a process for signing windows binaries",
-          "url": "https://github.com/tinacms/tinacloud-cli/issues/67",
-          "assignees": "harley-j",
-          "estimate": 8,
-          "status": "blocked"
+          "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
+          "url": "https://github.com/tinacms/tinacms/issues/7667",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inProgress"
         },
         {
           "title": "💄 UI/UX Review - Branding Baseline",
@@ -98,16 +98,16 @@
           "status": "backlog"
         },
         {
-          "title": "🔭 UI/UX Review - Layout & Navigation",
-          "url": "https://github.com/tinacms/tinacms/issues/7670",
-          "assignees": "designbyalex",
+          "title": "✨ Plugin System - Media Backend - TinaCloud",
+          "url": "https://github.com/tinacms/tinacms/issues/6886",
+          "assignees": "joshbermanssw",
           "estimate": 8,
           "status": "backlog"
         },
         {
-          "title": "🔭 UI/UX Review - Flow Map",
-          "url": "https://github.com/tinacms/tinacms/issues/7668",
-          "assignees": "designbyalex",
+          "title": "🚚 Migration | Decide how GitHub accounts migrate",
+          "url": "https://github.com/tinacms/tinacloud/issues/4393",
+          "assignees": "KahaMason",
           "estimate": 4,
           "status": "backlog"
         }
