@@ -212,7 +212,7 @@
           "estimate": 1,
           "status": "done",
           "bonus": true,
-          "bold": true
+          "bold": false
         },
         {
           "title": "✨ Enable Markdown content negotiation across Tina web properties",
@@ -239,7 +239,7 @@
           "estimate": 8,
           "status": "inReview",
           "bonus": true,
-          "bold": true
+          "bold": false
         },
         {
           "title": "💄 UI/UX Review - Branding Baseline",
