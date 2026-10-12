@@ -458,13 +458,6 @@
           "change": "Updated",
           "summary": "Add WorkOS migration export and scan tool.",
           "pr": "tinacloud#4288"
-        },
-        {
-          "title": "017 Content model",
-          "url": "https://github.com/tinacms/tinacmsv4-docs/blob/main/adr/017-content-model.md",
-          "change": "Updated",
-          "summary": "ADR-017 names the list type array, matching t.array.",
-          "pr": "tinacmsv4-docs#5"
         }
       ],
       "placeholder": "No ADR changes this Sprint",
@@ -496,12 +489,12 @@
         },
         {
           "person": "Eli",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5)\n",
+          "tools": "Claude Code (Opus 5.5, Sonnet 5.5)\n",
           "limits": "No Limits (88% weekly)"
         },
         {
           "person": "Harley",
-          "tools": "Codex (5.6 Sol)\n",
+          "tools": "Codex (6.1 Sol)\n",
           "limits": "No Limits"
         }
       ],
