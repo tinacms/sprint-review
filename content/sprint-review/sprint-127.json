@@ -68,7 +68,7 @@
           "estimate": 8,
           "status": "done",
           "bonus": false,
-          "bold": false
+          "bold": true
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 127",
@@ -104,7 +104,7 @@
           "estimate": 4,
           "status": "done",
           "bonus": false,
-          "bold": false
+          "bold": true
         },
         {
           "title": "💄 Nav bar gives no scroll cue when items overflow",
@@ -113,7 +113,7 @@
           "estimate": 2,
           "status": "done",
           "bonus": false,
-          "bold": false
+          "bold": true
         },
         {
           "title": "Plugin System - Screen - Media Manager",
@@ -122,7 +122,7 @@
           "estimate": 2,
           "status": "done",
           "bonus": false,
-          "bold": false
+          "bold": true
         },
         {
           "title": "🔒 Address GHSA-qj63-fh9x-gg8c",
@@ -140,7 +140,7 @@
           "estimate": 4,
           "status": "done",
           "bonus": true,
-          "bold": false
+          "bold": true
         },
         {
           "title": "⚡ content-api: Full indexes spend most of their CPU on errors thrown while creating sublevels",
@@ -212,7 +212,7 @@
           "estimate": 1,
           "status": "done",
           "bonus": true,
-          "bold": false
+          "bold": true
         },
         {
           "title": "✨ Enable Markdown content negotiation across Tina web properties",
@@ -239,7 +239,7 @@
           "estimate": 8,
           "status": "inReview",
           "bonus": true,
-          "bold": false
+          "bold": true
         },
         {
           "title": "💄 UI/UX Review - Branding Baseline",
@@ -462,7 +462,7 @@
     },
     {
       "heading": "AI Tools",
-      "subsection": true,
+      "subsection": false,
       "items": [
         {
           "person": "Kaha",
@@ -499,7 +499,7 @@
     },
     {
       "heading": "AI Stats",
-      "subsection": true,
+      "subsection": false,
       "body": "",
       "items": [
         {
