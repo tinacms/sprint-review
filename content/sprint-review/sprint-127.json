@@ -364,12 +364,12 @@
       "heading": "Epics - Progress",
       "items": [
         {
-          "name": "TinaCMS v4 Field Type Implementation",
-          "url": "https://github.com/tinacms/tinacms/issues/6835",
+          "name": "TinaCloud - ✨ Auth Migration - Cognito to WorkOS",
+          "url": "https://github.com/tinacms/tinacloud/issues/3097",
           "group": "In Progress",
-          "done": 9,
-          "total": 11,
-          "previousPercent": 90
+          "done": 30,
+          "total": 37,
+          "previousPercent": 62
         },
         {
           "name": "TinaCMS v4 Forms System Rebuild",
@@ -388,12 +388,20 @@
           "previousPercent": 43
         },
         {
-          "name": "TinaCloud - ✨ Auth Migration - Cognito to WorkOS",
-          "url": "https://github.com/tinacms/tinacloud/issues/3097",
+          "name": "TinaCMS v4 Field Type Implementation",
+          "url": "https://github.com/tinacms/tinacms/issues/6835",
           "group": "In Progress",
-          "done": 30,
-          "total": 37,
-          "previousPercent": 62
+          "done": 9,
+          "total": 11,
+          "previousPercent": 90
+        },
+        {
+          "name": "TinaCMS v4 UI/UX Overhaul",
+          "url": "https://github.com/tinacms/tinacms/issues/6833",
+          "group": "In Progress",
+          "done": 1,
+          "total": 3,
+          "previousPercent": 33
         },
         {
           "name": "TinaCMS - ⬆️ v4 (umbrella)",
@@ -410,14 +418,6 @@
           "done": 1,
           "total": 8,
           "previousPercent": 14
-        },
-        {
-          "name": "TinaCMS v4 UI/UX Overhaul",
-          "url": "https://github.com/tinacms/tinacms/issues/6833",
-          "group": "In Progress",
-          "done": 1,
-          "total": 3,
-          "previousPercent": 33
         },
         {
           "name": "TinaCMS v4 Editorial Workflow",
