@@ -1,5 +1,8 @@
 import type { Collection } from "tinacms";
+import { richText } from "./fields";
 import { GOAL_STATUSES, sectionsField, sprintFields, sprintFilename } from "./shared";
+
+const retroField = (name: string, label: string) => richText(["bold", "italic", "link", "ul", "ol"], { name, label });
 
 const sprintReview: Collection = {
   label: "Sprint Reviews",
@@ -7,10 +10,19 @@ const sprintReview: Collection = {
   path: "content/sprint-review",
   format: "json",
   defaultItem: () => ({
-    durationLabel: "2 weeks",
+    workingDays: 5,
     sections: [
+      { _template: "figures", heading: "Internal Hours", placeholder: "Paste screenshot of Internal Hours in the editor" },
       { _template: "backlog", heading: "Sprint Backlog" },
-      { _template: "figures", heading: "Sprint Burnup", items: [{}] },
+      { _template: "velocity", heading: "Recent Velocity" },
+      { _template: "list", heading: "R&D" },
+      { _template: "aiTools", heading: "AI Tool Usage" },
+      { _template: "figures", heading: "AI Stats", placeholder: "Paste the Claude Stats and Copilot Stats screenshots in the editor" },
+      {
+        _template: "cards",
+        heading: "Overall Project Snapshot",
+        items: [{ label: "Open Items" }, { label: "Committed (next Sprint)" }, { label: "Avg Velocity" }, { label: "Backlog Ready" }],
+      },
     ],
   }),
   fields: [
@@ -21,20 +33,22 @@ const sprintReview: Collection = {
       label: "Sprint Goals",
       list: true,
       fields: [
-        { type: "string", name: "status", label: "Status", options: GOAL_STATUSES },
+        { type: "string", name: "status", label: "Outcome", options: GOAL_STATUSES },
+        { type: "string", name: "title", label: "Title", description: "Shown in bold before the goal" },
         { type: "string", name: "text", label: "Goal", ui: { component: "textarea" } },
+        { type: "string", name: "fromCall", label: "From the call", description: "A yellow FROM CALL note under the goal", ui: { component: "textarea" } },
       ],
-      ui: { itemProps: (item) => ({ label: item?.text }) },
+      ui: { itemProps: (item) => ({ label: item?.title || item?.text }) },
     },
-    sectionsField({ bonus: true }),
+    sectionsField({ kind: "review" }),
     {
       type: "object",
       name: "retro",
       label: "Sprint Retrospective",
       fields: [
-        { type: "string", name: "wentWell", label: "✅ What went well", list: true },
-        { type: "string", name: "didntGoWell", label: "❌ What didn't go so well", list: true },
-        { type: "string", name: "improvements", label: "💡 Improvements for next Sprint", list: true },
+        retroField("wentWell", "✅ What went well"),
+        retroField("didntGoWell", "❌ What didn't go so well"),
+        retroField("improvements", "💡 Improvements for next Sprint"),
       ],
     },
   ],

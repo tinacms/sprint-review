@@ -1,5 +1,5 @@
 import type { Template } from "tinacms";
-import { figureFields } from "./fields";
+import { figureFields, placeholder, richText } from "./fields";
 
 // The TinaCMS & TinaCloud review's own section types, on top of the starter's.
 export const customSectionTemplates: Template[] = [
@@ -24,8 +24,8 @@ export const customSectionTemplates: Template[] = [
     ],
   },
   {
-    name: "aiTools",
-    label: "AI Tools",
+    name: "teamAiTools",
+    label: "AI Tools (with limit expiry)",
     ui: { defaultItem: { heading: "AI Tools", subsection: true } },
     fields: [
       {
@@ -35,12 +35,34 @@ export const customSectionTemplates: Template[] = [
         list: true,
         fields: [
           { type: "string", name: "person", label: "Person" },
-          { type: "string", name: "tools", label: "Tools" },
+          richText(["bold", "italic", "link", "ul", "ol"], { name: "tools", label: "Tools" }),
           { type: "string", name: "limits", label: "Limits" },
           { type: "string", name: "expiry", label: "Expiry", description: "When the limit resets, for example Fri 9 Oct" },
         ],
         ui: { itemProps: (item) => ({ label: item?.person }) },
       },
+    ],
+  },
+  {
+    name: "adrs",
+    label: "ADR changes",
+    ui: { defaultItem: { heading: "ADR Changes", placeholder: "No ADR changes this Sprint" } },
+    fields: [
+      {
+        type: "object",
+        name: "items",
+        label: "ADRs",
+        list: true,
+        fields: [
+          { type: "string", name: "title", label: "ADR" },
+          { type: "string", name: "url", label: "Link" },
+          { type: "string", name: "change", label: "Change", options: ["New", "Updated", "Superseded", "Retired"] },
+          { type: "string", name: "summary", label: "Summary", ui: { component: "textarea" } },
+          { type: "string", name: "pr", label: "PR", description: "For example tinacloud#4100" },
+        ],
+        ui: { itemProps: (item) => ({ label: item?.title }) },
+      },
+      placeholder("Shown while there are no ADR changes"),
     ],
   },
 ];

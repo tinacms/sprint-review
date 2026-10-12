@@ -1,25 +1,29 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { tinaField } from "tinacms/dist/react";
-import { Column, Img, Row } from "react-email";
+import { Img } from "react-email";
 import CopyEmailButton from "./copy-email-button";
 import CopyText from "./copy-text";
-import { A, Block } from "../email/primitives";
-import { caps, colour, label, text } from "../email/theme";
+import { Block } from "../email/primitives";
+import { colour, text } from "../email/theme";
 import type { Settings } from "../../lib/settings";
 import type { SiblingLink } from "../../lib/sibling";
-import { formatDay } from "../../lib/dates";
+import { formatDate, formatRange, today as todayLocal } from "../../lib/dates";
+import { LOGO_ALT } from "../../lib/ssw";
 
-type SprintDoc = {
+export type SprintDoc = {
   number?: number | null;
   startDate?: string | null;
   endDate?: string | null;
+  workingDays?: number | null;
+  publicHolidays?: (string | null)[] | null;
   durationLabel?: string | null;
   productOwner?: string | null;
   recordingUrl?: string | null;
   recordingMinutes?: number | null;
   attendees?: (string | null)[] | null;
+  references?: ({ label?: string | null; url?: string | null } | null)[] | null;
   email?: { subject?: string | null; to?: string | null; cc?: string | null } | null;
 };
 
@@ -92,106 +96,73 @@ export function SprintFooterLinks({ sibling }: { sibling?: SiblingLink }) {
   );
 }
 
-export function SprintMasthead({
-  doc,
-  settings,
-  label: eyebrow,
-  recordingLabel,
-  recordingPending,
-}: {
-  doc: SprintDoc;
-  settings: Settings;
-  label: string;
-  recordingLabel: string;
-  recordingPending: string;
-}) {
-  const facts: { name: string; value: React.ReactNode; field?: string }[] = [
-    { name: "Product Owner", value: doc.productOwner, field: tinaField(doc as any, "productOwner") },
-    ...(settings.boardUrl
-      ? [{ name: settings.boardHeading || "Board", value: <A href={settings.boardUrl}>{settings.boardLabel || "Sprint board"}</A> }]
-      : []),
-    {
-      name: settings.recordingHeading || "Recording",
-      value: doc.recordingUrl ? (
-        <A href={doc.recordingUrl}>
-          {recordingLabel}
-          {doc.recordingMinutes ? ` (${Math.round(doc.recordingMinutes)} min)` : null}
-        </A>
-      ) : (
-        <span style={{ color: colour.inkFaint, fontStyle: "italic" }}>{recordingPending}</span>
-      ),
-      field: tinaField(doc as any, "recordingUrl"),
-    },
-    {
-      name: "Attendees",
-      value: (doc.attendees ?? []).map((name, index) => (
-        <React.Fragment key={index}>
-          {index > 0 ? ", " : null}
-          <span data-tina-field={tinaField(doc as any, "attendees", index)}>{name}</span>
-        </React.Fragment>
-      )),
-      field: doc.attendees?.length ? undefined : tinaField(doc as any, "attendees"),
-    },
-  ];
-  const rows = facts.reduce<(typeof facts)[]>((pairs, fact, index) => {
-    if (index % 2 === 0) pairs.push([fact]);
-    else pairs[pairs.length - 1].push(fact);
-    return pairs;
-  }, []);
+// NOTE: [12 Oct 2026] EK - The title and dates are text in a span that Copy for Email redraws as a PNG
+// with the band colour baked in. Outlook Web recolours text on a dark background, and flattens a
+// transparent PNG against white, so the picture carries the background itself.
+const raster = (size: number, colourValue: string, weight: number, leading: number) => ({
+  "data-raster": "",
+  "data-raster-size": size,
+  "data-raster-colour": colourValue,
+  "data-raster-weight": weight,
+  "data-raster-leading": leading,
+  "data-raster-bg": colour.band,
+});
 
+/** The dark band: title and dates on the left, the logo on the right. */
+export function Masthead({ doc, settings, title }: { doc: SprintDoc; settings: Settings; title: string }) {
+  const dates = formatRange(doc.startDate, doc.endDate);
+  const logoWidth = settings.logoWidth || 80;
   return (
-    <Block style={{ paddingBottom: "18px", borderBottom: `2px solid ${colour.ink}` }}>
-      <Row style={{ width: "100%", borderCollapse: "collapse" }}>
-        <Column style={{ verticalAlign: "middle" }}>
-          {settings.logo ? (
-            <Img
-              src={settings.logo}
-              alt={settings.teamName}
-              width={settings.logoWidth || 160}
-              style={{ display: "block", height: "auto" }}
-            />
-          ) : (
-            <p style={text(22, colour.ink, { fontWeight: 650, letterSpacing: "-0.01em", lineHeight: 1.2 })}>
-              {settings.teamName}
-            </p>
-          )}
-        </Column>
-        <Column
-          style={{ ...label, fontSize: "12.5px", letterSpacing: "0.09em", textAlign: "right", verticalAlign: "bottom", paddingBottom: "5px" }}
-        >
-          {caps(eyebrow)}
-        </Column>
-      </Row>
-      <h1
-        data-tina-field={tinaField(doc as any, "number")}
-        style={text(56, colour.ink, { fontWeight: 640, letterSpacing: "-0.035em", lineHeight: 1.05, margin: "9px 0 2px" })}
-      >
-        Sprint {doc.number} {eyebrow.replace(/^Sprint /, "")}
-      </h1>
-      <p style={text(16, colour.inkSoft, { marginBottom: "20px" })}>
-        {[[formatDay(doc.startDate), formatDay(doc.endDate)].filter(Boolean).join(" to "), doc.durationLabel]
-          .filter(Boolean)
-          .join(" · ")}
-      </p>
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    <Block pad="24px 32px" bgcolor={colour.band} style={{ backgroundColor: colour.band, borderBottom: `2px solid ${colour.accent}` }}>
+      <table role="presentation" cellPadding={0} cellSpacing={0} border={0} style={{ width: "100%", borderCollapse: "collapse" }}>
         <tbody>
-          {rows.map((pair, index) => (
-            <tr key={index}>
-              {pair.map((fact) => (
-                <td
-                  key={fact.name}
-                  data-tina-field={fact.field}
-                  colSpan={pair.length === 1 ? 2 : undefined}
-                  style={{ width: pair.length === 1 ? "100%" : "50%", padding: "0 24px 11px 0", verticalAlign: "top" }}
-                >
-                  <p style={{ ...label, paddingBottom: "3px" }}>{caps(fact.name)}</p>
-                  <p style={text()}>{fact.value}</p>
-                </td>
-              ))}
-            </tr>
-          ))}
+          <tr>
+            <td style={{ verticalAlign: "middle" }}>
+              <h1
+                data-tina-field={tinaField(doc as any, "number")}
+                style={text(32, "#ffffff", { fontWeight: 700, lineHeight: 1.2, margin: "0 0 4px" })}
+              >
+                <span {...raster(32, "#ffffff", 700, 1.2)} style={{ display: "inline-block" }}>
+                  {title}
+                </span>
+              </h1>
+              <p
+                data-copy={dates ? undefined : "skip"}
+                data-tina-field={tinaField(doc as any, "startDate")}
+                style={text(16, colour.bandSub, { lineHeight: 1.4 })}
+              >
+                {dates ? (
+                  <span {...raster(16, colour.bandSub, 400, 1.4)} style={{ display: "inline-block" }}>
+                    {dates}
+                  </span>
+                ) : (
+                  "Set the Sprint start and end dates"
+                )}
+              </p>
+            </td>
+            {settings.logo ? (
+              <td width={logoWidth} style={{ verticalAlign: "middle", textAlign: "right" }}>
+                <Img src={settings.logo} alt={LOGO_ALT} width={logoWidth} data-raster-bg={colour.band} style={{ display: "block" }} />
+              </td>
+            ) : null}
+          </tr>
         </tbody>
       </table>
+    </Block>
+  );
+}
+
+/** The grey band that closes the card. */
+export function Footer({ team, name, number }: { team: string; name: string; number?: number | null }) {
+  const [today, setToday] = useState("");
+  // Set after mount, or the server's date and the browser's would differ.
+  useEffect(() => setToday(formatDate(todayLocal())), []);
+  return (
+    <Block pad="16px 32px" bgcolor={colour.chip} style={{ backgroundColor: colour.chip }}>
+      <p style={text(12, colour.inkSoft, { textAlign: "center" })}>
+        {team} {"\u2022"} Sprint {number} {name}
+        {today ? ` \u2022 Generated on ${today} with v${process.env.NEXT_PUBLIC_SITE_VERSION ?? ""}` : null}
+      </p>
     </Block>
   );
 }
@@ -208,7 +179,7 @@ const cleanHtml = (html: string) => {
   return doc.body.innerHTML;
 };
 
-/** Rendered only in the copied email, below the sheet's last section. */
+/** Rendered only in the copied email, below the card. */
 export function Signature({ signature }: { signature?: string | null }) {
   const html = signature?.trim().startsWith("<") ? signature : null;
   const holder = useRef<HTMLDivElement>(null);

@@ -3,27 +3,7 @@
 Next + TinaCMS (local mode), served on http://localhost:3007 by the LaunchAgent
 `com.kulesy.tina-sprint-review`. Not a git repo, so nothing here has history: move files to `junk/`, never delete.
 
-## The code is the starter's
-
-Since 5 Oct 2026 this site is `~/Projects/sprint-review-starter` plus TinaCMS content. Every
-source file is byte-identical to the starter's except these, which belong to this site:
-
-- `package.json`, `package-lock.json` (name, and ports 3007 / 4007 / 9007 with `-H 0.0.0.0` for
-  Tailscale)
-- `tina/config.ts` (meeting sync: review N and forecast N+1 share their meeting fields),
-  `lib/meeting.ts`, `app/api/meeting-sync/route.ts`
-- `tina/collections/custom-sections.ts` and `components/sprint/custom-sections.tsx` (the `hours`
-  and `aiTools` sections)
-- `next.config.js` (old `/sprint/<file>` links redirect to `/review/<file>`)
-- `tina/tina-lock.json` (generated from this site's schema), `CLAUDE.md`, `README.md`, `content/`,
-  `public/uploads/`, `public/brand/`
-
-A change to anything else is a starter change: make it in the starter and copy it across, so the two
-never drift. This lists every shared file that differs, and must print nothing:
-
-```bash
-cd ~/Projects/tina-sprint-review && for f in $(cd ../sprint-review-starter && find app components lib tina .github next-env.d.ts tsconfig.json .eslintrc.json .gitignore .prettierrc .env.example -type f -not -path "*/__generated__/*"); do case $f in tina/config.ts|tina/tina-lock.json|tina/collections/custom-sections.ts|components/sprint/custom-sections.tsx) continue;; esac; cmp -s "$f" "../sprint-review-starter/$f" || echo "$f"; done
-```
+## Settings and logo
 
 Team name, logo, Project Portal link, masthead headings and the HTML signature are content, in
 `content/settings/settings.json`. The logo is one SVG, `public/uploads/brand/tinacms-and-tinacloud.svg`,

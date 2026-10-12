@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=22"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "tinacms dev -p 4007 --datalayer-port 9007 -c \"next dev -H 0.0.0.0 -p 3007\"",
-    "build": "tinacms build && next build",
+    "build": "tinacms build --no-client-build-cache && next build",
     "build-local": "tinacms build --local --skip-indexing --skip-cloud-checks && next build",
-    "start": "tinacms build && next start",
+    "start": "tinacms build --no-client-build-cache && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -27,5 +27,6 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "^15.5.27",
     "typescript": "^5.9.3"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

@@ -20,9 +20,11 @@ export default async function Home() {
   ]);
   const reviewNodes = (reviews.data?.sprintReviewConnection?.edges ?? []).map((edge) => edge?.node);
   const forecastNodes = (forecasts.data?.sprintForecastConnection?.edges ?? []).map((edge) => edge?.node);
-  // A Sprint's review and the next Sprint's forecast share one meeting: the review day.
+  // A Sprint's review and the next Sprint's forecast share one meeting: the review day, which is the
+  // last day of the Sprint. A forecast with no review before it falls back to its own first day.
   const reviewDay = (review: (typeof reviewNodes)[number]) => review?.endDate ?? "";
-  const forecastDay = (forecast: (typeof forecastNodes)[number]) => forecast?.startDate ?? "";
+  const forecastDay = (forecast: (typeof forecastNodes)[number]) =>
+    reviewNodes.find((review) => review?.number === (forecast?.number ?? 0) - 1)?.endDate ?? forecast?.startDate ?? "";
   const days = [...new Set([...reviewNodes.map(reviewDay), ...forecastNodes.map(forecastDay)])].sort((a, b) =>
     b.localeCompare(a)
   );

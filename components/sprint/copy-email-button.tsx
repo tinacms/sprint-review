@@ -26,13 +26,15 @@ const copyBySelection = (html: string) => {
 
 export default function CopyEmailButton({ target }: { target: string }) {
   const [message, setMessage] = useState("");
+  const [left, setLeft] = useState<string[]>([]);
 
   const copy = async () => {
     const source = document.getElementById(target);
     if (!source) return;
 
     setMessage("Building...");
-    const html = await buildEmailHtml(source);
+    const { html, left: leftOut } = await buildEmailHtml(source);
+    setLeft(leftOut);
     const unsafe = outlookUnsafe(source);
     if (unsafe.length) console.warn("Outlook will not render these as the page does:", unsafe);
     const done = unsafe.length
@@ -60,6 +62,7 @@ export default function CopyEmailButton({ target }: { target: string }) {
         Copy for Email
       </button>
       <span className="copy-email-state">{message}</span>
+      {left.length ? <span className="copy-email-note">Left out of the email: {left.join(", ")}</span> : null}
     </>
   );
 }

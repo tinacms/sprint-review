@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
+  env: { NEXT_PUBLIC_SITE_VERSION: require("./package.json").version },
   // Reviews lived at /sprint/<file> before the site took the starter's routes. Not permanent, so a
   // rollback is not stuck behind a cached redirect.
   async redirects() {

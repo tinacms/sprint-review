@@ -1,26 +1,15 @@
 :root {
   color-scheme: light;
-  --paper: #f8fafc;
+  --paper: #f8f9fa;
   --sheet: #ffffff;
-  --ink: #0f172a;
-  --ink-soft: #475569;
-  --ink-faint: #64748b;
-  --line: #cbd5e1;
-  --line-soft: #e2e8f0;
-  --accent: #ec4815;
-  --accent-hover: #d13f13;
-  --accent-text: #d13f13;
-  --accent-light: #ffd3c1;
-  --done-text: #39745c;
-  --done-light: #e8f7ef;
-  --review-text: #0574e4;
-  --review-light: #dceeff;
-  --progress-text: #d13f13;
-  --progress-light: #ffd3c1;
-  --idle-text: #64748b;
-  --idle-light: #f1f5f9;
+  --ink: #333333;
+  --ink-soft: #666666;
+  --ink-faint: #888888;
+  --line: #dee2e6;
+  --line-soft: #eeeeee;
+  --accent: #cc4141;
+  --accent-hover: #b53838;
   --measure: 72ch;
-  --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 * {
@@ -105,7 +94,7 @@ main {
 }
 
 .review {
-  max-width: 54rem;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -135,6 +124,11 @@ main {
 .copy-email-state {
   font-size: 0.8rem;
   color: var(--ink-soft);
+}
+
+.copy-email-note {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
 }
 
 .actions-bottom {
