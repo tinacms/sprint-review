@@ -117,13 +117,8 @@
     },
     {
       "heading": "AI Stats - Copilot",
-      "items": [
-        {
-          "image": "/uploads/sprint-126/copilot-2.png",
-          "caption": "Figure: ✅ AI got the main issue right",
-          "placeholder": "Copilot stats pasted at Planning"
-        }
-      ],
+      "body": "![](/uploads/sprint-126/copilot-2.png)\n\nFigure: ✅ AI got the main issue right\n",
+      "placeholder": "Copilot stats pasted at Planning",
       "_template": "figures"
     },
     {

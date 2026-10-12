@@ -247,14 +247,7 @@
     },
     {
       "heading": "2. Sprint Burnup",
-      "items": [
-        {
-          "image": "/uploads/sprint-124/fig-04.png",
-          "caption": "Sprint Burnup - 62 of 103 points closed, with the closing burst landing on the last two days",
-          "sourceLabel": "Sprint Burnup · TinaCloud",
-          "sourceUrl": "https://github.com/orgs/tinacms/projects/38/insights/4"
-        }
-      ],
+      "body": "![](/uploads/sprint-124/fig-04.png)\n\nSprint Burnup - 62 of 103 points closed, with the closing burst landing on the last two days - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4)\n",
       "_template": "figures"
     },
     {
@@ -280,56 +273,17 @@
     },
     {
       "heading": "4. Application Health",
-      "items": [
-        {
-          "image": "/uploads/sprint-124/fig-05.png",
-          "caption": "Application Health Dashboard Overview - Identity API HTTP 500s increased from 7 to 20. Content API HTTP 500s dropped from 2.41K to 733",
-          "sourceLabel": "TinaCloud CloudWatch Dashboard",
-          "sourceUrl": "https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview"
-        }
-      ],
+      "body": "![](/uploads/sprint-124/fig-05.png)\n\nApplication Health Dashboard Overview - Identity API HTTP 500s increased from 7 to 20. Content API HTTP 500s dropped from 2.41K to 733 - [TinaCloud CloudWatch Dashboard](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview)\n",
       "_template": "figures"
     },
     {
       "heading": "5. TinaCloud PostHog Metrics",
-      "items": [
-        {
-          "image": "/uploads/sprint-124/fig-06.png",
-          "caption": "Total Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 39,261 (up 8.65% on the previous period)",
-          "sourceLabel": "PostHog Dashboard",
-          "sourceUrl": "https://us.posthog.com/project/237683/dashboard/615466"
-        },
-        {
-          "image": "/uploads/sprint-124/fig-07.png",
-          "caption": "User onboarding over the last 7 days - our conversion metric is the share who go on to commit. New accounts were 9.7% last Sprint and are now 13.3% (17 of 128). Invited collaborators were 18.8% and are now 21.9% (23 of 105)",
-          "sourceLabel": "PostHog Dashboard",
-          "sourceUrl": "https://us.posthog.com/project/237683/dashboard/615466"
-        },
-        {
-          "image": "/uploads/sprint-124/fig-08.png",
-          "caption": "Organisation and project creation over the last 7 days - 128 new organisations, level with 128 last Sprint",
-          "sourceLabel": "PostHog Dashboard",
-          "sourceUrl": "https://us.posthog.com/project/237683/dashboard/615466"
-        }
-      ],
+      "body": "![](/uploads/sprint-124/fig-06.png)\n\nTotal Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 39,261 (up 8.65% on the previous period) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-124/fig-07.png)\n\nUser onboarding over the last 7 days - our conversion metric is the share who go on to commit. New accounts were 9.7% last Sprint and are now 13.3% (17 of 128). Invited collaborators were 18.8% and are now 21.9% (23 of 105) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-124/fig-08.png)\n\nOrganisation and project creation over the last 7 days - 128 new organisations, level with 128 last Sprint - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n",
       "_template": "figures"
     },
     {
       "heading": "6. TinaCMS PostHog Metrics",
-      "items": [
-        {
-          "image": "/uploads/sprint-124/fig-09.png",
-          "caption": "Daily active users this month - peaking at 658 on 15 Sep (dips are weekends)",
-          "sourceLabel": "PostHog Dashboard",
-          "sourceUrl": "https://us.posthog.com/project/237683/dashboard/1284436"
-        },
-        {
-          "image": "/uploads/sprint-124/fig-10.png",
-          "caption": "Distribution of unique TinaCMS users over the past 30 days - US is our top country based on user-base with 1,699, ahead of Germany on 549 and the UK on 438",
-          "sourceLabel": "PostHog Dashboard",
-          "sourceUrl": "https://us.posthog.com/project/237683/dashboard/1284436"
-        }
-      ],
+      "body": "![](/uploads/sprint-124/fig-09.png)\n\nDaily active users this month - peaking at 658 on 15 Sep (dips are weekends) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n\n![](/uploads/sprint-124/fig-10.png)\n\nDistribution of unique TinaCMS users over the past 30 days - US is our top country based on user-base with 1,699, ahead of Germany on 549 and the UK on 438 - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n",
       "_template": "figures"
     },
     {
@@ -366,14 +320,7 @@
     },
     {
       "heading": "8. TinaCMS NPM Version Distribution",
-      "items": [
-        {
-          "image": "/uploads/sprint-124/fig-11.png",
-          "caption": "TinaCMS version downloads over the last week, the most popular version is v3.12.x with 10.6k total downloads over the last 7 days (down 15%), ahead of v3.13.x on 7.3k",
-          "sourceLabel": "Tina Tracker",
-          "sourceUrl": "https://tina-dashboard-nine.vercel.app/downloads"
-        }
-      ],
+      "body": "![](/uploads/sprint-124/fig-11.png)\n\nTinaCMS version downloads over the last week, the most popular version is v3.12.x with 10.6k total downloads over the last 7 days (down 15%), ahead of v3.13.x on 7.3k - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
       "_template": "figures"
     },
     {
@@ -507,7 +454,7 @@
           "limits": "No Limits"
         }
       ],
-      "_template": "aiTools"
+      "_template": "teamAiTools"
     },
     {
       "heading": "AI Stats",
@@ -528,9 +475,5 @@
       "_template": "figures"
     }
   ],
-  "retro": {
-    "wentWell": [],
-    "didntGoWell": [],
-    "improvements": []
-  }
+  "retro": {}
 }

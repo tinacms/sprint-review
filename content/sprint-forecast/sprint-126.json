@@ -146,13 +146,8 @@
     },
     {
       "heading": "AI Stats - Copilot",
-      "items": [
-        {
-          "image": "/uploads/sprint-125/image (3).png",
-          "caption": "✅ Correct one of the Sprint Goal was working on the WorkOS migration",
-          "placeholder": "Copilot stats pasted at Planning"
-        }
-      ],
+      "body": "![](</uploads/sprint-125/image (3).png>)\n\n✅ Correct one of the Sprint Goal was working on the WorkOS migration\n",
+      "placeholder": "Copilot stats pasted at Planning",
       "_template": "figures"
     },
     {

@@ -115,13 +115,7 @@
     },
     {
       "heading": "AI Stats - Copilot",
-      "items": [
-        {
-          "image": "",
-          "caption": "",
-          "placeholder": "Copilot stats pasted at Planning"
-        }
-      ],
+      "placeholder": "Copilot stats pasted at Planning",
       "_template": "figures"
     },
     {
