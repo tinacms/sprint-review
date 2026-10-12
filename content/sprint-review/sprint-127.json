@@ -412,20 +412,20 @@
           "previousPercent": 14
         },
         {
+          "name": "TinaCMS v4 UI/UX Overhaul",
+          "url": "https://github.com/tinacms/tinacms/issues/6833",
+          "group": "In Progress",
+          "done": 1,
+          "total": 3,
+          "previousPercent": 33
+        },
+        {
           "name": "TinaCMS v4 Editorial Workflow",
           "url": "https://github.com/tinacms/tinacms/issues/6832",
           "group": "TinaCMS v4",
           "done": 1,
           "total": 4,
           "previousPercent": 25
-        },
-        {
-          "name": "TinaCMS v4 UI/UX Overhaul",
-          "url": "https://github.com/tinacms/tinacms/issues/6833",
-          "group": "TinaCMS v4",
-          "done": 1,
-          "total": 3,
-          "previousPercent": 33
         },
         {
           "name": "TinaCMS v4 Live Testing",
