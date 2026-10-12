@@ -495,7 +495,7 @@
         {
           "person": "Harley",
           "tools": "Codex (6.1 Sol)\n",
-          "limits": "N/A"
+          "limits": ""
         }
       ],
       "_template": "teamAiTools"
