@@ -442,7 +442,10 @@
     },
     {
       "heading": "R&D",
-      "entries": [],
+      "entries": [
+        "Josh - TinaCMS v4",
+        "Kaha - WorkOS GitHub account migration"
+      ],
       "placeholder": "Added at the review",
       "_template": "list"
     },
