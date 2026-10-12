@@ -474,7 +474,7 @@
         },
         {
           "person": "Josh",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5), Codex (GPT 5.6)\n",
+          "tools": "Claude Code (Opus 5.5)\n",
           "limits": "No Limits"
         },
         {
