@@ -491,11 +491,6 @@
           "person": "Eli",
           "tools": "Claude Desktop (Opus 5.5, Sonnet 5.5), CapCom\n",
           "limits": "88% (weekly)"
-        },
-        {
-          "person": "Harley",
-          "tools": "Codex (6.1 Sol)\n",
-          "limits": ""
         }
       ],
       "_template": "teamAiTools"
