@@ -458,13 +458,6 @@
           "change": "Updated",
           "summary": "Add WorkOS migration export and scan tool.",
           "pr": "tinacloud#4288"
-        },
-        {
-          "title": "017 Content model",
-          "url": "https://github.com/tinacms/tinacmsv4-docs/blob/main/adr/017-content-model.md",
-          "change": "Updated",
-          "summary": "ADR-017 names the list type array, matching t.array.",
-          "pr": "tinacmsv4-docs#5"
         }
       ],
       "placeholder": "No ADR changes this Sprint",
@@ -472,33 +465,35 @@
     },
     {
       "heading": "AI Tools",
+      "subsection": false,
       "items": [
         {
-          "member": "Kaha",
+          "person": "Kaha",
           "tools": "Claude Code (Opus 5.5)\n",
-          "planUsed": 45
+          "limits": "45% (weekly)"
         },
         {
-          "member": "Josh",
+          "person": "Josh",
           "tools": "Claude Code (Opus 5.5), xirp\n",
-          "planUsed": 82
+          "limits": "82% (weekly)"
         },
         {
-          "member": "Brook",
-          "tools": "Codex (Terra)\n"
+          "person": "Brook",
+          "tools": "Codex (Terra)\n",
+          "limits": "Already reset "
         },
         {
-          "member": "Matt",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), YakShaver, Raycast AI (GPT 5.6 Luna)\n"
+          "person": "Matt",
+          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), YakShaver, Raycast AI (GPT 5.6 Luna)\n",
+          "limits": "4% (Claude) 31% (OpenAI) "
         },
         {
-          "member": "Eli",
+          "person": "Eli",
           "tools": "Claude Desktop (Opus 5.5, Sonnet 5.5), CapCom\n",
-          "planUsed": 88
+          "limits": "88% (weekly)"
         }
       ],
-      "_template": "aiTools",
-      "subsection": false
+      "_template": "teamAiTools"
     },
     {
       "heading": "AI Stats",
@@ -513,7 +508,7 @@
           "placeholder": "Copilot stats pasted at the review"
         },
         {
-          "image": "",
+          "image": "/uploads/SCR-20261013-knkg.png",
           "caption": "",
           "sourceLabel": "SSW Tiger meeting dashboards",
           "sourceUrl": "https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-06-101955",
