@@ -25,7 +25,7 @@ export const customSectionTemplates: Template[] = [
   },
   {
     name: "teamAiTools",
-    label: "AI Tools (with limit expiry)",
+    label: "AI Tools",
     ui: { defaultItem: { heading: "AI Tools", subsection: true } },
     fields: [
       {
@@ -37,7 +37,6 @@ export const customSectionTemplates: Template[] = [
           { type: "string", name: "person", label: "Person" },
           richText(["bold", "italic", "link", "ul", "ol"], { name: "tools", label: "Tools" }),
           { type: "string", name: "limits", label: "Limits" },
-          { type: "string", name: "expiry", label: "Expiry", description: "When the limit resets, for example Fri 9 Oct" },
         ],
         ui: { itemProps: (item) => ({ label: item?.person }) },
       },
