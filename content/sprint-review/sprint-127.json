@@ -484,7 +484,7 @@
         },
         {
           "person": "Matt",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), YakShaver, Raycast AI (GPT 5.6 Luna)\n",
+          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), Codex (6.1 Sol)\n",
           "limits": "4% (Claude) 31% (OpenAI) "
         },
         {
