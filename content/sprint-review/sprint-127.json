@@ -38,13 +38,15 @@
           "team": "TinaCloud",
           "hours": 96,
           "previousHours": 80,
-          "body": "![](/uploads/sprint-127/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 96 hours, up from 80 hours last Sprint. Covers Tue 6 Oct to Mon 12 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)"
+          "body": "![](/uploads/sprint-127/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 96 hours, up from 80 hours last Sprint. Covers Tue 6 Oct to Mon 12 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)\n",
+          "caption": ""
         },
         {
           "team": "TinaCMS",
           "hours": 50,
           "previousHours": 40,
-          "body": "![](/uploads/sprint-127/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 50 hours, up from 40 hours last Sprint. Covers Tue 6 Oct to Mon 12 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)"
+          "body": "![](/uploads/sprint-127/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 50 hours, up from 40 hours last Sprint. Covers Tue 6 Oct to Mon 12 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)\n",
+          "caption": ""
         }
       ],
       "_template": "hours"
@@ -496,12 +498,12 @@
     {
       "heading": "AI Stats",
       "subsection": false,
-      "body": "![](</uploads/image-(4).png>)\n\n![](/uploads/SCR-20261013-knkg.png)\n\n[SSW Tiger meeting dashboards](https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-06-101955)\n",
+      "body": "![](/uploads/image-\\(4\\).png)\n\n![](/uploads/SCR-20261013-knkg.png)\n\n[SSW Tiger meeting dashboards](https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-06-101955)\n",
       "_template": "figures"
     }
   ],
   "retro": {
-    "wentWell": "* Josh - TinaDocs YouTube video went live today!\n* Josh - Eli and myself have been sharing PR review skills to make reviews faster and more resilient\n* Josh - We had 5 or 6 community PRs, form navigation stuff\n* Josh - EagleEye liked using TinaCMS for their Sprint Review\n* Harley - Worked with Larry, Levi and Isaac for Partner outreach.\n* Harley - Completed all of our Sprint Goals\n* Harley, Eli - s/o to Alex for coming on and helping with v4 UI/UX\n* Harley - Kaha has been smashing out WorkOS\n* Eli - Josh is smashing out the v4 work\n* Eli - TinaCMS GraphQL bumps are being caught and updating TinaCloud correctly\n",
+    "wentWell": "* Josh - TinaDocs YouTube video went live today!\n* Josh - Eli and myself have been sharing PR review skills to make reviews faster and more resilient\n* Josh - We had 5 or 6 community PRs, form navigation stuff\n* Josh - EagleEye liked using TinaCMS for their Sprint Review\n* Harley - Worked with Larry, Levi and Isaac for Partner outreach.\n* Harley - Completed all of our Sprint Goals\n* Harley, Eli - s/o to Alex for coming on and helping with v4 UI/UX\n* Harley - Kaha has been smashing out WorkOS\n* Eli - Josh is smashing out the v4 work\n* Eli - TinaCMS GraphQL bumps are being caught and updating into TinaCloud correctly\n",
     "didntGoWell": "* N/A\n",
     "improvements": "* Eli - Investigate how to make PR reviewals faster with AI\n"
   }
