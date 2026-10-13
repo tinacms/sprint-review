@@ -43,7 +43,7 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false
+          "bold": true
         },
         {
           "title": "🔭 Migration | Decide how GitHub accounts migrate",
@@ -67,7 +67,7 @@
           "assignees": "KahaMason",
           "estimate": 2,
           "status": "inReview",
-          "bold": false
+          "bold": true
         },
         {
           "title": "Field Type Implementation - Array templates and of",
@@ -91,7 +91,7 @@
           "assignees": "designbyalex",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false
+          "bold": true
         },
         {
           "title": "💄 UI/UX Review - Branding Baseline",
@@ -99,7 +99,7 @@
           "assignees": "designbyalex",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false
+          "bold": true
         },
         {
           "title": "🧹 Identity | Move the support CLIs off Cognito",
@@ -163,7 +163,7 @@
     },
     {
       "heading": "AI Stats - Copilot",
-      "body": "![](/uploads/sprint-127/image-\\(5\\).png)\n",
+      "body": "![](/uploads/sprint-127/image-\\(5\\).png)\n\nFigure: ✅ Copilot stats were correct\n",
       "placeholder": "Copilot stats pasted at Planning",
       "_template": "figures"
     },
