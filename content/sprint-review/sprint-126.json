@@ -39,19 +39,13 @@
           "team": "TinaCloud",
           "hours": 80,
           "previousHours": 80,
-          "image": "/uploads/sprint-126/hours-tinacloud.png",
-          "caption": "Hours worked this Sprint for TinaCloud - 80 hours, the same as last Sprint. Covers Tue 29 Sep to Mon 5 Oct.",
-          "sourceLabel": "PowerBI",
-          "sourceUrl": "https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3"
+          "body": "![](/uploads/sprint-126/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 80 hours, the same as last Sprint. Covers Tue 29 Sep to Mon 5 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)"
         },
         {
           "team": "TinaCMS",
           "hours": 40,
           "previousHours": 52,
-          "image": "/uploads/sprint-126/hours-tinacms.png",
-          "caption": "Hours worked this Sprint for TinaCMS - 40 hours, down from 52 hours last Sprint. Covers Tue 29 Sep to Mon 5 Oct.",
-          "sourceLabel": "PowerBI",
-          "sourceUrl": "https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3"
+          "body": "![](/uploads/sprint-126/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 40 hours, down from 52 hours last Sprint. Covers Tue 29 Sep to Mon 5 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)"
         }
       ],
       "_template": "hours"

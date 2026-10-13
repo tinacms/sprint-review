@@ -1,5 +1,5 @@
 import type { Template } from "tinacms";
-import { figureFields, placeholder, richText } from "./fields";
+import { figureFields, figuresBody, placeholder, richText } from "./fields";
 
 // The TinaCMS & TinaCloud review's own section types, on top of the starter's.
 export const customSectionTemplates: Template[] = [
@@ -17,6 +17,8 @@ export const customSectionTemplates: Template[] = [
           { type: "string", name: "team", label: "Team" },
           { type: "number", name: "hours", label: "Hours" },
           { type: "number", name: "previousHours", label: "Hours last Sprint" },
+          figuresBody(),
+          // The figure as saved before the body, so older Sprints still draw.
           ...figureFields,
         ],
         ui: { itemProps: (item) => ({ label: item?.team }) },

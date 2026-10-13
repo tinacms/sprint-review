@@ -1,6 +1,7 @@
+import { figureParts, isFigureBodyEmpty } from "../../lib/figures";
 import { linkify } from "../../lib/refs";
 import type { RichTextValue } from "../../lib/rich-text";
-import { A, Block, Figure, Grid, Pending, Td } from "../email/primitives";
+import { A, Block, Figure, Grid, H3, Pending, Td } from "../email/primitives";
 import { RichText } from "../email/rich-text";
 import { colour, gap, text } from "../email/theme";
 import { field, type Maybe, type SectionBlock, type SectionRenderer } from "./section-kit";
@@ -9,6 +10,7 @@ type Team = {
   team?: Maybe<string>;
   hours?: Maybe<number>;
   previousHours?: Maybe<number>;
+  body?: RichTextValue;
   image?: Maybe<string>;
   caption?: RichTextValue;
   sourceLabel?: Maybe<string>;
@@ -45,14 +47,31 @@ const Hours: SectionRenderer = ({ section }) => {
               {hoursChange(entry?.hours, entry?.previousHours)}
             </span>
           </p>
-          <Figure
-            image={entry?.image}
-            caption={entry?.caption}
-            sourceLabel={entry?.sourceLabel}
-            sourceUrl={entry?.sourceUrl}
-            pending={entry?.placeholder || undefined}
-            captionField={field(entry, "caption")}
-          />
+          {isFigureBodyEmpty(entry?.body) ? (
+            <Figure
+              image={entry?.image}
+              caption={entry?.caption}
+              sourceLabel={entry?.sourceLabel}
+              sourceUrl={entry?.sourceUrl}
+              pending={entry?.placeholder || undefined}
+              captionField={field(entry, "caption")}
+            />
+          ) : (
+            figureParts(entry?.body).map((part, partIndex) => (
+              <Block key={partIndex} top={partIndex ? 16 : 0} tinaField={field(entry, "body")}>
+                {part.title ? <H3 top={0}>{part.title}</H3> : null}
+                {part.picture ? (
+                  <Figure
+                    image={part.picture.url}
+                    alt={part.picture.alt}
+                    caption={part.picture.caption ? { type: "root", children: [part.picture.caption] } : undefined}
+                    captionField={field(entry, "body")}
+                  />
+                ) : null}
+                {part.blocks ? <RichText value={{ type: "root", children: part.blocks }} gap={12} size={16} /> : null}
+              </Block>
+            ))
+          )}
         </Block>
       ))}
     </>
