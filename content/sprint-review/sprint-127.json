@@ -458,6 +458,13 @@
           "change": "Updated",
           "summary": "Add WorkOS migration export and scan tool.",
           "pr": "tinacloud#4288"
+        },
+        {
+          "title": "017 Content model",
+          "url": "https://github.com/tinacms/tinacmsv4-docs/blob/main/adr/017-content-model.md",
+          "change": "Updated",
+          "summary": "ADR-017 names the list type array, matching t.array.",
+          "pr": "tinacmsv4-docs#5"
         }
       ],
       "placeholder": "No ADR changes this Sprint",
@@ -465,35 +472,33 @@
     },
     {
       "heading": "AI Tools",
-      "subsection": false,
       "items": [
         {
-          "person": "Kaha",
+          "member": "Kaha",
           "tools": "Claude Code (Opus 5.5)\n",
-          "limits": "45% (weekly)"
+          "planUsed": 45
         },
         {
-          "person": "Josh",
+          "member": "Josh",
           "tools": "Claude Code (Opus 5.5), xirp\n",
-          "limits": "82% (weekly)"
+          "planUsed": 82
         },
         {
-          "person": "Brook",
-          "tools": "Codex (Terra)\n",
-          "limits": "Already reset "
+          "member": "Brook",
+          "tools": "Codex (Terra)\n"
         },
         {
-          "person": "Matt",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), YakShaver, Raycast AI (GPT 5.6 Luna)\n",
-          "limits": "N/A"
+          "member": "Matt",
+          "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), YakShaver, Raycast AI (GPT 5.6 Luna)\n"
         },
         {
-          "person": "Eli",
+          "member": "Eli",
           "tools": "Claude Desktop (Opus 5.5, Sonnet 5.5), CapCom\n",
-          "limits": "88% (weekly)"
+          "planUsed": 88
         }
       ],
-      "_template": "teamAiTools"
+      "_template": "aiTools",
+      "subsection": false
     },
     {
       "heading": "AI Stats",

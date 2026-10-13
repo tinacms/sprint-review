@@ -38,10 +38,18 @@
       "heading": "Forecast Backlog",
       "items": [
         {
-          "title": "✨ Enable Markdown content negotiation across Tina web properties",
-          "url": "https://github.com/tinacms/tina.io/issues/4896",
-          "assignees": "isaaclombardssw",
-          "estimate": 4,
+          "title": "✨ Field Type Implementation - Image",
+          "url": "https://github.com/tinacms/tinacms/issues/6925",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false
+        },
+        {
+          "title": "🔭 Migration | Decide how GitHub accounts migrate",
+          "url": "https://github.com/tinacms/tinacloud/issues/4393",
+          "assignees": "KahaMason",
+          "estimate": 2,
           "status": "inReview",
           "bold": false
         },
@@ -54,10 +62,34 @@
           "bold": false
         },
         {
-          "title": "✨ Field Type Implementation - Image",
-          "url": "https://github.com/tinacms/tinacms/issues/6925",
+          "title": "🐛 Identity | Don't let WorkOS sync erase a user's name or verified status",
+          "url": "https://github.com/tinacms/tinacloud/issues/4395",
+          "assignees": "KahaMason",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false
+        },
+        {
+          "title": "Field Type Implementation - Array templates and of",
+          "url": "https://github.com/tinacms/tinacms/issues/7799",
           "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false
+        },
+        {
+          "title": "chore: validate CLI against clig.dev",
+          "url": "https://github.com/tinacms/tinacloud-cli/issues/54",
+          "assignees": "harley-j, brookjeynes-ssw",
           "estimate": 8,
+          "status": "inProgress",
+          "bold": false
+        },
+        {
+          "title": "💄 UI/UX Review - Field Types",
+          "url": "https://github.com/tinacms/tinacms/issues/7793",
+          "assignees": "designbyalex",
+          "estimate": 4,
           "status": "inProgress",
           "bold": false
         },
@@ -65,22 +97,14 @@
           "title": "💄 UI/UX Review - Branding Baseline",
           "url": "https://github.com/tinacms/tinacms/issues/7669",
           "assignees": "designbyalex",
-          "estimate": 8,
-          "status": "inProgress",
-          "bold": false
-        },
-        {
-          "title": "🔭 Migration | Decide how GitHub accounts migrate",
-          "url": "https://github.com/tinacms/tinacloud/issues/4393",
-          "assignees": "KahaMason",
           "estimate": 4,
           "status": "inProgress",
           "bold": false
         },
         {
-          "title": "Social media - Monitor Tina socials - Sprint 128",
-          "url": "https://github.com/tinacms/tinacloud/issues/4473",
-          "assignees": "ianhoffmanx",
+          "title": "🧹 Identity | Move the support CLIs off Cognito",
+          "url": "https://github.com/tinacms/tinacloud/issues/4404",
+          "assignees": "harley-j",
           "estimate": 4,
           "status": "inProgress",
           "bold": false
@@ -102,18 +126,34 @@
           "bold": false
         },
         {
-          "title": "🧱 CloudFront + WAFv2 per-tenant rate limiting on Content API | Slice 3",
-          "url": "https://github.com/tinacms/tinacloud/issues/3480",
-          "assignees": "kulesy",
-          "estimate": 16,
-          "status": "backlog",
+          "title": "Social media - Monitor Tina socials - Sprint 128",
+          "url": "https://github.com/tinacms/tinacloud/issues/4473",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "inProgress",
           "bold": false
         },
         {
           "title": "🔭 UI/UX Review - Layout & Navigation",
           "url": "https://github.com/tinacms/tinacms/issues/7670",
           "assignees": "designbyalex",
-          "estimate": 8,
+          "estimate": 4,
+          "status": "backlog",
+          "bold": false
+        },
+        {
+          "title": "🐛 Auth | Editor sign-in errors name the cause on both sign-in paths",
+          "url": "https://github.com/tinacms/tinacloud/issues/2164",
+          "assignees": "harley-j",
+          "estimate": 4,
+          "status": "backlog",
+          "bold": false
+        },
+        {
+          "title": "🛂 Auth | Own the /login route: TinaCloud page, signed-in users and reset links",
+          "url": "https://github.com/tinacms/tinacloud/issues/4358",
+          "assignees": "harley-j",
+          "estimate": 2,
           "status": "backlog",
           "bold": false
         }
