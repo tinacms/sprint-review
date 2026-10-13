@@ -502,23 +502,7 @@
     {
       "heading": "AI Stats",
       "subsection": false,
-      "body": "",
-      "items": [
-        {
-          "image": "/uploads/image-(4).png",
-          "caption": "",
-          "sourceLabel": "",
-          "sourceUrl": "",
-          "placeholder": "Copilot stats pasted at the review"
-        },
-        {
-          "image": "/uploads/SCR-20261013-knkg.png",
-          "caption": "",
-          "sourceLabel": "SSW Tiger meeting dashboards",
-          "sourceUrl": "https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-06-101955",
-          "placeholder": "Tiger dashboard generated on review day"
-        }
-      ],
+      "body": "![](</uploads/image-(4).png>)\n\n![](/uploads/SCR-20261013-knkg.png)\n\n[SSW Tiger meeting dashboards](https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-06-101955)\n",
       "_template": "figures"
     }
   ],
