@@ -38,13 +38,15 @@
           "team": "TinaCloud",
           "hours": 32,
           "previousHours": 96,
-          "body": "![](/uploads/sprint-128/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 96 hours last Sprint, 32 hours so far this Sprint. Covers Tue 13 Oct to Wed 14 Oct only, because TimePro's data was last updated on 14 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)\n"
+          "body": "![](/uploads/sprint-128/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 96 hours last Sprint, 32 hours so far this Sprint. Covers Tue 13 Oct to Wed 14 Oct only, because TimePro's data was last updated on 14 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)\n",
+          "caption": ""
         },
         {
           "team": "TinaCMS",
           "hours": 21,
           "previousHours": 50,
-          "body": "![](/uploads/sprint-128/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 50 hours last Sprint, 21 hours so far this Sprint. Covers Tue 13 Oct to Wed 14 Oct only, because TimePro's data was last updated on 14 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)\n"
+          "body": "![](/uploads/sprint-128/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 50 hours last Sprint, 21 hours so far this Sprint. Covers Tue 13 Oct to Wed 14 Oct only, because TimePro's data was last updated on 14 Oct - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/d09cff56-de7f-4387-b863-6208adcd28ae/ReportSection3)\n",
+          "caption": ""
         }
       ],
       "_template": "hours"
@@ -77,12 +79,28 @@
           "bonus": false
         },
         {
+          "title": "🐛 Bug - Unsaved edits carry over to the next editor on a shared browser",
+          "url": "https://github.com/tinacms/tinacms/issues/7847",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true
+        },
+        {
           "title": "Field Type Implementation - Array templates and of",
           "url": "https://github.com/tinacms/tinacms/issues/7799",
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "done",
           "bonus": false
+        },
+        {
+          "title": "🐛 Bug - All collaborators can be set to role 'Editor' and removed",
+          "url": "https://github.com/tinacms/tinacloud/issues/2762",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true
         },
         {
           "title": "✨ Field Type Implementation - Image",
@@ -93,12 +111,22 @@
           "bonus": false
         },
         {
+          "title": "✨ Plugin System - Sidebar - TinaCloud",
+          "url": "https://github.com/tinacms/tinacms/issues/6883",
+          "assignees": "joshbermanssw",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
           "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
           "url": "https://github.com/tinacms/tinacms/issues/7667",
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "done",
-          "bonus": false
+          "bonus": false,
+          "bold": true
         },
         {
           "title": "🐛 Identity | Don't let WorkOS sync erase a user's name or verified status",
@@ -203,30 +231,6 @@
           "estimate": 16,
           "status": "inReview",
           "bonus": true
-        },
-        {
-          "title": "✨ Plugin System - Sidebar - TinaCloud",
-          "url": "https://github.com/tinacms/tinacms/issues/6883",
-          "assignees": "joshbermanssw",
-          "estimate": 8,
-          "status": "inReview",
-          "bonus": true
-        },
-        {
-          "title": "🐛 Bug - Unsaved edits carry over to the next editor on a shared browser",
-          "url": "https://github.com/tinacms/tinacms/issues/7847",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "inReview",
-          "bonus": true
-        },
-        {
-          "title": "🐛 Bug - All collaborators can be set to role 'Editor' and removed",
-          "url": "https://github.com/tinacms/tinacloud/issues/2762",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "inReview",
-          "bonus": true
         }
       ],
       "note": "",
@@ -280,9 +284,9 @@
         {
           "label": "tinacms/tina-astro-starter",
           "url": "https://github.com/tinacms/tina-astro-starter/graphs/traffic",
-          "lowerIsBetter": false,
           "previous": 39,
-          "current": 43
+          "current": 43,
+          "lowerIsBetter": false
         },
         {
           "label": "tinacms/tina-self-hosted-demo",
@@ -467,6 +471,7 @@
     {
       "heading": "AI Stats",
       "subsection": false,
+      "body": "",
       "items": [
         {
           "image": "",
@@ -484,5 +489,9 @@
       "_template": "figures"
     }
   ],
-  "retro": {}
+  "retro": {
+    "wentWell": "",
+    "didntGoWell": "",
+    "improvements": ""
+  }
 }
