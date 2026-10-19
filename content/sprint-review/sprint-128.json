@@ -26,7 +26,7 @@
       "text": "Complete 1 TinaCMS v4 PBI - Field Type Implementation - Image (tinacms#6925) and Array templates and of (tinacms#7799) both closed, taking Field Type Implementation to 11/12"
     },
     {
-      "status": "inProgress",
+      "status": "done",
       "text": "Complete WorkOS Migration Scripts - the WorkOS sync fix closed (tinacloud#4395), while deciding how GitHub accounts migrate (tinacloud#4393) and moving the support CLIs off Cognito (tinacloud#4404) are both in review"
     }
   ],
@@ -54,6 +54,33 @@
     {
       "heading": "1. Sprint Backlog",
       "items": [
+        {
+          "title": "🔭 Migration | Decide how GitHub accounts migrate",
+          "url": "https://github.com/tinacms/tinacloud/issues/4393",
+          "assignees": "KahaMason",
+          "estimate": 2,
+          "status": "done",
+          "bonus": false,
+          "bold": true
+        },
+        {
+          "title": "✨ Plugin System - Sidebar - TinaCloud",
+          "url": "https://github.com/tinacms/tinacms/issues/6883",
+          "assignees": "joshbermanssw",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
+          "url": "https://github.com/tinacms/tinacms/issues/7667",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": false,
+          "bold": true
+        },
         {
           "title": "Support - Monitor Discord Chat - Sprint 128",
           "url": "https://github.com/tinacms/tinacloud/issues/4471",
@@ -109,24 +136,6 @@
           "estimate": 2,
           "status": "done",
           "bonus": false
-        },
-        {
-          "title": "✨ Plugin System - Sidebar - TinaCloud",
-          "url": "https://github.com/tinacms/tinacms/issues/6883",
-          "assignees": "joshbermanssw",
-          "estimate": 8,
-          "status": "done",
-          "bonus": true,
-          "bold": true
-        },
-        {
-          "title": "✨ Text Colors - Add selectable text color options in TinaCMS rich text editor",
-          "url": "https://github.com/tinacms/tinacms/issues/7667",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": false,
-          "bold": true
         },
         {
           "title": "🐛 Identity | Don't let WorkOS sync erase a user's name or verified status",
@@ -213,14 +222,6 @@
           "url": "https://github.com/tinacms/tinacms/issues/7669",
           "assignees": "designbyalex",
           "estimate": 4,
-          "status": "inReview",
-          "bonus": false
-        },
-        {
-          "title": "🔭 Migration | Decide how GitHub accounts migrate",
-          "url": "https://github.com/tinacms/tinacloud/issues/4393",
-          "assignees": "KahaMason",
-          "estimate": 2,
           "status": "inReview",
           "bonus": false
         },
