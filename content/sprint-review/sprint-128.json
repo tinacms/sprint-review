@@ -448,12 +448,12 @@
         {
           "person": "Kaha",
           "tools": "Claude Code (Opus 5.5)\n",
-          "limits": "45% (weekly)"
+          "limits": "42% (weekly)"
         },
         {
           "person": "Josh",
-          "tools": "Claude Code (Opus 5.5), xirp\n",
-          "limits": "82% (weekly)"
+          "tools": "Claude Code (Opus 5.5), Gemini Argon 4, Codex 6.1 Sol\n",
+          "limits": "57% (weekly)"
         },
         {
           "person": "Brook",
