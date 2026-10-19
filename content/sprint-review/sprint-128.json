@@ -448,17 +448,17 @@
         {
           "person": "Kaha",
           "tools": "Claude Code (Opus 5.5)\n",
-          "limits": "42% (weekly)"
+          "limits": "42% (weekly) (Thur)"
         },
         {
           "person": "Josh",
           "tools": "Claude Code (Opus 5.5), Gemini Argon 4, Codex 6.1 Sol\n",
-          "limits": "57% (weekly)"
+          "limits": "57% (weekly) (Thur)"
         },
         {
           "person": "Brook",
           "tools": "Codex (Terra)\n",
-          "limits": "Already reset "
+          "limits": "31% (weekly) (Mon)"
         },
         {
           "person": "Matt",
@@ -466,9 +466,14 @@
           "limits": "4% (Claude) 31% (OpenAI) "
         },
         {
-          "person": "Eli",
-          "tools": "Claude Desktop (Opus 5.5, Sonnet 5.5), CapCom\n",
-          "limits": "88% (weekly)"
+          "person": "Harley",
+          "tools": "Copilot (Opus 5.5)\n",
+          "limits": "35% (monthy)"
+        },
+        {
+          "person": "Alex",
+          "tools": "Claude Code (Fable 5.1, Opus 5.5), NanoBanana (in Figma)\n",
+          "limits": "124% (weekly) (Tue)"
         }
       ],
       "_template": "teamAiTools"
