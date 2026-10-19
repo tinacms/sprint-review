@@ -26,7 +26,7 @@
       "text": "Complete 1 TinaCMS v4 PBI - Field Type Implementation - Image (tinacms#6925) and Array templates and of (tinacms#7799) both closed, taking Field Type Implementation to 11/12"
     },
     {
-      "status": "done",
+      "status": "partial",
       "text": "Complete WorkOS Migration Scripts - the WorkOS sync fix closed (tinacloud#4395), while deciding how GitHub accounts migrate (tinacloud#4393) and moving the support CLIs off Cognito (tinacloud#4404) are both in review"
     }
   ],
