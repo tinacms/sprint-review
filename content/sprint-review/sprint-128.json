@@ -400,7 +400,9 @@
     },
     {
       "heading": "R&D",
-      "entries": [],
+      "entries": [
+        "Josh - TinaCMS v4"
+      ],
       "placeholder": "Added at the review",
       "_template": "list"
     },
