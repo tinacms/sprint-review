@@ -82,6 +82,15 @@
           "bold": true
         },
         {
+          "title": "chore: validate CLI against clig.dev",
+          "url": "https://github.com/tinacms/tinacloud-cli/issues/54",
+          "assignees": "harley-j, brookjeynes-ssw",
+          "estimate": 8,
+          "status": "done",
+          "bonus": false,
+          "bold": true
+        },
+        {
           "title": "Support - Monitor Discord Chat - Sprint 128",
           "url": "https://github.com/tinacms/tinacloud/issues/4471",
           "assignees": "kulesy, brookjeynes-ssw",
@@ -184,14 +193,6 @@
           "estimate": 1,
           "status": "done",
           "bonus": true
-        },
-        {
-          "title": "chore: validate CLI against clig.dev",
-          "url": "https://github.com/tinacms/tinacloud-cli/issues/54",
-          "assignees": "harley-j, brookjeynes-ssw",
-          "estimate": 8,
-          "status": "done",
-          "bonus": false
         },
         {
           "title": "🧹 Identity | Move the support CLIs off Cognito",
