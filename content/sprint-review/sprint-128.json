@@ -410,18 +410,18 @@
       "heading": "ADR Changes",
       "items": [
         {
-          "title": "023 Auth session mechanics",
-          "url": "https://github.com/tinacms/tinacmsv4-docs/blob/main/adr/023-auth-session-mechanics.md",
-          "change": "Updated",
-          "summary": "Give tinaCloud() a Server segment that verifies a project-scoped editor token.",
-          "pr": "tinacmsv4-docs#6"
-        },
-        {
           "title": "v4 ADRs moved to tinacms/tinacms",
           "url": "https://github.com/tinacms/tinacms/tree/main/adr/v4",
           "change": "New",
           "summary": "Move the v4 ADRs and architecture docs into adr/v4, and remove them from tinacmsv4-docs.",
           "pr": "tinacms#7858"
+        },
+        {
+          "title": "027 Global nav groups",
+          "url": "https://github.com/tinacms/tinacms/blob/main/adr/v4/027-global-nav-groups.md",
+          "change": "New",
+          "summary": "Accept ADR-027 global nav groups.",
+          "pr": "tinacms#7860"
         },
         {
           "title": "026 Draft persistence in form store",
@@ -431,11 +431,11 @@
           "pr": "tinacms#7862"
         },
         {
-          "title": "027 Global nav groups",
-          "url": "https://github.com/tinacms/tinacms/blob/main/adr/v4/027-global-nav-groups.md",
-          "change": "New",
-          "summary": "Accept ADR-027 global nav groups.",
-          "pr": "tinacms#7860"
+          "title": "023 Auth session mechanics",
+          "url": "https://github.com/tinacms/tinacmsv4-docs/blob/main/adr/023-auth-session-mechanics.md",
+          "change": "Updated",
+          "summary": "Give tinaCloud() a Server segment that verifies a project-scoped editor token.",
+          "pr": "tinacmsv4-docs#6"
         }
       ],
       "placeholder": "No ADR changes this Sprint",
