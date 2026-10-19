@@ -181,7 +181,7 @@
           "url": "https://github.com/tinacms/tinacloud-cli/issues/54",
           "assignees": "harley-j, brookjeynes-ssw",
           "estimate": 8,
-          "status": "inReview",
+          "status": "done",
           "bonus": false
         },
         {
