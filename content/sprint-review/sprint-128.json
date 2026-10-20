@@ -501,7 +501,7 @@
   ],
   "retro": {
     "wentWell": "Josh - A lot of work done despite billed hours down drastically \n\n**Harley, Josh - Alex smashed the design work 💪**\n\n**Eli, Josh - Open PRs down from 48 to 20**\n\nBrook - clig work improved standards of the TInaCloud cli\n",
-    "didntGoWell": "Kaha - Client work introduced uncertain availability \n",
+    "didntGoWell": "Kaha - Client work introduced uncertain availability \n\n**Harley - Windows code signing certification is blocking TinaCloud CLI release (and chase-up is taking a while)**\n",
     "improvements": "Kaha - Add bold option to ADR section (boolean) \n"
   }
 }
