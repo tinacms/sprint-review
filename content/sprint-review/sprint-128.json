@@ -453,7 +453,7 @@
         {
           "person": "Josh",
           "tools": "Claude Code (Opus 5.5), Gemini Argon 4, Codex 6.1 Sol\n",
-          "limits": "57% (weekly) (Thu)"
+          "limits": "58% (weekly) (Thu)"
         },
         {
           "person": "Brook",
@@ -463,7 +463,7 @@
         {
           "person": "Matt",
           "tools": "Claude Code (Fable 5.1, Opus 5.5, Sonnet 5.5), Codex (6.1 Sol)\n",
-          "limits": "4% (Claude) 31% (OpenAI) "
+          "limits": "Claude 9% (weekly) (Thu)"
         },
         {
           "person": "Harley",
@@ -503,6 +503,6 @@
   "retro": {
     "wentWell": "Josh - A lot of work done despite billed hours down drastically\n\n**Harley, Josh - Alex smashed the design work 💪**\n\n**Eli, Josh - Open PRs down from 48 to 20**\n\nBrook - clig work improved standards of the TInaCloud cli\n",
     "didntGoWell": "Kaha - Client work introduced uncertain availability\n\n**Harley - Windows code signing certification is blocking TinaCloud CLI release (and chase-up is taking a while)**\n",
-    "improvements": "Kaha - Add bold option to ADR section (boolean)\n"
+    "improvements": "Kaha - Add bold option to ADR section (boolean)\n\nAdam - Add new section to AI tooling for “What was % used before reset (weekly)” \n"
   }
 }
