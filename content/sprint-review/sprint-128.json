@@ -474,6 +474,11 @@
           "person": "Alex",
           "tools": "Claude Code (Fable 5.1, Opus 5.5), NanoBanana (in Figma)\n",
           "limits": "124% (weekly) (Tue)"
+        },
+        {
+          "person": "Eli",
+          "tools": "Claude Code (Opus 5.5 & Sonnet 5.5, Haiku 5.5)\n",
+          "limits": "Hit limits"
         }
       ],
       "_template": "teamAiTools"
