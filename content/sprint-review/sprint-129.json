@@ -532,7 +532,7 @@
         {
           "person": "Eli",
           "tools": "Claude Code (Opus 5.5 & Sonnet 5.5, Haiku 5.5)\n",
-          "limits": "Hit limits"
+          "limits": "100%"
         }
       ],
       "_template": "teamAiTools"
