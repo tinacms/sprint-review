@@ -81,7 +81,7 @@ const Hours: SectionRenderer = ({ section }) => {
 const AiTools: SectionRenderer = ({ section }) => {
   const items: Maybe<Person>[] = section.items ?? [];
   return (
-    <Grid top={0} head={[{ label: "Person" }, { label: "Tools" }, { label: "Limits" }]}>
+    <Grid top={0} head={[{ label: "Person" }, { label: "Tools" }, { label: "Limit Utilization" }]}>
       {items.map((row, index) => (
         <tr key={index}>
           <Td tinaField={field(row, "person")}>{row?.person}</Td>
