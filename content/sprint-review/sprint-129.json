@@ -573,10 +573,10 @@
           "placeholder": "Copilot stats pasted at the review"
         },
         {
-          "image": "",
+          "image": "/uploads/sprint-129/tiger.png",
           "caption": "",
           "sourceLabel": "SSW Tiger meeting dashboards",
-          "sourceUrl": "https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-20-102328",
+          "sourceUrl": "https://dashboards.sswtiger.com/tinacloud-tinacms/2026-10-27-101927",
           "placeholder": "Tiger dashboard generated on review day"
         }
       ],
