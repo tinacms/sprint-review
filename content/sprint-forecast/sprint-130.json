@@ -41,7 +41,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": true
         },
         {
           "title": "✨ Billing | Merge Team and Team Plus into one Team plan",
@@ -49,7 +50,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": true
         },
         {
           "title": "✨ Dashboard | Plan cards match the new pricing page",
@@ -57,7 +59,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": true
         },
         {
           "title": "UI | Lists and Tables",
@@ -81,7 +84,8 @@
           "assignees": "brookjeynes-ssw",
           "estimate": 8,
           "status": "inProgress",
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": true
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 130",
