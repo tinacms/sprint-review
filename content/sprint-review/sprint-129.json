@@ -243,7 +243,7 @@
           "estimate": 4,
           "status": "inProgress",
           "bonus": false,
-          "bold": false
+          "bold": true
         },
         {
           "title": "🛂 Migration | Prepare the duplicate-account merge",
@@ -541,7 +541,7 @@
         },
         {
           "person": "Josh",
-          "tools": "Claude Code (Opus 5.5), Gemini Argon 4, Codex 6.1 Sol\n",
+          "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5), Gemini Argon 4, Codex 6.1 Sol\n",
           "limits": "100%"
         },
         {
