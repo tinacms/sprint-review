@@ -12,8 +12,7 @@
     "Harley",
     "Josh",
     "Hark",
-    "Brook",
-    "Kaha"
+    "Brook"
   ],
   "email": {
     "subject": "TinaCloud/TinaCMS Sprint 130 Forecast",
@@ -22,6 +21,7 @@
   },
   "goals": [
     {
+      "status": "suggested",
       "title": "WorkOS Migration ",
       "text": "Finalise the migration scripts (carryover) & Perform a full E2E test of migration process on staging"
     },
