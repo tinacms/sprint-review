@@ -584,8 +584,8 @@
     }
   ],
   "retro": {
-    "wentWell": "",
-    "didntGoWell": "",
-    "improvements": ""
+    "wentWell": "Brook, Eli - R\\&D meetings went well\n",
+    "didntGoWell": "Eli - Auth migration handover communcation was poor\n\nBrook - Auth Migration has been slowed by people going on client work and getting pulled into meetings\n\nBrook, Josh - v4 work has been blocked by needing approval on decisions\n",
+    "improvements": "N/A\n"
   }
 }
