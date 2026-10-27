@@ -4,7 +4,7 @@
   "endDate": "2026-11-03T00:00:00.000Z",
   "durationLabel": "1 week",
   "productOwner": "Matt W",
-  "recordingUrl": "",
+  "recordingUrl": "https://youtu.be/1b2makk_fao",
   "attendees": [
     "Adam",
     "Matt",
@@ -140,5 +140,6 @@
       "small": true,
       "_template": "text"
     }
-  ]
+  ],
+  "recordingMinutes": 24
 }
