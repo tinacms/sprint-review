@@ -24,7 +24,7 @@ type Adr = {
   summary?: Maybe<string>;
   pr?: Maybe<string>;
 };
-type Person = { person?: Maybe<string>; tools?: RichTextValue; limits?: Maybe<string> };
+type Person = { person?: Maybe<string>; tools?: RichTextValue; limits?: Maybe<string>; utilizationToday?: Maybe<string> };
 
 const hoursChange = (hours?: Maybe<number>, previous?: Maybe<number>) => {
   if (hours == null || previous == null) return null;
@@ -81,7 +81,7 @@ const Hours: SectionRenderer = ({ section }) => {
 const AiTools: SectionRenderer = ({ section }) => {
   const items: Maybe<Person>[] = section.items ?? [];
   return (
-    <Grid top={0} head={[{ label: "Person" }, { label: "Tools" }, { label: "Limit Utilization" }]}>
+    <Grid top={0} head={[{ label: "Person" }, { label: "Tools" }, { label: "Utilization at last Reset" }, { label: "Utilization Today" }]}>
       {items.map((row, index) => (
         <tr key={index}>
           <Td tinaField={field(row, "person")}>{row?.person}</Td>
@@ -89,6 +89,7 @@ const AiTools: SectionRenderer = ({ section }) => {
             <RichText value={row?.tools} />
           </Td>
           <Td tinaField={field(row, "limits")}>{row?.limits}</Td>
+          <Td tinaField={field(row, "utilizationToday")}>{row?.utilizationToday}</Td>
         </tr>
       ))}
     </Grid>

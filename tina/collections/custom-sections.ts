@@ -38,7 +38,8 @@ export const customSectionTemplates: Template[] = [
         fields: [
           { type: "string", name: "person", label: "Person" },
           richText(["bold", "italic", "link", "ul", "ol"], { name: "tools", label: "Tools" }),
-          { type: "string", name: "limits", label: "Limit Utilization" },
+          { type: "string", name: "limits", label: "Utilization at last Reset" },
+          { type: "string", name: "utilizationToday", label: "Utilization Today" },
         ],
         ui: { itemProps: (item) => ({ label: item?.person }) },
       },
