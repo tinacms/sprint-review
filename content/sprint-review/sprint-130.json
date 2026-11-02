@@ -623,7 +623,7 @@
       "body": "",
       "items": [
         {
-          "image": "",
+          "image": "/uploads/sprint-130/sprint-130-ai-main-item.png",
           "caption": "",
           "placeholder": "Copilot stats pasted at the review"
         },
@@ -638,8 +638,8 @@
     }
   ],
   "retro": {
-    "wentWell": "",
-    "didntGoWell": "",
+    "wentWell": "* Brook: Alex smashed out the Tina design document ([tina.io/design](https://tina.io/design))\n* Brook: Josh implemented a lot of the v4 UI components\n* Josh: Tested software factory and saw a big increase in productivity\n* Brook: Two community PRs this sprint\n* Josh: Eli reviewed a lot of PRs 👑\n",
+    "didntGoWell": "* Brook: Missed October deadline for auth migration (still more work to do with handling account merging)\n",
     "improvements": ""
   }
 }
