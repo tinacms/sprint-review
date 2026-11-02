@@ -22,10 +22,12 @@
   },
   "goals": [
     {
+      "status": "missed",
       "title": "WorkOS Migration",
       "text": "Finalise the migration scripts (carryover) & Perform a full E2E test of migration process on staging"
     },
     {
+      "status": "done",
       "title": "TinaCloud Pricing",
       "text": "Squash Teams and Team Plus plans into one on Stripe and TinaCloud. Bring Editorial Workflow to Teams plans. "
     }
@@ -36,17 +38,17 @@
       "items": [
         {
           "team": "TinaCloud",
+          "hours": 85,
           "previousHours": 127,
           "body": "![](/uploads/sprint-130/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 127 hours last Sprint (Tue 20 Oct to Mon 26 Oct), 85 hours this Sprint (Tue 27 Oct to Mon 2 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
-          "caption": "",
-          "hours": 85
+          "caption": ""
         },
         {
           "team": "TinaCMS",
+          "hours": 31,
           "previousHours": 44,
           "body": "![](/uploads/sprint-130/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 44 hours last Sprint (Tue 20 Oct to Mon 26 Oct), 31 hours this Sprint (Tue 27 Oct to Mon 2 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
-          "caption": "",
-          "hours": 31
+          "caption": ""
         }
       ],
       "_template": "hours"
@@ -61,7 +63,61 @@
           "estimate": 8,
           "status": "done",
           "bonus": false,
-          "bold": false
+          "bold": true
+        },
+        {
+          "title": "✨ Billing | Merge Team and Team Plus into one Team plan",
+          "url": "https://github.com/tinacms/tinacloud/issues/4423",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": false,
+          "bold": true
+        },
+        {
+          "title": "UI | Admin Shell",
+          "url": "https://github.com/tinacms/tinacms/issues/7919",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "💄 Inconsistent heading styles across the site",
+          "url": "https://github.com/tinacms/tina.io/issues/4963",
+          "assignees": "designbyalex",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "🛂 Migration | Build the WorkOS import and run the full migration end to end",
+          "url": "https://github.com/tinacms/tinacloud/issues/4394",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
+          "status": "inProgress",
+          "bonus": false,
+          "bold": true
+        },
+        {
+          "title": "Tags Required Doesn't Flag",
+          "url": "https://github.com/tinacms/tinacms/issues/5220",
+          "assignees": "",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "Empty bullet in rich-text saves as *, then every later save fails with \"BlockContentElement: undefined is not yet supported\"",
+          "url": "https://github.com/tinacms/tinacms/issues/7950",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": true,
+          "bold": true
         },
         {
           "title": "🐛 Media | Multi-repo media writes still use the generator repo's pathToTina",
@@ -127,15 +183,6 @@
           "bold": false
         },
         {
-          "title": "✨ Billing | Merge Team and Team Plus into one Team plan",
-          "url": "https://github.com/tinacms/tinacloud/issues/4423",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": false,
-          "bold": false
-        },
-        {
           "title": "✨ Dashboard | Plan cards match the new pricing page",
           "url": "https://github.com/tinacms/tinacloud/issues/4426",
           "assignees": "joshbermanssw",
@@ -166,33 +213,6 @@
           "title": "✨ Projects | Let a content repo keep its content in a folder",
           "url": "https://github.com/tinacms/tinacloud/issues/4545",
           "assignees": "kulesy",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
-          "title": "💄 Inconsistent heading styles across the site",
-          "url": "https://github.com/tinacms/tina.io/issues/4963",
-          "assignees": "designbyalex",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
-          "title": "Tags Required Doesn't Flag",
-          "url": "https://github.com/tinacms/tinacms/issues/5220",
-          "assignees": "",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
-          "title": "UI | Admin Shell",
-          "url": "https://github.com/tinacms/tinacms/issues/7919",
-          "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "done",
           "bonus": true,
@@ -246,15 +266,6 @@
         {
           "title": "UI | Number Field",
           "url": "https://github.com/tinacms/tinacms/issues/7909",
-          "assignees": "joshbermanssw",
-          "estimate": 1,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
-          "title": "Empty bullet in rich-text saves as *, then every later save fails with \"BlockContentElement: undefined is not yet supported\"",
-          "url": "https://github.com/tinacms/tinacms/issues/7950",
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
@@ -359,15 +370,6 @@
           "status": "inReview",
           "bonus": true,
           "bold": false
-        },
-        {
-          "title": "🛂 Migration | Build the WorkOS import and run the full migration end to end",
-          "url": "https://github.com/tinacms/tinacloud/issues/4394",
-          "assignees": "brookjeynes-ssw",
-          "estimate": 8,
-          "status": "inProgress",
-          "bonus": false,
-          "bold": false
         }
       ],
       "note": "",
@@ -375,7 +377,7 @@
     },
     {
       "heading": "2. Sprint Burnup",
-      "body": "![](/uploads/sprint-130/burnup.png)\n\nSprint Burnup - 62 of 85 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom&start_date=2026-10-27&end_date=2026-11-03)\n",
+      "body": "![](/uploads/sprint-130/burnup.png)\n\nSprint Burnup - 62 of 85 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-10-27\\&end_date=2026-11-03)\n",
       "_template": "figures"
     },
     {
@@ -541,7 +543,9 @@
     },
     {
       "heading": "R&D",
-      "entries": [],
+      "entries": [
+        "TinaCMS V4"
+      ],
       "placeholder": "Added at the review",
       "_template": "list"
     },
@@ -591,24 +595,19 @@
       "subsection": false,
       "items": [
         {
-          "person": "Kaha",
-          "tools": "Claude Code (Opus 5.5)\n",
-          "limits": ""
-        },
-        {
           "person": "Josh",
-          "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5), Gemini Argon 4, Codex 6.1 Sol\n",
-          "limits": ""
+          "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5), Codex 6.1 Sol\n",
+          "limits": "90%"
         },
         {
           "person": "Brook",
-          "tools": "Codex (Terra)\n",
-          "limits": ""
+          "tools": "Codex (GPT-6.1 Terra )\n",
+          "limits": "47%"
         },
         {
           "person": "Alex",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5), NanoBanana (in Figma)\n",
-          "limits": ""
+          "tools": "Claude Code (Fable 5.1, Opus 5.5). Upgraded to Claude Ultra\n",
+          "limits": "78%"
         },
         {
           "person": "Eli",
@@ -631,8 +630,8 @@
         {
           "image": "",
           "caption": "",
-          "placeholder": "Tiger dashboard generated on review day",
-          "sourceLabel": "SSW Tiger meeting dashboards"
+          "sourceLabel": "SSW Tiger meeting dashboards",
+          "placeholder": "Tiger dashboard generated on review day"
         }
       ],
       "_template": "figures"
