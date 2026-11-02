@@ -22,7 +22,7 @@
   },
   "goals": [
     {
-      "title": "WorkOS Migration ",
+      "title": "WorkOS Migration",
       "text": "Finalise the migration scripts (carryover) & Perform a full E2E test of migration process on staging"
     },
     {
@@ -101,6 +101,15 @@
           "title": "🔒 Account deletion | Erase the person from Mailchimp and HubSpot too",
           "url": "https://github.com/tinacms/tinacloud/issues/4551",
           "assignees": "kulesy",
+          "estimate": 4,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "fix(mdx): load back negative numbers, image lists and empty values",
+          "url": "https://github.com/tinacms/tinacms/pull/7958",
+          "assignees": "wicksipedia",
           "estimate": 4,
           "status": "done",
           "bonus": true,
@@ -377,8 +386,8 @@
         },
         {
           "product": "TinaCMS",
-          "count": 1,
-          "versions": "tinacms 3.15.1 on 2 Nov"
+          "count": 2,
+          "versions": "tinacms 3.15.1 on 2 Nov, @tinacms/cli 4.0.4 on 27 Oct"
         },
         {
           "product": "tinacloud-cli",
@@ -544,21 +553,21 @@
           "title": "4204 Stripe source of truth",
           "url": "https://github.com/tinacms/tinacloud/blob/main/_docs/adr/4204-stripe-source-of-truth.md",
           "change": "New",
-          "summary": "Make Stripe the source of truth for subscription state.",
+          "summary": "Stripe is the source of truth for subscription state, with one pointer row per project.",
           "pr": "tinacloud#4220"
         },
         {
           "title": "4204 Payment state from Stripe",
           "url": "https://github.com/tinacms/tinacloud/blob/main/_docs/adr/4204-payment-state-from-stripe.md",
           "change": "New",
-          "summary": "Make Stripe the source of truth for subscription state.",
+          "summary": "Take the non-payment lockout from Stripe's dunning outcome instead of our own 31-day clock.",
           "pr": "tinacloud#4220"
         },
         {
           "title": "4204 Billing state row key",
           "url": "https://github.com/tinacms/tinacloud/blob/main/_docs/adr/4204-billing-state-row-key.md",
           "change": "New",
-          "summary": "Make Stripe the source of truth for subscription state.",
+          "summary": "Keep one billing-state row per project at a fixed sort key, so a state change is one write.",
           "pr": "tinacloud#4220"
         },
         {
