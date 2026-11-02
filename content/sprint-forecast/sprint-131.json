@@ -20,7 +20,13 @@
     "to": "MattWicks@ssw.com.au",
     "cc": "SSWSprintReviews@ssw.com.au; AdamCogan@ssw.com.au; SSWTinaCloud@ssw.com.au; Calum@ssw.com.au"
   },
-  "goals": [],
+  "goals": [
+    {
+      "status": "suggested",
+      "title": "WorkOS Migration",
+      "text": "Finalise the migration scripts (carryover) & Perform a full E2E test of migration process on staging"
+    }
+  ],
   "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
   "sections": [
     {
@@ -96,7 +102,7 @@
           "estimate": 8,
           "status": "inProgress",
           "origin": "carryOver",
-          "bold": false
+          "bold": true
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 131",
