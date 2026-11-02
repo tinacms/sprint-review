@@ -36,15 +36,15 @@
       "items": [
         {
           "team": "TinaCloud",
-          "previousHours": 48,
-          "body": "![](/uploads/sprint-130/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 48 hours last Sprint, 85 hours this Sprint (Tue 27 Oct to Mon 2 Nov) - [PowerBI](https://app.powerbi.com.mcas.ms/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
+          "previousHours": 127,
+          "body": "![](/uploads/sprint-130/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 127 hours last Sprint (Tue 20 Oct to Mon 26 Oct), 85 hours this Sprint (Tue 27 Oct to Mon 2 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
           "caption": "",
           "hours": 85
         },
         {
           "team": "TinaCMS",
-          "previousHours": 24,
-          "body": "![](/uploads/sprint-130/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 24 hours last Sprint, 31 hours this Sprint (Tue 27 Oct to Mon 2 Nov) - [PowerBI](https://app.powerbi.com.mcas.ms/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
+          "previousHours": 44,
+          "body": "![](/uploads/sprint-130/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 44 hours last Sprint (Tue 20 Oct to Mon 26 Oct), 31 hours this Sprint (Tue 27 Oct to Mon 2 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
           "caption": "",
           "hours": 31
         }
@@ -448,7 +448,7 @@
     },
     {
       "heading": "8. TinaCMS NPM Version Distribution",
-      "body": "![](/uploads/sprint-130/npm.png)\n\nTinaCMS version downloads over the last week, the most popular version is v3.14.x with 13.4k total downloads (down from 25.6k), ahead of v3.15.x on 11.6k and v3.11.x on 2.6k - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
+      "body": "![](/uploads/sprint-130/npm.png)\n\nTinaCMS version downloads over the last week, the most popular version is v3.14.x with 13.4k total downloads (down from 25.6k last Sprint; the tracker's arrows show the trend within the week), ahead of v3.15.x on 11.6k and v3.11.x on 2.6k - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
       "_template": "figures"
     },
     {
