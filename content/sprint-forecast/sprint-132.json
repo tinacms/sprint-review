@@ -11,26 +11,12 @@
     "to": "MattWicks@ssw.com.au",
     "cc": "SSWSprintReviews@ssw.com.au; AdamCogan@ssw.com.au; SSWTinaCloud@ssw.com.au; Calum@ssw.com.au"
   },
+  "capacity": "~43 pts (3-Sprint average of 48, 10% buffer)",
   "goals": [
     {
       "status": "suggested",
-      "title": "Cloudflare deploy",
-      "text": "Land deploying new projects from a starter to Cloudflare Workers (tinacloud#4606)"
-    },
-    {
-      "status": "suggested",
-      "title": "Astro TinaDocs",
-      "text": "Merge the Astro TinaDocs template (tinacms#7984)"
-    },
-    {
-      "status": "suggested",
-      "title": "Filesystem sourcing",
-      "text": "Spike replacing the TinaCloud data layer with a Git-backed filesystem (tinacloud#3801)"
-    },
-    {
-      "status": "suggested",
-      "title": "Highlight colors",
-      "text": "Configurable highlight colors in the rich text editor (tinacms#6554)"
+      "title": "🎊 Run WorkOS Migration in Prod",
+      "text": "Brook will confirm with PO when the migration will be run, and will book out some time with Kaha to run it together. "
     }
   ],
   "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
@@ -44,8 +30,8 @@
           "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "Astro TinaDocs template (tina-docs-astro)",
@@ -53,8 +39,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Discarding and resuming unsaved edits",
@@ -62,8 +48,8 @@
           "assignees": "joshbermanssw",
           "estimate": 0,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Saving with errors",
@@ -71,8 +57,8 @@
           "assignees": "joshbermanssw",
           "estimate": 0,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Saving to a new branch, and retrying a failed save",
@@ -80,8 +66,8 @@
           "assignees": "joshbermanssw",
           "estimate": 0,
           "status": "inProgress",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 132",
@@ -89,8 +75,8 @@
           "assignees": "kulesy, brookjeynes-ssw",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "Support - Tech Debt Payback - Sprint 132",
@@ -98,8 +84,8 @@
           "assignees": "kulesy",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "Social media - Monitor Tina socials - Sprint 132",
@@ -107,8 +93,8 @@
           "assignees": "ianhoffmanx",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "🔭 Filesystem Sourcing - Spike replacing TinaCloud data layer with Git-backed filesystem",
@@ -116,8 +102,8 @@
           "assignees": "brookjeynes-ssw",
           "estimate": 16,
           "status": "ready",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "✨ Highlight Colors - Allow configurable highlight colors in the rich text editor",
@@ -125,8 +111,8 @@
           "assignees": "Ankit-Gupta4502",
           "estimate": 8,
           "status": "ready",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         }
       ],
       "note": "",
@@ -143,6 +129,5 @@
       "small": true,
       "_template": "text"
     }
-  ],
-  "capacity": "~43 pts (3-Sprint average of 48, 10% buffer)"
+  ]
 }
