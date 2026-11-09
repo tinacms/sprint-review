@@ -264,6 +264,33 @@
           "status": "done",
           "bold": false,
           "bonus": true
+        },
+        {
+          "title": "UI | Discarding and resuming unsaved edits",
+          "url": "https://github.com/tinacms/tinacms/issues/8021",
+          "assignees": "joshbermanssw",
+          "estimate": 0,
+          "status": "inReview",
+          "bold": false,
+          "bonus": true
+        },
+        {
+          "title": "UI | Saving with errors",
+          "url": "https://github.com/tinacms/tinacms/issues/7997",
+          "assignees": "joshbermanssw",
+          "estimate": 0,
+          "status": "inReview",
+          "bold": false,
+          "bonus": true
+        },
+        {
+          "title": "UI | Saving to a new branch, and retrying a failed save",
+          "url": "https://github.com/tinacms/tinacms/issues/8020",
+          "assignees": "joshbermanssw",
+          "estimate": 0,
+          "status": "inProgress",
+          "bold": false,
+          "bonus": true
         }
       ],
       "note": "",
