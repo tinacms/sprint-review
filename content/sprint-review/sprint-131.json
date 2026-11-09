@@ -297,17 +297,17 @@
     },
     {
       "heading": "4. Application Health",
-      "body": "",
+      "body": "![](/uploads/sprint-131/health.png)\n\nApplication Health Dashboard Overview. Identity API HTTP 5xx fell from 61 to 34. Content API HTTP 5xx fell from 1.56k to 318 - [TinaCloud CloudWatch Dashboard](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview)\n",
       "_template": "figures"
     },
     {
       "heading": "5. TinaCloud PostHog Metrics",
-      "body": "",
+      "body": "![](/uploads/sprint-131/commits.png)\n\nTotal Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 39,129 (down 13% on the previous period) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-131/onboarding.png)\n\nUser onboarding over the last 7 days - 144 accounts were created, 26% (38) went on to create a project and 15% (22) committed. Of 107 invited collaborators, 57% (61) were added and 21% (22) committed - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-131/projects.png)\n\nOrganisation and project creation over the last 7 days - 147 new organisations, up from 129 last Sprint - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n",
       "_template": "figures"
     },
     {
       "heading": "6. TinaCMS PostHog Metrics",
-      "body": "",
+      "body": "![](/uploads/sprint-131/dau.png)\n\nDaily active users this month - peaking at 664 in mid-October, and at 633 in early November (dips are weekends) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n\n![](/uploads/sprint-131/geo.png)\n\nDistribution of unique TinaCMS users over the last 30 days - US is our top country with 1,582 users, down 162 on the prior 30 days, ahead of Germany on 650 and the UK on 549 - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n",
       "_template": "figures"
     },
     {
