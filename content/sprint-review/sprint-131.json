@@ -485,18 +485,19 @@
           "person": "Josh",
           "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2), Codex 6.1 Sol\n",
           "limits": "99% used",
-          "utilizationToday": "55% left (Thurs 5pm reset)"
+          "utilizationToday": "45% left (Thurs 5pm reset)"
         },
         {
           "person": "Brook",
           "tools": "Codex (GPT-6.1 Terra)\n",
           "limits": "50% used",
-          "utilizationToday": "81% left (Thurs 7pm reset)"
+          "utilizationToday": "19% used (Thurs 7pm reset)"
         },
         {
           "person": "Alex",
           "tools": "Claude Code (Fable 5.1, Opus 5.5). Upgraded to Claude Ultra\n",
-          "limits": ""
+          "limits": "80% used",
+          "utilizationToday": "90% used (Tue 7pm reset)"
         },
         {
           "person": "Eli",
