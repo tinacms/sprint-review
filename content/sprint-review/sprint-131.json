@@ -25,14 +25,16 @@
         {
           "team": "TinaCloud",
           "previousHours": 85,
-          "body": "",
-          "caption": ""
+          "body": "![](/uploads/sprint-131/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 85 hours last Sprint (Tue 27 Oct to Mon 2 Nov), 92 hours this Sprint (Tue 3 Nov to Mon 9 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
+          "caption": "",
+          "hours": 92
         },
         {
           "team": "TinaCMS",
           "previousHours": 31,
-          "body": "",
-          "caption": ""
+          "body": "![](/uploads/sprint-131/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 31 hours last Sprint (Tue 27 Oct to Mon 2 Nov), 28 hours this Sprint (Tue 3 Nov to Mon 9 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
+          "caption": "",
+          "hours": 28
         }
       ],
       "_template": "hours"
