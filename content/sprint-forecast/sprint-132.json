@@ -70,6 +70,15 @@
           "bold": false
         },
         {
+          "title": "🛂 Auth | Configure the staging and production WorkOS environments for cutover",
+          "url": "https://github.com/tinacms/tinacloud/issues/4274",
+          "assignees": "",
+          "estimate": 8,
+          "status": "inProgress",
+          "origin": "new",
+          "bold": false
+        },
+        {
           "title": "Support - Monitor Discord Chat - Sprint 132",
           "url": "https://github.com/tinacms/tinacloud/issues/4659",
           "assignees": "kulesy, brookjeynes-ssw",
