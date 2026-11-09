@@ -113,6 +113,42 @@
           "status": "ready",
           "origin": "new",
           "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - Collection & Document Lists",
+          "url": "https://github.com/tinacms/tinacms/issues/7672",
+          "assignees": "designbyalex",
+          "estimate": 4,
+          "status": "inProgress",
+          "origin": "new",
+          "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - Visual Preview",
+          "url": "https://github.com/tinacms/tinacms/issues/7674",
+          "assignees": "designbyalex",
+          "estimate": 8,
+          "status": "inProgress",
+          "origin": "new",
+          "bold": false
+        },
+        {
+          "title": "💄 UI/UX Review - Rich-Text Restyle",
+          "url": "https://github.com/tinacms/tinacms/issues/7676",
+          "assignees": "designbyalex",
+          "estimate": 2,
+          "status": "inProgress",
+          "origin": "new",
+          "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - UX Copy",
+          "url": "https://github.com/tinacms/tinacms/issues/7925",
+          "assignees": "designbyalex",
+          "estimate": 4,
+          "status": "inProgress",
+          "origin": "new",
+          "bold": false
         }
       ],
       "note": "",
