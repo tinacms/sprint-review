@@ -1,18 +1,15 @@
 {
   "number": 132,
-  "details": {
-    "startDate": "2026-11-10T00:00:00.000Z",
-    "endDate": "2026-11-16T00:00:00.000Z",
-    "workingDays": 5,
-    "capacity": "~43 pts (3-Sprint average of 48, 10% buffer)",
-    "productOwner": "",
-    "attendees": "",
-    "recordingUrl": ""
-  },
+  "startDate": "2026-11-10T00:00:00.000Z",
+  "endDate": "2026-11-17T00:00:00.000Z",
+  "durationLabel": "1 week",
+  "productOwner": "Matt W",
+  "recordingUrl": "",
+  "attendees": [],
   "email": {
-    "subject": "",
-    "to": "",
-    "cc": ""
+    "subject": "TinaCloud/TinaCMS Sprint 132 Forecast",
+    "to": "MattWicks@ssw.com.au",
+    "cc": "SSWSprintReviews@ssw.com.au; AdamCogan@ssw.com.au; SSWTinaCloud@ssw.com.au; Calum@ssw.com.au"
   },
   "goals": [
     {
@@ -36,131 +33,89 @@
       "text": "Configurable highlight colors in the rich text editor (tinacms#6554)"
     }
   ],
-  "scopeNote": "",
+  "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
   "sections": [
     {
-      "_template": "team",
-      "heading": "The Team",
+      "heading": "Forecast Backlog",
       "items": [
         {
-          "name": "Josh Berman [SSW]",
-          "handle": "joshbermanssw",
-          "avatar": "https://avatars.githubusercontent.com/u/137844305?u=7696004f35fea353fd15edd3860553957b27aea8&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Eli Kent [SSW]",
-          "handle": "kulesy",
-          "avatar": "https://avatars.githubusercontent.com/u/69125238?u=5a2a4aa7e0a4acbc7daad6ab7ea442871d759cb3&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Brook Jeynes [SSW]",
-          "handle": "brookjeynes-ssw",
-          "avatar": "https://avatars.githubusercontent.com/u/170988157?u=6e6ba28e7193bc60fc5bb02ea0a647ee1a2bdd25&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Ian Hoffman [SSW]",
-          "handle": "ianhoffmanx",
-          "avatar": "https://avatars.githubusercontent.com/u/89935757?u=0321060505774759f59220c6efb5104a46073d1c&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Ankit-Gupta4502",
-          "handle": "Ankit-Gupta4502",
-          "avatar": "https://avatars.githubusercontent.com/u/83642182?u=4579832b1e69e03b40965705c85d062e583c21f7&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Ivan Gaiduk [SSW]",
-          "handle": "18-th",
-          "avatar": "https://avatars.githubusercontent.com/u/16884709?u=d8bce4545e6e3db16aafb082ae80958b551a9ba7&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Jack Pettit",
-          "handle": "JackDevAU",
-          "avatar": "https://avatars.githubusercontent.com/u/57518417?u=b7f7edfd0f1ef8a45a421c4bd638aded441ffe58&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Matt Wicks [SSW]",
-          "handle": "wicksipedia",
-          "avatar": "https://avatars.githubusercontent.com/u/600044?u=94fb0c525fe0e8c3dbf92d9146609c34357ec737&v=4",
-          "availability": "5 days"
-        },
-        {
-          "name": "Scott Gallant",
-          "handle": "scottgallant",
-          "avatar": "https://avatars.githubusercontent.com/u/776019?u=e44a1fe143dbc7dd827896d0094b9f88f8a4b61e&v=4",
-          "availability": "5 days"
-        }
-      ]
-    },
-    {
-      "_template": "backlog",
-      "heading": "Sprint Backlog",
-      "items": [
-        {
-          "title": "Social media - Monitor Tina socials - Sprint 132",
-          "url": "https://github.com/tinacms/tinacloud/issues/4661",
-          "id": "tinacloud#4661",
-          "assignees": "Ian Hoffman [SSW]",
+          "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
+          "url": "https://github.com/tinacms/tinacloud/issues/4606",
+          "assignees": "joshbermanssw",
           "estimate": 4,
-          "status": "inProgress",
-          "origin": "new",
-          "bold": false
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "Astro TinaDocs template (tina-docs-astro)",
+          "url": "https://github.com/tinacms/tinacms/issues/7984",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 132",
           "url": "https://github.com/tinacms/tinacloud/issues/4659",
-          "id": "tinacloud#4659",
-          "assignees": "Eli Kent [SSW], Brook Jeynes [SSW]",
+          "assignees": "kulesy, brookjeynes-ssw",
           "estimate": 4,
           "status": "inProgress",
-          "origin": "new",
-          "bold": false
+          "bold": false,
+          "origin": "new"
         },
         {
           "title": "Support - Tech Debt Payback - Sprint 132",
           "url": "https://github.com/tinacms/tinacloud/issues/4660",
-          "id": "tinacloud#4660",
-          "assignees": "Eli Kent [SSW]",
+          "assignees": "kulesy",
           "estimate": 4,
           "status": "inProgress",
-          "origin": "new",
-          "bold": false
+          "bold": false,
+          "origin": "new"
+        },
+        {
+          "title": "Social media - Monitor Tina socials - Sprint 132",
+          "url": "https://github.com/tinacms/tinacloud/issues/4661",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "new"
         },
         {
           "title": "🔭 Filesystem Sourcing - Spike replacing TinaCloud data layer with Git-backed filesystem",
           "url": "https://github.com/tinacms/tinacloud/issues/3801",
-          "id": "tinacloud#3801",
-          "assignees": "Brook Jeynes [SSW]",
+          "assignees": "brookjeynes-ssw",
           "estimate": 16,
           "status": "ready",
-          "origin": "new",
-          "bold": false
+          "bold": false,
+          "origin": "new"
         },
         {
           "title": "✨ Highlight Colors - Allow configurable highlight colors in the rich text editor",
           "url": "https://github.com/tinacms/tinacms/issues/6554",
-          "id": "tinacms#6554",
           "assignees": "Ankit-Gupta4502",
           "estimate": 8,
           "status": "ready",
-          "origin": "new",
-          "bold": false
+          "bold": false,
+          "origin": "new"
         }
       ],
-      "netChange": "",
-      "note": ""
+      "note": "",
+      "_template": "backlog"
     },
     {
-      "_template": "figures",
-      "heading": "AI Stats",
-      "placeholder": "Paste the Claude Stats and Copilot Stats screenshots in the editor",
-      "body": ""
+      "heading": "AI Stats - Copilot",
+      "body": "",
+      "items": [],
+      "_template": "figures"
+    },
+    {
+      "body": "This is as per the rule [Do you create a Sprint Forecast?](https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)\n",
+      "small": true,
+      "_template": "text"
     }
-  ]
+  ],
+  "capacity": "~43 pts (3-Sprint average of 48, 10% buffer)"
 }
