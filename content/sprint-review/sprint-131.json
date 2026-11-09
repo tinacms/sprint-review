@@ -253,7 +253,7 @@
           "title": "UI | Discarding and resuming unsaved edits",
           "url": "https://github.com/tinacms/tinacms/issues/8021",
           "assignees": "joshbermanssw",
-          "estimate": 0,
+          "estimate": 1,
           "status": "inReview",
           "bonus": true,
           "bold": false
@@ -280,7 +280,7 @@
           "title": "UI | Saving with errors",
           "url": "https://github.com/tinacms/tinacms/issues/7997",
           "assignees": "joshbermanssw",
-          "estimate": 0,
+          "estimate": 1,
           "status": "inReview",
           "bonus": true,
           "bold": false
