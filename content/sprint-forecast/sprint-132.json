@@ -116,5 +116,6 @@
       "small": true,
       "_template": "text"
     }
-  ]
+  ],
+  "capacity": "~43 pts (3-Sprint average of 48, 10% buffer)"
 }
