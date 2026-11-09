@@ -57,6 +57,33 @@
           "origin": "carryOver"
         },
         {
+          "title": "UI | Discarding and resuming unsaved edits",
+          "url": "https://github.com/tinacms/tinacms/issues/8021",
+          "assignees": "joshbermanssw",
+          "estimate": 0,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "UI | Saving with errors",
+          "url": "https://github.com/tinacms/tinacms/issues/7997",
+          "assignees": "joshbermanssw",
+          "estimate": 0,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "UI | Saving to a new branch, and retrying a failed save",
+          "url": "https://github.com/tinacms/tinacms/issues/8020",
+          "assignees": "joshbermanssw",
+          "estimate": 0,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
           "title": "Support - Monitor Discord Chat - Sprint 132",
           "url": "https://github.com/tinacms/tinacloud/issues/4659",
           "assignees": "kulesy, brookjeynes-ssw",
