@@ -13,7 +13,7 @@
   },
   "goals": [
     {
-      "status": "suggested",
+      "status": "done",
       "title": "WorkOS Migration",
       "text": "Finalise the migration scripts (carryover) & Perform a full E2E test of migration process on staging"
     }
@@ -24,17 +24,17 @@
       "items": [
         {
           "team": "TinaCloud",
+          "hours": 92,
           "previousHours": 85,
           "body": "![](/uploads/sprint-131/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 85 hours last Sprint (Tue 27 Oct to Mon 2 Nov), 92 hours this Sprint (Tue 3 Nov to Mon 9 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
-          "caption": "",
-          "hours": 92
+          "caption": ""
         },
         {
           "team": "TinaCMS",
+          "hours": 28,
           "previousHours": 31,
           "body": "![](/uploads/sprint-131/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 31 hours last Sprint (Tue 27 Oct to Mon 2 Nov), 28 hours this Sprint (Tue 3 Nov to Mon 9 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
-          "caption": "",
-          "hours": 28
+          "caption": ""
         }
       ],
       "_template": "hours"
@@ -43,13 +43,13 @@
       "heading": "1. Sprint Backlog",
       "items": [
         {
-          "title": "tinacms build hits EMFILE on Cloudflare Workers Builds (1024 open-file limit)",
-          "url": "https://github.com/tinacms/tinacms/issues/8012",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
+          "title": "🛂 Migration | Build the WorkOS import and run the full migration end to end",
+          "url": "https://github.com/tinacms/tinacloud/issues/4394",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": false,
+          "bold": true
         },
         {
           "title": "UI | Object Field",
@@ -57,8 +57,17 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": true
+        },
+        {
+          "title": "tinacms build hits EMFILE on Cloudflare Workers Builds (1024 open-file limit)",
+          "url": "https://github.com/tinacms/tinacms/issues/8012",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "UI | Image Field",
@@ -66,17 +75,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": false
-        },
-        {
-          "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
-          "url": "https://github.com/tinacms/tinacloud/issues/4606",
-          "assignees": "joshbermanssw",
-          "estimate": 4,
-          "status": "inReview",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "UI | Array Field",
@@ -84,17 +84,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": false
-        },
-        {
-          "title": "Astro TinaDocs template (tina-docs-astro)",
-          "url": "https://github.com/tinacms/tinacms/issues/7984",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "inReview",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "Audit TinaCloud accounts and spend (Segment, MailChimp, AWS) and propose optimisations",
@@ -102,8 +93,8 @@
           "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "done",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "🔒 Identity | Only issue editor sign-in tokens to people with access to the project",
@@ -111,8 +102,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "done",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "🐛 Large media push hits GitHub's rate limit and dead-letters its events",
@@ -120,8 +111,8 @@
           "assignees": "kulesy",
           "estimate": 4,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 131",
@@ -129,8 +120,8 @@
           "assignees": "kulesy, brookjeynes-ssw",
           "estimate": 4,
           "status": "done",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "Support - Tech Debt Payback - Sprint 131",
@@ -138,8 +129,8 @@
           "assignees": "kulesy",
           "estimate": 4,
           "status": "done",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "Social media - Monitor Tina socials - Sprint 131",
@@ -147,17 +138,8 @@
           "assignees": "ianhoffmanx",
           "estimate": 4,
           "status": "done",
-          "bold": false,
-          "bonus": false
-        },
-        {
-          "title": "🛂 Migration | Build the WorkOS import and run the full migration end to end",
-          "url": "https://github.com/tinacms/tinacloud/issues/4394",
-          "assignees": "brookjeynes-ssw",
-          "estimate": 8,
-          "status": "done",
-          "bold": false,
-          "bonus": false
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "🧠 Analytics | Check which Mixpanel stats should move to PostHog",
@@ -165,8 +147,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "⚡ Content API | Truncate the logged GraphQL request to 2 KB",
@@ -174,8 +156,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "🔎 Content API | Audit router console logging and shortlist changes for Brook",
@@ -183,8 +165,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "🔎 Infra | Check with Brook that CorrelationId survives pass-through X-Ray tracing",
@@ -192,8 +174,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "⚡ Infra | Default every SST Lambda to pass-through X-Ray tracing",
@@ -201,8 +183,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "⚡ Infra | Stop storing X-Ray traces nobody reads",
@@ -210,8 +192,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "🐛 Markdown | Keep tables in Copy page and `.md` URLs",
@@ -219,8 +201,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "🧪 CI | Stop the e2e tests depending on the sample docs",
@@ -228,8 +210,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "🐛 Navigation | Limit each locale's nav to its own pages",
@@ -237,8 +219,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "🐛 Analytics | PostHog misses GitHub signups on the Cognito path",
@@ -246,8 +228,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "✨ Schema | Add the missing settings and docs fields",
@@ -255,8 +237,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "✨ Docs | Show last updated from GitHub",
@@ -264,8 +246,8 @@
           "assignees": "joshbermanssw",
           "estimate": 1,
           "status": "done",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "UI | Discarding and resuming unsaved edits",
@@ -273,8 +255,26 @@
           "assignees": "joshbermanssw",
           "estimate": 0,
           "status": "inReview",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
+          "url": "https://github.com/tinacms/tinacloud/issues/4606",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "inReview",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "Astro TinaDocs template (tina-docs-astro)",
+          "url": "https://github.com/tinacms/tinacms/issues/7984",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bonus": false,
+          "bold": false
         },
         {
           "title": "UI | Saving with errors",
@@ -282,8 +282,8 @@
           "assignees": "joshbermanssw",
           "estimate": 0,
           "status": "inReview",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "UI | Saving to a new branch, and retrying a failed save",
@@ -291,8 +291,8 @@
           "assignees": "joshbermanssw",
           "estimate": 0,
           "status": "inProgress",
-          "bold": false,
-          "bonus": true
+          "bonus": true,
+          "bold": false
         }
       ],
       "note": "",
