@@ -70,15 +70,6 @@
           "bold": false
         },
         {
-          "title": "🛂 Auth | Configure the staging and production WorkOS environments for cutover",
-          "url": "https://github.com/tinacms/tinacloud/issues/4274",
-          "assignees": "",
-          "estimate": 8,
-          "status": "inProgress",
-          "origin": "new",
-          "bold": false
-        },
-        {
           "title": "Support - Monitor Discord Chat - Sprint 132",
           "url": "https://github.com/tinacms/tinacloud/issues/4659",
           "assignees": "kulesy, brookjeynes-ssw",
@@ -113,42 +104,6 @@
           "status": "ready",
           "origin": "new",
           "bold": false
-        },
-        {
-          "title": "🔭 UI/UX Review - Collection & Document Lists",
-          "url": "https://github.com/tinacms/tinacms/issues/7672",
-          "assignees": "designbyalex",
-          "estimate": 4,
-          "status": "inProgress",
-          "origin": "new",
-          "bold": false
-        },
-        {
-          "title": "🔭 UI/UX Review - Visual Preview",
-          "url": "https://github.com/tinacms/tinacms/issues/7674",
-          "assignees": "designbyalex",
-          "estimate": 8,
-          "status": "inProgress",
-          "origin": "new",
-          "bold": false
-        },
-        {
-          "title": "💄 UI/UX Review - Rich-Text Restyle",
-          "url": "https://github.com/tinacms/tinacms/issues/7676",
-          "assignees": "designbyalex",
-          "estimate": 2,
-          "status": "inProgress",
-          "origin": "new",
-          "bold": false
-        },
-        {
-          "title": "🔭 UI/UX Review - UX Copy",
-          "url": "https://github.com/tinacms/tinacms/issues/7925",
-          "assignees": "designbyalex",
-          "estimate": 4,
-          "status": "inProgress",
-          "origin": "new",
-          "bold": false
         }
       ],
       "note": "",
@@ -156,7 +111,7 @@
     },
     {
       "heading": "AI Stats - Copilot",
-      "body": "",
+      "body": "![](/uploads/sprint-131/Screenshot-2026-11-10-at-10.46.52-am.png)**Figure: ✅ Copilot was correct with the main item to complete next sprint**\n",
       "items": [],
       "_template": "figures"
     },
