@@ -482,19 +482,19 @@
       "subsection": false,
       "items": [
         {
-          "person": "Josh",
+          "person": "Josh (20x)",
           "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2), Codex 6.1 Sol\n",
           "limits": "99% used",
           "utilizationToday": "45% left (Thu 5pm reset)"
         },
         {
-          "person": "Brook",
+          "person": "Brook (Plus)",
           "tools": "Codex (GPT-6.1 Terra)\n",
           "limits": "50% used",
           "utilizationToday": "19% used (Thu 7pm reset)"
         },
         {
-          "person": "Alex",
+          "person": "Alex (5x)",
           "tools": "Claude Code (Fable 5.1, Opus 5.5). Upgraded to Claude Ultra\n",
           "limits": "80% used",
           "utilizationToday": "90% used (Tue 7pm reset)"
@@ -520,6 +520,6 @@
   "retro": {
     "wentWell": "Harley - v4 starting to shape up and looks good!\n\nHarley - Josh's done video's are improving\n\n**Josh - AI session with Brook, Eli and Calum was great! We have a combined and comprehensive code review skill ⭐**\n\n**Harley - WorkOS is ready to ship 👀**\n",
     "didntGoWell": "Josh - Software Factory had some friction with new things implemented - CI check gate slowed down work for a bit\n",
-    "improvements": "Alex - Double-handling with the v4 UI work - can we bring Storybook app dir into the main TinaCMS repo?\n\nAlex - Look into some user-testing avenues for v4 (outside of SSW, i.e. power users)\n\nAdam - re-run the `done-video` skill on the PBI for text colour added to TinaCMS Rich-text fields and publish on YouTube playlist\n"
+    "improvements": "Alex - Double-handling with the v4 UI work - can we bring Storybook app dir into the main TinaCMS repo?\n\nAlex - Look into some user-testing avenues for v4 (outside of SSW, i.e. power users)\n\nAdam - re-run the `done-video` skill on the PBI for text colour added to TinaCMS Rich-text fields and publish on YouTube playlist\n\nAdam - Investigate how we can remove human approval for XS PRs\n"
   }
 }
