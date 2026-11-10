@@ -4,7 +4,7 @@
   "endDate": "2026-11-10T00:00:00.000Z",
   "durationLabel": "1 week",
   "productOwner": "Matt W",
-  "recordingUrl": "",
+  "recordingUrl": "https://youtu.be/hnIoWIphll4",
   "attendees": [],
   "email": {
     "subject": "TinaCloud/TinaCMS Sprint 131 Review + Retro",
@@ -518,7 +518,7 @@
     }
   ],
   "retro": {
-    "wentWell": "Harley - v4 starting to shape up and looks good!\n\nHarley - Josh's done video's are improving\n\n**Josh - AI session with Brook, Eli and Calum was great! We have a combined and comprehensive code review skill ⭐**\n\n**Harley, Wicksy - WorkOS is ready to ship 👀**\n",
+    "wentWell": "Harley - v4 starting to shape up and looks good!\n\nHarley - Josh's done video's are improving\n\n**Josh, Adam - AI session with Brook, Eli and Calum was great! We have a combined and comprehensive code review skill ⭐**\n\n**Harley, Wicksy - WorkOS is ready to ship 👀**\n",
     "didntGoWell": "Josh - Software Factory had some friction with new things implemented - CI check gate slowed down work for a bit\n",
     "improvements": "Alex - Double-handling with the v4 UI work - can we bring Storybook app dir into the main TinaCMS repo?\n\nAlex - Look into some user-testing avenues for v4 (outside of SSW, i.e. power users)\n\nAdam - re-run the `done-video` skill on the PBI for text colour added to TinaCMS Rich-text fields and publish on YouTube playlist\n\nAdam - Investigate how we can remove human approval for XS PRs\n"
   }
