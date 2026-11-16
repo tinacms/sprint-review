@@ -417,9 +417,9 @@
     },
     {
       "heading": "2. Sprint Burnup",
-      "body": "Sprint Burnup - 45 of 105 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-10\\&end_date=2026-11-17)\n",
+      "body": "![](/uploads/sprint-132/burnup.png)\n\nSprint Burnup - 45 of 105 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-10\\&end_date=2026-11-17)\n",
       "_template": "figures",
-      "placeholder": "Added at the review"
+      "placeholder": ""
     },
     {
       "heading": "3. Production Deployments",
@@ -478,9 +478,9 @@
     },
     {
       "heading": "8. TinaCMS NPM Version Distribution",
-      "body": "",
+      "body": "![](/uploads/sprint-132/npm.png)\n\nTinaCMS and @tinacms/cli npm downloads over the last week - tinacms 48.8k (down 5%), @tinacms/cli 52.1k (up 9%) - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
       "_template": "figures",
-      "placeholder": "Added at the review"
+      "placeholder": ""
     },
     {
       "heading": "Epics - Progress",
