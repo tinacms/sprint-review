@@ -478,7 +478,7 @@
     },
     {
       "heading": "6. TinaCMS PostHog Metrics",
-      "body": "![](/uploads/sprint-132/dau-labelled.png)\n\nDaily active users this month - peaking at 647 in late October, 633 in early November and 555 in mid-November (dips are weekends) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n\n![](/uploads/sprint-132/geo-users.png)\n\nDistribution of unique TinaCMS users over the last 30 days - US is our top country with 1,563 users, down 51 on the prior 30 days, ahead of Germany on 678 and the UK on 503 - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n",
+      "body": "![](/uploads/sprint-132/dau-labelled.png)\n\nDaily active users this month - peaking at 647 in late October, 633 in early November and 555 in mid-November (dips are weekends) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n\n![](/uploads/sprint-132/geo-users-full.png)\n\nDistribution of unique TinaCMS users over the last 30 days - US is our top country with 1,563 users, down 51 on the prior 30 days, ahead of Germany on 678 and the UK on 503 - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n",
       "placeholder": "",
       "_template": "figures"
     },
