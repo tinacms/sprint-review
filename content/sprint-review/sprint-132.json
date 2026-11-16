@@ -434,15 +434,15 @@
     },
     {
       "heading": "5. TinaCloud PostHog Metrics",
-      "body": "",
+      "body": "![](/uploads/sprint-132/commits.png)\n\nTotal Commits processed by TinaCloud over the last 6 months, aggregated weekly with a 6 week rolling average - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/onboarding.png)\n\nUser onboarding over the last 7 days - 340 accounts were created, 43% (146) went on to create a project and 21% (71) committed. Of 106 invited collaborators, 51% (54) were added and 20% (21) committed - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/projects.png)\n\nOrganisation and project creation over the last 7 days - 341 new organisations, up from 147 last Sprint - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n",
       "_template": "figures",
-      "placeholder": "Added at the review"
+      "placeholder": ""
     },
     {
       "heading": "6. TinaCMS PostHog Metrics",
-      "body": "",
+      "body": "![](/uploads/sprint-132/dau.png)\n\nDaily active users over the last month, weekday peaks of around 640 and weekend dips to around 255 - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n\n![](/uploads/sprint-132/geo.png)\n\nDistribution of unique TinaCMS users over the last 30 days, with the US the top country - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n",
       "_template": "figures",
-      "placeholder": "Added at the review"
+      "placeholder": ""
     },
     {
       "heading": "7. Cloners of Starter Templates",
@@ -452,28 +452,28 @@
           "label": "tinacms/tina-astro-starter",
           "url": "https://github.com/tinacms/tina-astro-starter/graphs/traffic",
           "previous": 79,
-          "current": 0
+          "current": 28
         },
         {
           "label": "tinacms/tina-nextjs-starter",
           "url": "https://github.com/tinacms/tina-nextjs-starter/graphs/traffic",
           "previous": 41,
-          "current": 0
+          "current": 19
         },
         {
           "label": "tinacms/tina-self-hosted-demo",
           "url": "https://github.com/tinacms/tina-self-hosted-demo/graphs/traffic",
           "previous": 38,
-          "current": 0
+          "current": 17
         },
         {
           "label": "tinacms/tina-react-starter",
           "url": "https://github.com/tinacms/tina-react-starter/graphs/traffic",
           "previous": 18,
-          "current": 0
+          "current": 9
         }
       ],
-      "note": "Current Sprint counts are the sum of GitHub's daily unique cloners for Tue 3 Nov to Sun 9 Nov, so a person who cloned on two days counts twice.",
+      "note": "Current Sprint counts are the sum of GitHub's daily unique cloners for Tue 10 Nov to Sun 16 Nov, so a person who cloned on two days counts twice.",
       "_template": "metrics"
     },
     {
