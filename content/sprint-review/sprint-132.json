@@ -626,28 +626,28 @@
       "subsection": false,
       "items": [
         {
-          "person": "Josh (20x)",
+          "person": "Josh (10x)",
           "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2), Codex 6.1 Sol\n",
-          "limits": "99% used",
-          "utilizationToday": "45% left (Thu 5pm reset)"
+          "limits": "150% used (used a reset)",
+          "utilizationToday": "50% left (Thu 5pm reset)"
         },
         {
           "person": "Brook (Plus)",
           "tools": "Codex (GPT-6.1 Terra)\n",
-          "limits": "50% used",
-          "utilizationToday": "19% used (Thu 7pm reset)"
+          "limits": "90% used",
+          "utilizationToday": "54% left (Fri 6:30am reset)"
         },
         {
-          "person": "Alex (5x)",
-          "tools": "Claude Code (Fable 5.1, Opus 5.5). Upgraded to Claude Ultra\n",
-          "limits": "80% used",
-          "utilizationToday": "90% used (Tue 7pm reset)"
+          "person": "Alex (10x)",
+          "tools": "Claude Code (Opus 5.5)\n",
+          "limits": "90% used",
+          "utilizationToday": "10% left (Tue 7pm reset)"
         },
         {
-          "person": "Eli (20x + 5x)",
-          "tools": "Claude Code (Opus 5.5 & Sonnet 5.5, Haiku 5.5)\n",
-          "limits": "100% used",
-          "utilizationToday": "N/A"
+          "person": "Harley (5x)",
+          "tools": "Claude Code (Opus 5.5 & Sonnet 5.5)\n",
+          "limits": "N/A ",
+          "utilizationToday": "93% left (Thu 9am reset)"
         }
       ],
       "_template": "teamAiTools"
