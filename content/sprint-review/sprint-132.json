@@ -655,8 +655,8 @@
     {
       "heading": "AI Stats",
       "subsection": false,
-      "body": "",
-      "placeholder": "Added at the review",
+      "body": "![](/uploads/sprint-132/ai-review.png)**Figure: ✅ AI was correct with the main item completed last sprint**\n",
+      "placeholder": "",
       "items": [],
       "_template": "figures"
     }
