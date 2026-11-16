@@ -52,6 +52,24 @@
           "bold": true
         },
         {
+          "title": "UI | Starting from Home",
+          "url": "https://github.com/tinacms/tinacms/issues/8041",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "UI | Browsing a collection's documents",
+          "url": "https://github.com/tinacms/tinacms/issues/8042",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
           "title": "✨ TinaCloud | Return each document's last edit time and author",
           "url": "https://github.com/tinacms/tinacms/issues/8049",
           "assignees": "harley-j",
@@ -117,24 +135,6 @@
         {
           "title": "🐛 SEO | Stop deployed sites pointing canonical and OG URLs at localhost",
           "url": "https://github.com/tinacms/tina-docs-astro/issues/2",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
-          "title": "UI | Starting from Home",
-          "url": "https://github.com/tinacms/tinacms/issues/8041",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
-          "title": "UI | Browsing a collection's documents",
-          "url": "https://github.com/tinacms/tinacms/issues/8042",
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "done",
@@ -418,8 +418,8 @@
     {
       "heading": "2. Sprint Burnup",
       "body": "![](/uploads/sprint-132/burnup.png)\n\nSprint Burnup - 45 of 105 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-10\\&end_date=2026-11-17)\n",
-      "_template": "figures",
-      "placeholder": ""
+      "placeholder": "",
+      "_template": "figures"
     },
     {
       "heading": "3. Production Deployments",
@@ -429,20 +429,20 @@
     {
       "heading": "4. Application Health",
       "body": "![](/uploads/sprint-132/health.png)\n\nApplication Health Dashboard Overview over the last week. Identity API HTTP 5xx rose from 34 to 613. Content API HTTP 5xx rose from 318 to 480 - [TinaCloud CloudWatch Dashboard](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview)\n",
-      "_template": "figures",
-      "placeholder": ""
+      "placeholder": "",
+      "_template": "figures"
     },
     {
       "heading": "5. TinaCloud PostHog Metrics",
       "body": "![](/uploads/sprint-132/commits-all.png)\n\nTotal Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 38,951 (down 10% on the previous period) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/onboarding.png)\n\nUser onboarding over the last 7 days - 340 accounts were created, 43% (146) went on to create a project and 21% (71) committed. Of 106 invited collaborators, 51% (54) were added and 20% (21) committed - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/projects.png)\n\nOrganisation and project creation over the last 7 days - 341 new organisations, up from 147 last Sprint - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n",
-      "_template": "figures",
-      "placeholder": ""
+      "placeholder": "",
+      "_template": "figures"
     },
     {
       "heading": "6. TinaCMS PostHog Metrics",
       "body": "![](/uploads/sprint-132/dau-labelled.png)\n\nDaily active users this month - peaking at 647 in late October, 633 in early November and 555 in mid-November (dips are weekends) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n\n![](/uploads/sprint-132/geo-users.png)\n\nDistribution of unique TinaCMS users over the last 30 days - US is our top country with 1,563 users, down 51 on the prior 30 days, ahead of Germany on 678 and the UK on 503 - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/1284436)\n",
-      "_template": "figures",
-      "placeholder": ""
+      "placeholder": "",
+      "_template": "figures"
     },
     {
       "heading": "7. Cloners of Starter Templates",
@@ -479,8 +479,8 @@
     {
       "heading": "8. TinaCMS NPM Version Distribution",
       "body": "![](/uploads/sprint-132/npm-versions.png)\n\nTinaCMS version downloads over the last week, the most popular version is v3.15.x with 23.3k total downloads (up 5% on last Sprint), ahead of v3.14.x on 10.1k (down 22%) and v3.12.x on 2.5k - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
-      "_template": "figures",
-      "placeholder": ""
+      "placeholder": "",
+      "_template": "figures"
     },
     {
       "heading": "Epics - Progress",
