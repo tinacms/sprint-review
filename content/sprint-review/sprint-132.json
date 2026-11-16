@@ -13,7 +13,7 @@
   },
   "goals": [
     {
-      "status": "done",
+      "status": "missed",
       "title": "🎊 Run WorkOS Migration in Prod",
       "text": "Brook will confirm with PO when the migration will be run, and will book out some time with Kaha to run it together."
     }
