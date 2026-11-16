@@ -478,7 +478,7 @@
     },
     {
       "heading": "8. TinaCMS NPM Version Distribution",
-      "body": "![](/uploads/sprint-132/npm.png)\n\nTinaCMS and @tinacms/cli npm downloads over the last week - tinacms 48.8k (down 5%), @tinacms/cli 52.1k (up 9%) - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
+      "body": "![](/uploads/sprint-132/npm-versions.png)\n\nTinaCMS version downloads over the last week, the most popular version is v3.15.x with 23.3k total downloads (up 5% on last Sprint), ahead of v3.14.x on 10.1k (down 22%) and v3.12.x on 2.5k - [Tina Tracker](https://tina-dashboard-nine.vercel.app/downloads)\n",
       "_template": "figures",
       "placeholder": ""
     },
