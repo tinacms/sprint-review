@@ -16,7 +16,7 @@
     {
       "status": "suggested",
       "title": "🎊 Run WorkOS Migration in Prod",
-      "text": "Brook will confirm the migration date with the PO."
+      "text": "continue and finishing running the migration."
     }
   ],
   "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
@@ -30,8 +30,8 @@
           "assignees": "harley-j",
           "estimate": 8,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
@@ -39,8 +39,8 @@
           "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "Astro TinaDocs template (tina-docs-astro)",
@@ -48,8 +48,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "✨ Forms System Rebuild - Save All button",
@@ -57,8 +57,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Editing the page from the preview",
@@ -66,8 +66,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Writing and formatting in rich text",
@@ -75,8 +75,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Viewing the page at other sizes",
@@ -84,8 +84,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inReview",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "🔐 Identity service secret handling - encrypt GitHost secrets and webhook headers at rest",
@@ -93,8 +93,8 @@
           "assignees": "kulesy, harley-j",
           "estimate": 8,
           "status": "inProgress",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "🐛 Bug - SSO migration does not correctly merge plus email aliases",
@@ -102,8 +102,8 @@
           "assignees": "brookjeynes-ssw",
           "estimate": 8,
           "status": "inProgress",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "🔭 UI/UX Review - UX Copy",
@@ -111,8 +111,8 @@
           "assignees": "designbyalex",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "⚡ Content API | Cut the 2.6 s graphql package load on a cold router",
@@ -120,8 +120,8 @@
           "assignees": "kulesy",
           "estimate": 4,
           "status": "inProgress",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "UI | Dialogs and the error list on a phone",
@@ -129,8 +129,8 @@
           "assignees": "joshbermanssw",
           "estimate": 2,
           "status": "inProgress",
-          "bold": false,
-          "origin": "carryOver"
+          "origin": "carryOver",
+          "bold": false
         },
         {
           "title": "Social media - Monitor Tina socials - Sprint 133",
@@ -138,8 +138,8 @@
           "assignees": "ianhoffmanx",
           "estimate": 4,
           "status": "ready",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "Support - Monitor Discord Chat - Sprint 133",
@@ -147,8 +147,8 @@
           "assignees": "kulesy, brookjeynes-ssw",
           "estimate": 4,
           "status": "ready",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "Support - Tech Debt Payback - Sprint 133",
@@ -156,8 +156,8 @@
           "assignees": "kulesy",
           "estimate": 4,
           "status": "ready",
-          "bold": false,
-          "origin": "new"
+          "origin": "new",
+          "bold": false
         },
         {
           "title": "🐛 Error when connecting a new repo",
