@@ -24,16 +24,16 @@
       "items": [
         {
           "team": "TinaCloud",
-          "hours": 0,
+          "hours": 75,
           "previousHours": 92,
-          "body": "",
+          "body": "![](/uploads/sprint-132/hours-tinacloud.png)\n\nHours worked this Sprint for TinaCloud - 92 hours last Sprint (Tue 3 Nov to Mon 9 Nov), 75 hours this Sprint (Tue 10 Nov to Mon 16 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
           "caption": ""
         },
         {
           "team": "TinaCMS",
-          "hours": 0,
+          "hours": 32,
           "previousHours": 28,
-          "body": "",
+          "body": "![](/uploads/sprint-132/hours-tinacms.png)\n\nHours worked this Sprint for TinaCMS - 28 hours last Sprint (Tue 3 Nov to Mon 9 Nov), 32 hours this Sprint (Tue 10 Nov to Mon 16 Nov) - [PowerBI](https://app.powerbi.com/groups/3fe9ebc5-63d6-4385-820b-adbe178ccfa0/reports/60bb889c-0ebf-4ec7-bee7-01669d85bfce/36535e36d85a16a03330?experience=power-bi)\n",
           "caption": ""
         }
       ],
@@ -428,9 +428,9 @@
     },
     {
       "heading": "4. Application Health",
-      "body": "",
+      "body": "![](/uploads/sprint-132/health.png)\n\nApplication Health Dashboard Overview over the last week. Identity API HTTP 5xx rose from 34 to 613. Content API HTTP 5xx rose from 318 to 480 - [TinaCloud CloudWatch Dashboard](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/tinacloud-overview)\n",
       "_template": "figures",
-      "placeholder": "Added at the review"
+      "placeholder": ""
     },
     {
       "heading": "5. TinaCloud PostHog Metrics",
