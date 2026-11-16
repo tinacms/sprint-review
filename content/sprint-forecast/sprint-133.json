@@ -167,6 +167,33 @@
           "status": "ready",
           "origin": "new",
           "bold": false
+        },
+        {
+          "title": "💄 Emails | Align automated emails with the Tina style guide",
+          "url": "https://github.com/tinacms/tinacloud/issues/4695",
+          "assignees": "designbyalex",
+          "estimate": 2,
+          "status": "inReview",
+          "origin": "carryOver",
+          "bold": false
+        },
+        {
+          "title": "💄 Auth | Style the WorkOS sign-in page with the Tina design system",
+          "url": "https://github.com/tinacms/tinacloud/issues/4480",
+          "assignees": "designbyalex",
+          "estimate": 1,
+          "status": "inReview",
+          "origin": "carryOver",
+          "bold": false
+        },
+        {
+          "title": "Render SES emails from one layout module instead of copied HTML",
+          "url": "https://github.com/tinacms/tinacloud/issues/4677",
+          "assignees": "designbyalex",
+          "estimate": 1,
+          "status": "inProgress",
+          "origin": "carryOver",
+          "bold": false
         }
       ],
       "note": "",
