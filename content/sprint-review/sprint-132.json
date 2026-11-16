@@ -434,7 +434,7 @@
     },
     {
       "heading": "5. TinaCloud PostHog Metrics",
-      "body": "![](/uploads/sprint-132/commits.png)\n\nTotal Commits processed by TinaCloud over the last 6 months, aggregated weekly with a 6 week rolling average - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/onboarding.png)\n\nUser onboarding over the last 7 days - 340 accounts were created, 43% (146) went on to create a project and 21% (71) committed. Of 106 invited collaborators, 51% (54) were added and 20% (21) committed - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/projects.png)\n\nOrganisation and project creation over the last 7 days - 341 new organisations, up from 147 last Sprint - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n",
+      "body": "![](/uploads/sprint-132/commits.png)\n\nTotal Commits processed by TinaCloud over the last 6 months, total commits (aka spits) over the last month was 38,951 (down 10% on the previous period) - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/onboarding.png)\n\nUser onboarding over the last 7 days - 340 accounts were created, 43% (146) went on to create a project and 21% (71) committed. Of 106 invited collaborators, 51% (54) were added and 20% (21) committed - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n\n![](/uploads/sprint-132/projects.png)\n\nOrganisation and project creation over the last 7 days - 341 new organisations, up from 147 last Sprint - [PostHog Dashboard](https://us.posthog.com/project/237683/dashboard/615466)\n",
       "_template": "figures",
       "placeholder": ""
     },
