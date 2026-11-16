@@ -70,19 +70,19 @@
           "bold": true
         },
         {
-          "title": "✨ TinaCloud | Return each document's last edit time and author",
-          "url": "https://github.com/tinacms/tinacms/issues/8049",
-          "assignees": "harley-j",
-          "estimate": 8,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
           "title": "🚸 Branch Naming - Auto-generate unique Git branches when saving changes",
           "url": "https://github.com/tinacms/tinacms/issues/6512",
           "assignees": "harley-j",
           "estimate": 4,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "✨ TinaCloud | Return each document's last edit time and author",
+          "url": "https://github.com/tinacms/tinacms/issues/8049",
+          "assignees": "harley-j",
+          "estimate": 8,
           "status": "done",
           "bonus": true,
           "bold": false
