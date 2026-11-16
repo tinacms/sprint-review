@@ -1,0 +1,631 @@
+{
+  "number": 132,
+  "startDate": "2026-11-10T00:00:00.000Z",
+  "endDate": "2026-11-17T00:00:00.000Z",
+  "durationLabel": "1 week",
+  "productOwner": "Matt W",
+  "recordingUrl": "",
+  "attendees": [],
+  "email": {
+    "subject": "TinaCloud/TinaCMS Sprint 132 Review + Retro",
+    "to": "MattWicks@ssw.com.au",
+    "cc": "SSWSprintReviews@ssw.com.au; AdamCogan@ssw.com.au; SSWTinaCloud@ssw.com.au; Calum@ssw.com.au"
+  },
+  "goals": [
+    {
+      "status": "done",
+      "title": "WorkOS Migration",
+      "text": "Configure the staging and production WorkOS environments for the migration"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Hours worked",
+      "items": [
+        {
+          "team": "TinaCloud",
+          "hours": 0,
+          "previousHours": 92,
+          "body": "",
+          "caption": ""
+        },
+        {
+          "team": "TinaCMS",
+          "hours": 0,
+          "previousHours": 28,
+          "body": "",
+          "caption": ""
+        }
+      ],
+      "_template": "hours"
+    },
+    {
+      "heading": "1. Sprint Backlog",
+      "items": [
+        {
+          "title": "🛂 Auth | Configure the staging and production WorkOS environments for cutover",
+          "url": "https://github.com/tinacms/tinacloud/issues/4274",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
+          "bold": true
+        },
+        {
+          "title": "✨ TinaCloud | Return each document's last edit time and author",
+          "url": "https://github.com/tinacms/tinacms/issues/8049",
+          "assignees": "harley-j",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🚸 Branch Naming - Auto-generate unique Git branches when saving changes",
+          "url": "https://github.com/tinacms/tinacms/issues/6512",
+          "assignees": "harley-j",
+          "estimate": 4,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ Plugin System - Search Plugin",
+          "url": "https://github.com/tinacms/tinacms/issues/6887",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🔒 Security: org admin can add or invite a member as owner",
+          "url": "https://github.com/tinacms/tinacloud/issues/4381",
+          "assignees": "harley-j",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - Collection & Document Lists",
+          "url": "https://github.com/tinacms/tinacms/issues/7672",
+          "assignees": "designbyalex",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - Visual Preview",
+          "url": "https://github.com/tinacms/tinacms/issues/7674",
+          "assignees": "designbyalex",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ Plugin System - Search Plugin - TinaCloud",
+          "url": "https://github.com/tinacms/tinacms/issues/6888",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🐛 SEO | Stop deployed sites pointing canonical and OG URLs at localhost",
+          "url": "https://github.com/tinacms/tina-docs-astro/issues/2",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Starting from Home",
+          "url": "https://github.com/tinacms/tinacms/issues/8041",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Browsing a collection's documents",
+          "url": "https://github.com/tinacms/tinacms/issues/8042",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Saving to a new branch, and retrying a failed save",
+          "url": "https://github.com/tinacms/tinacms/issues/8020",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "💄 UI/UX Review - Rich-Text Restyle",
+          "url": "https://github.com/tinacms/tinacms/issues/7676",
+          "assignees": "designbyalex",
+          "estimate": 1,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Saving with errors",
+          "url": "https://github.com/tinacms/tinacms/issues/7997",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "✨ Admin | Port the custom admin fields",
+          "url": "https://github.com/tinacms/tina-docs-astro/issues/29",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ API | Port the API reference",
+          "url": "https://github.com/tinacms/tina-docs-astro/issues/33",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Browsing and managing Media",
+          "url": "https://github.com/tinacms/tinacms/issues/8027",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Uploading to Media",
+          "url": "https://github.com/tinacms/tinacms/issues/8028",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "ci: run checks on merge_group and post license/cla for the merge queue",
+          "url": "https://github.com/tinacms/tinacms/pull/8052",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ Dashboard Insights - Display TinaCMS version metadata and project activity grid in Admin Dashboard",
+          "url": "https://github.com/tinacms/tinacloud/issues/4598",
+          "assignees": "kulesy",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "ci: restore the pnpm store on PRs and save it only from main pushes",
+          "url": "https://github.com/tinacms/tinacms/pull/8014",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "ci: cancel superseded PR builds and skip label-only runs",
+          "url": "https://github.com/tinacms/tinacms/pull/8013",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "test(identity): expect 409 when accept refuses a pending owner invite",
+          "url": "https://github.com/tinacms/tinacloud/pull/4669",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "fix: pass recipientName to SES from send-announcement",
+          "url": "https://github.com/tinacms/tinacloud/pull/4639",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "Add Pricing and Payment Terms page and link it from the Terms of Service",
+          "url": "https://github.com/tinacms/tina.io/pull/4998",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "fix: correct Terms of Service references and add agencies clause",
+          "url": "https://github.com/tinacms/tina.io/pull/4992",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ Plugin System - Content - TinaCloud indexes v4 projects",
+          "url": "https://github.com/tinacms/tinacms/issues/7854",
+          "assignees": "harley-j",
+          "estimate": 8,
+          "status": "inReview",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
+          "url": "https://github.com/tinacms/tinacloud/issues/4606",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "inReview",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "Astro TinaDocs template (tina-docs-astro)",
+          "url": "https://github.com/tinacms/tinacms/issues/7984",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "✨ Forms System Rebuild - Save All button",
+          "url": "https://github.com/tinacms/tinacms/issues/8060",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Editing the page from the preview",
+          "url": "https://github.com/tinacms/tinacms/issues/8043",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Writing and formatting in rich text",
+          "url": "https://github.com/tinacms/tinacms/issues/8045",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "UI | Viewing the page at other sizes",
+          "url": "https://github.com/tinacms/tinacms/issues/8044",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🔐 Identity service secret handling - encrypt GitHost secrets and webhook headers at rest",
+          "url": "https://github.com/tinacms/tinacloud/issues/3583",
+          "assignees": "kulesy, harley-j",
+          "estimate": 8,
+          "status": "inProgress",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🐛 Bug - SSO migration does not correctly merge plus email aliases",
+          "url": "https://github.com/tinacms/tinacloud/issues/4640",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
+          "status": "inProgress",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "Social media - Monitor Tina socials - Sprint 132",
+          "url": "https://github.com/tinacms/tinacloud/issues/4661",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - UX Copy",
+          "url": "https://github.com/tinacms/tinacms/issues/7925",
+          "assignees": "designbyalex",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "⚡ Content API | Cut the 2.6 s graphql package load on a cold router",
+          "url": "https://github.com/tinacms/tinacloud/issues/4600",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "Support - Monitor Discord Chat - Sprint 132",
+          "url": "https://github.com/tinacms/tinacloud/issues/4659",
+          "assignees": "kulesy, brookjeynes-ssw",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "Support - Tech Debt Payback - Sprint 132",
+          "url": "https://github.com/tinacms/tinacloud/issues/4660",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "UI | Dialogs and the error list on a phone",
+          "url": "https://github.com/tinacms/tinacms/issues/8048",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inProgress",
+          "bonus": true,
+          "bold": false
+        }
+      ],
+      "note": "",
+      "_template": "backlog"
+    },
+    {
+      "heading": "2. Sprint Burnup",
+      "body": "Sprint Burnup - 45 of 105 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-10\\&end_date=2026-11-17)\n",
+      "_template": "figures",
+      "placeholder": "Added at the review"
+    },
+    {
+      "heading": "3. Production Deployments",
+      "items": [],
+      "_template": "deployments"
+    },
+    {
+      "heading": "4. Application Health",
+      "body": "",
+      "_template": "figures",
+      "placeholder": "Added at the review"
+    },
+    {
+      "heading": "5. TinaCloud PostHog Metrics",
+      "body": "",
+      "_template": "figures",
+      "placeholder": "Added at the review"
+    },
+    {
+      "heading": "6. TinaCMS PostHog Metrics",
+      "body": "",
+      "_template": "figures",
+      "placeholder": "Added at the review"
+    },
+    {
+      "heading": "7. Cloners of Starter Templates",
+      "labelHeading": "Repo",
+      "items": [
+        {
+          "label": "tinacms/tina-astro-starter",
+          "url": "https://github.com/tinacms/tina-astro-starter/graphs/traffic",
+          "previous": 79,
+          "current": 0
+        },
+        {
+          "label": "tinacms/tina-nextjs-starter",
+          "url": "https://github.com/tinacms/tina-nextjs-starter/graphs/traffic",
+          "previous": 41,
+          "current": 0
+        },
+        {
+          "label": "tinacms/tina-self-hosted-demo",
+          "url": "https://github.com/tinacms/tina-self-hosted-demo/graphs/traffic",
+          "previous": 38,
+          "current": 0
+        },
+        {
+          "label": "tinacms/tina-react-starter",
+          "url": "https://github.com/tinacms/tina-react-starter/graphs/traffic",
+          "previous": 18,
+          "current": 0
+        }
+      ],
+      "note": "Current Sprint counts are the sum of GitHub's daily unique cloners for Tue 3 Nov to Sun 9 Nov, so a person who cloned on two days counts twice.",
+      "_template": "metrics"
+    },
+    {
+      "heading": "8. TinaCMS NPM Version Distribution",
+      "body": "",
+      "_template": "figures",
+      "placeholder": "Added at the review"
+    },
+    {
+      "heading": "Epics - Progress",
+      "items": [
+        {
+          "name": "TinaCloud - ✨ Auth Migration - Cognito to WorkOS",
+          "url": "https://github.com/tinacms/tinacloud/issues/3097",
+          "group": "In Progress",
+          "done": 35,
+          "total": 47,
+          "previousPercent": 68
+        },
+        {
+          "name": "TinaCMS v4 Forms System Rebuild",
+          "url": "https://github.com/tinacms/tinacms/issues/6834",
+          "group": "In Progress",
+          "done": 6,
+          "total": 8,
+          "previousPercent": 75
+        },
+        {
+          "name": "TinaCMS v4 Plugin-Based Architecture",
+          "url": "https://github.com/tinacms/tinacms/issues/6831",
+          "group": "In Progress",
+          "done": 11,
+          "total": 19,
+          "previousPercent": 58
+        },
+        {
+          "name": "TinaCMS v4 Field Type Implementation",
+          "url": "https://github.com/tinacms/tinacms/issues/6835",
+          "group": "In Progress",
+          "done": 12,
+          "total": 12,
+          "previousPercent": 100
+        },
+        {
+          "name": "TinaCMS v4 UI/UX Overhaul",
+          "url": "https://github.com/tinacms/tinacms/issues/6833",
+          "group": "In Progress",
+          "done": 2,
+          "total": 4,
+          "previousPercent": 50
+        },
+        {
+          "name": "TinaCMS v4 UI/UX Overhaul - Design System Implementation",
+          "url": "https://github.com/tinacms/tinacms/issues/7899",
+          "group": "In Progress",
+          "done": 20,
+          "total": 27,
+          "previousPercent": 76
+        },
+        {
+          "name": "TinaCMS - ⬆️ v4 (umbrella)",
+          "url": "https://github.com/tinacms/tinacms/issues/6830",
+          "group": "TinaCMS v4",
+          "done": 1,
+          "total": 7,
+          "previousPercent": 0
+        },
+        {
+          "name": "TinaCMS v4 General/Foundation",
+          "url": "https://github.com/tinacms/tinacms/issues/6837",
+          "group": "TinaCMS v4",
+          "done": 1,
+          "total": 8,
+          "previousPercent": 13
+        },
+        {
+          "name": "TinaCMS v4 Editorial Workflow",
+          "url": "https://github.com/tinacms/tinacms/issues/6832",
+          "group": "TinaCMS v4",
+          "done": 1,
+          "total": 4,
+          "previousPercent": 25
+        },
+        {
+          "name": "TinaCMS v4 Live Testing",
+          "url": "https://github.com/tinacms/tinacms/issues/6836",
+          "group": "TinaCMS v4",
+          "done": 0,
+          "total": 2,
+          "previousPercent": 0
+        }
+      ],
+      "sourceLabel": "Epics · TinaCloud",
+      "sourceUrl": "https://github.com/orgs/tinacms/projects/38/views/12",
+      "_template": "progress"
+    },
+    {
+      "heading": "R&D",
+      "entries": [
+        "Josh - v4 TinaCMS "
+      ],
+      "placeholder": "Added at the review",
+      "_template": "list"
+    },
+    {
+      "heading": "ADR Changes",
+      "items": [],
+      "_template": "adrs"
+    },
+    {
+      "heading": "AI Tools",
+      "subsection": false,
+      "items": [
+        {
+          "person": "Josh (20x)",
+          "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2), Codex 6.1 Sol\n",
+          "limits": "99% used",
+          "utilizationToday": "45% left (Thu 5pm reset)"
+        },
+        {
+          "person": "Brook (Plus)",
+          "tools": "Codex (GPT-6.1 Terra)\n",
+          "limits": "50% used",
+          "utilizationToday": "19% used (Thu 7pm reset)"
+        },
+        {
+          "person": "Alex (5x)",
+          "tools": "Claude Code (Fable 5.1, Opus 5.5). Upgraded to Claude Ultra\n",
+          "limits": "80% used",
+          "utilizationToday": "90% used (Tue 7pm reset)"
+        },
+        {
+          "person": "Eli (20x + 5x)",
+          "tools": "Claude Code (Opus 5.5 & Sonnet 5.5, Haiku 5.5)\n",
+          "limits": "100% used",
+          "utilizationToday": "N/A"
+        }
+      ],
+      "_template": "teamAiTools"
+    },
+    {
+      "heading": "AI Stats",
+      "subsection": false,
+      "body": "",
+      "placeholder": "Added at the review",
+      "items": [],
+      "_template": "figures"
+    }
+  ],
+  "retro": {
+    "wentWell": "",
+    "didntGoWell": "",
+    "improvements": ""
+  }
+}

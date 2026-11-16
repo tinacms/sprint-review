@@ -1,0 +1,187 @@
+{
+  "number": 133,
+  "startDate": "2026-11-17T00:00:00.000Z",
+  "endDate": "2026-11-24T00:00:00.000Z",
+  "durationLabel": "1 week",
+  "productOwner": "Matt W",
+  "recordingUrl": "",
+  "attendees": [],
+  "email": {
+    "subject": "TinaCloud/TinaCMS Sprint 133 Forecast",
+    "to": "MattWicks@ssw.com.au",
+    "cc": "SSWSprintReviews@ssw.com.au; AdamCogan@ssw.com.au; SSWTinaCloud@ssw.com.au; Calum@ssw.com.au"
+  },
+  "capacity": "~45 pts (3-Sprint average of 50, 10% buffer)",
+  "goals": [
+    {
+      "status": "suggested",
+      "title": "🎊 Run WorkOS Migration in Prod",
+      "text": "Brook will confirm the migration date with the PO."
+    }
+  ],
+  "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
+  "sections": [
+    {
+      "heading": "Forecast Backlog",
+      "items": [
+        {
+          "title": "✨ Plugin System - Content - TinaCloud indexes v4 projects",
+          "url": "https://github.com/tinacms/tinacms/issues/7854",
+          "assignees": "harley-j",
+          "estimate": 8,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
+          "url": "https://github.com/tinacms/tinacloud/issues/4606",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "Astro TinaDocs template (tina-docs-astro)",
+          "url": "https://github.com/tinacms/tinacms/issues/7984",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "✨ Forms System Rebuild - Save All button",
+          "url": "https://github.com/tinacms/tinacms/issues/8060",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "UI | Editing the page from the preview",
+          "url": "https://github.com/tinacms/tinacms/issues/8043",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "UI | Writing and formatting in rich text",
+          "url": "https://github.com/tinacms/tinacms/issues/8045",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "UI | Viewing the page at other sizes",
+          "url": "https://github.com/tinacms/tinacms/issues/8044",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inReview",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "🔐 Identity service secret handling - encrypt GitHost secrets and webhook headers at rest",
+          "url": "https://github.com/tinacms/tinacloud/issues/3583",
+          "assignees": "kulesy, harley-j",
+          "estimate": 8,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "🐛 Bug - SSO migration does not correctly merge plus email aliases",
+          "url": "https://github.com/tinacms/tinacloud/issues/4640",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "🔭 UI/UX Review - UX Copy",
+          "url": "https://github.com/tinacms/tinacms/issues/7925",
+          "assignees": "designbyalex",
+          "estimate": 4,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "⚡ Content API | Cut the 2.6 s graphql package load on a cold router",
+          "url": "https://github.com/tinacms/tinacloud/issues/4600",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "UI | Dialogs and the error list on a phone",
+          "url": "https://github.com/tinacms/tinacms/issues/8048",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "inProgress",
+          "bold": false,
+          "origin": "carryOver"
+        },
+        {
+          "title": "Social media - Monitor Tina socials - Sprint 133",
+          "url": "",
+          "assignees": "ianhoffmanx",
+          "estimate": 4,
+          "status": "ready",
+          "bold": false,
+          "origin": "new"
+        },
+        {
+          "title": "Support - Monitor Discord Chat - Sprint 133",
+          "url": "",
+          "assignees": "kulesy, brookjeynes-ssw",
+          "estimate": 4,
+          "status": "ready",
+          "bold": false,
+          "origin": "new"
+        },
+        {
+          "title": "Support - Tech Debt Payback - Sprint 133",
+          "url": "",
+          "assignees": "kulesy",
+          "estimate": 4,
+          "status": "ready",
+          "bold": false,
+          "origin": "new"
+        },
+        {
+          "title": "🐛 Error when connecting a new repo",
+          "url": "https://github.com/tinacms/tinacms/issues/7236",
+          "assignees": "joshbermanssw",
+          "estimate": 1,
+          "status": "ready",
+          "origin": "new",
+          "bold": false
+        }
+      ],
+      "note": "",
+      "_template": "backlog"
+    },
+    {
+      "heading": "AI Stats - Copilot",
+      "body": "",
+      "items": [],
+      "_template": "figures"
+    },
+    {
+      "body": "This is as per the rule [Do you create a Sprint Forecast?](https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)\n",
+      "small": true,
+      "_template": "text"
+    }
+  ]
+}
