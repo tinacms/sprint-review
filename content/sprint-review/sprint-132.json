@@ -52,13 +52,22 @@
           "bold": true
         },
         {
-          "title": "✨ TinaCloud | Return each document's last edit time and author",
-          "url": "https://github.com/tinacms/tinacms/issues/8049",
-          "assignees": "harley-j",
-          "estimate": 8,
+          "title": "UI | Starting from Home",
+          "url": "https://github.com/tinacms/tinacms/issues/8041",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
           "status": "done",
           "bonus": true,
-          "bold": false
+          "bold": true
+        },
+        {
+          "title": "UI | Browsing a collection's documents",
+          "url": "https://github.com/tinacms/tinacms/issues/8042",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": true
         },
         {
           "title": "🚸 Branch Naming - Auto-generate unique Git branches when saving changes",
@@ -68,6 +77,15 @@
           "status": "done",
           "bonus": true,
           "bold": true
+        },
+        {
+          "title": "✨ TinaCloud | Return each document's last edit time and author",
+          "url": "https://github.com/tinacms/tinacms/issues/8049",
+          "assignees": "harley-j",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
+          "bold": false
         },
         {
           "title": "✨ Plugin System - Search Plugin",
@@ -104,24 +122,6 @@
           "status": "done",
           "bonus": false,
           "bold": false
-        },
-        {
-          "title": "UI | Starting from Home",
-          "url": "https://github.com/tinacms/tinacms/issues/8041",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": true
-        },
-        {
-          "title": "UI | Browsing a collection's documents",
-          "url": "https://github.com/tinacms/tinacms/issues/8042",
-          "assignees": "joshbermanssw",
-          "estimate": 2,
-          "status": "done",
-          "bonus": true,
-          "bold": true
         },
         {
           "title": "🔒 Security: org admin can add or invite a member as owner",
@@ -663,7 +663,7 @@
   ],
   "retro": {
     "wentWell": "Harley - v4 is looking awesome! (good work Alex)\n\nHarley - Harley joined the scrum team!\n\nJosh - Issues ran into during Auth cutover has brought up some big improvements for TinaCloud\n\nHarley - Security fixes for TinaCloud 🙌\n\nBrook - WorkOS support response was very quick and helpful (unblocked us)\n",
-    "didntGoWell": "Brook - Blocked by WorkOS (delayed Auth migration by a day) \n\nJosh - PRs are being created faster than they can be reviewed \n\nJosh - Team capacity cut - No Eli & losing Brook for sprint :( \n\nHarley - Didn't listen to the advice on done video and went off on a different track \n",
+    "didntGoWell": "Brook - Blocked by WorkOS (delayed Auth migration by a day)\n\nJosh - PRs are being created faster than they can be reviewed\n\nJosh - Team capacity cut - No Eli & losing Brook for sprint :(\n\nHarley - Didn't listen to the advice on done video and went off on a different track\n",
     "improvements": ""
   }
 }
