@@ -178,6 +178,15 @@
           "bold": false
         },
         {
+          "title": "✨ Staff can queue a user's account for deletion from the admin panel",
+          "url": "https://github.com/tinacms/tinacloud/issues/4717",
+          "assignees": "",
+          "estimate": 0,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
           "title": "🔒 Assets | Presigned upload URL does not sign the content type",
           "url": "https://github.com/tinacms/tinacloud/issues/4360",
           "assignees": "harley-j",
