@@ -151,6 +151,15 @@
           "bold": false
         },
         {
+          "title": "✨ Staff can queue a user's account for deletion from the admin panel",
+          "url": "https://github.com/tinacms/tinacloud/issues/4717",
+          "assignees": "joshbermanssw",
+          "estimate": 2,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
           "title": "💄 Auth | Style the WorkOS sign-in page with the Tina design system",
           "url": "https://github.com/tinacms/tinacloud/issues/4480",
           "assignees": "designbyalex",
@@ -175,15 +184,6 @@
           "estimate": 1,
           "status": "done",
           "bonus": false,
-          "bold": false
-        },
-        {
-          "title": "✨ Staff can queue a user's account for deletion from the admin panel",
-          "url": "https://github.com/tinacms/tinacloud/issues/4717",
-          "assignees": "",
-          "estimate": 0,
-          "status": "done",
-          "bonus": true,
           "bold": false
         },
         {
