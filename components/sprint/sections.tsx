@@ -4,6 +4,7 @@ import { tinaField } from "tinacms/dist/react";
 import { A, Badge, Block, Callout, Chip, Grid, H2, H3, List, Note, Pending, Section, Td } from "../email/primitives";
 import { RichText } from "../email/rich-text";
 import { caps, colour, label } from "../email/theme";
+import { isFigureBodyEmpty } from "../../lib/figures";
 import { itemId, linkify } from "../../lib/refs";
 import { isRichTextEmpty, type RichTextValue } from "../../lib/rich-text";
 import { hasItems, templateOf } from "../../lib/sections";
@@ -237,6 +238,11 @@ const Metrics: SectionRenderer = ({ section }) => {
           );
         })}
       </Grid>
+      {isFigureBodyEmpty(section.body) ? null : (
+        <Block top={16}>
+          <Figures section={section} />
+        </Block>
+      )}
       {section.note ? <Note tinaField={field(section, "note")}>{section.note}</Note> : null}
     </>
   );

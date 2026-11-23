@@ -257,6 +257,7 @@ const sharedTemplates: Template[] = [
         ],
         ui: { itemProps: (item) => ({ label: item?.label }) },
       },
+      figuresBody(),
       { type: "string", name: "note", label: "Note", ui: textarea },
     ],
   },
