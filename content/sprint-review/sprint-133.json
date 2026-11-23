@@ -52,21 +52,21 @@
           "bold": true
         },
         {
-          "title": "🛂 Cutover | Build the cutover switches: sign-up freeze and canary",
-          "url": "https://github.com/tinacms/tinacloud/issues/4398",
-          "assignees": "brookjeynes-ssw",
-          "estimate": 8,
-          "status": "done",
-          "bonus": true,
-          "bold": false
-        },
-        {
           "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
           "url": "https://github.com/tinacms/tinacloud/issues/4606",
           "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "done",
           "bonus": false,
+          "bold": true
+        },
+        {
+          "title": "🛂 Cutover | Build the cutover switches: sign-up freeze and canary",
+          "url": "https://github.com/tinacms/tinacloud/issues/4398",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
           "bold": false
         },
         {
@@ -355,9 +355,9 @@
           "current": 11
         }
       ],
+      "body": "![](/uploads/sprint-133/create-tina-app.png)\n\nCompleted create-tina-app runs by starter template over the last 30 days, excluding our own CI runs - tina-astro-starter 119, tina-nextjs-starter 33, basic 8, tina-docs 6, tina-hugo-starter 1 and tinasaurus 1 - [PostHog](https://us.posthog.com/project/237683/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22kind%22%3A%22TrendsQuery%22%2C%22series%22%3A%5B%7B%22kind%22%3A%22EventsNode%22%2C%22event%22%3A%22create-tina-app-finished%22%2C%22name%22%3A%22create-tina-app-finished%22%2C%22math%22%3A%22total%22%7D%5D%2C%22dateRange%22%3A%7B%22date_from%22%3A%22-30d%22%7D%2C%22interval%22%3A%22day%22%2C%22properties%22%3A%7B%22type%22%3A%22AND%22%2C%22values%22%3A%5B%7B%22type%22%3A%22AND%22%2C%22values%22%3A%5B%7B%22key%22%3A%22app-name%22%2C%22operator%22%3A%22is_not%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22template-repo%22%5D%7D%5D%7D%5D%7D%2C%22breakdownFilter%22%3A%7B%22breakdowns%22%3A%5B%7B%22property%22%3A%22template%22%2C%22type%22%3A%22event%22%7D%5D%7D%2C%22trendsFilter%22%3A%7B%22display%22%3A%22ActionsBarValue%22%2C%22showValuesOnSeries%22%3Atrue%2C%22showLegend%22%3Afalse%7D%7D%7D)\n",
       "note": "Counts are the sum of GitHub's daily unique cloners for Tue 17 Nov to Sun 22 Nov (last Sprint recounted Tue 10 Nov to Sun 16 Nov), so a person who cloned on two days counts twice. tina-astro-starter had 47 cloners on 22 Nov alone.",
-      "_template": "metrics",
-      "body": "![](/uploads/sprint-133/create-tina-app.png)\n\nCompleted create-tina-app runs by starter template over the last 30 days, excluding our own CI runs - tina-astro-starter 119, tina-nextjs-starter 33, basic 8, tina-docs 6, tina-hugo-starter 1 and tinasaurus 1 - [PostHog](https://us.posthog.com/project/237683/insights/new#q=%7B%22kind%22%3A%22InsightVizNode%22%2C%22source%22%3A%7B%22kind%22%3A%22TrendsQuery%22%2C%22series%22%3A%5B%7B%22kind%22%3A%22EventsNode%22%2C%22event%22%3A%22create-tina-app-finished%22%2C%22name%22%3A%22create-tina-app-finished%22%2C%22math%22%3A%22total%22%7D%5D%2C%22dateRange%22%3A%7B%22date_from%22%3A%22-30d%22%7D%2C%22interval%22%3A%22day%22%2C%22properties%22%3A%7B%22type%22%3A%22AND%22%2C%22values%22%3A%5B%7B%22type%22%3A%22AND%22%2C%22values%22%3A%5B%7B%22key%22%3A%22app-name%22%2C%22operator%22%3A%22is_not%22%2C%22type%22%3A%22event%22%2C%22value%22%3A%5B%22template-repo%22%5D%7D%5D%7D%5D%7D%2C%22breakdownFilter%22%3A%7B%22breakdowns%22%3A%5B%7B%22property%22%3A%22template%22%2C%22type%22%3A%22event%22%7D%5D%7D%2C%22trendsFilter%22%3A%7B%22display%22%3A%22ActionsBarValue%22%2C%22showValuesOnSeries%22%3Atrue%2C%22showLegend%22%3Afalse%7D%7D%7D)\n"
+      "_template": "metrics"
     },
     {
       "heading": "8. TinaCMS NPM Version Distribution",
