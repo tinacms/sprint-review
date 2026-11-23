@@ -34,26 +34,8 @@
           "bold": false
         },
         {
-          "title": "✨ Plugin System - Content - TinaCloud indexes v4 projects",
-          "url": "https://github.com/tinacms/tinacms/issues/7854",
-          "assignees": "harley-j",
-          "estimate": 8,
-          "status": "inReview",
-          "origin": "carryOver",
-          "bold": false
-        },
-        {
           "title": "💄 Emails | Align automated emails with the Tina style guide",
           "url": "https://github.com/tinacms/tinacloud/issues/4695",
-          "assignees": "designbyalex",
-          "estimate": 2,
-          "status": "inReview",
-          "origin": "carryOver",
-          "bold": false
-        },
-        {
-          "title": "🔭 UI/UX Review - UX Copy",
-          "url": "https://github.com/tinacms/tinacms/issues/7925",
           "assignees": "designbyalex",
           "estimate": 2,
           "status": "inReview",
@@ -70,22 +52,13 @@
           "bold": false
         },
         {
-          "title": "💄 Auth | Style the WorkOS sign-in page with the Tina design system",
-          "url": "https://github.com/tinacms/tinacloud/issues/4480",
-          "assignees": "designbyalex",
-          "estimate": 1,
-          "status": "inReview",
-          "origin": "carryOver",
-          "bold": false
-        },
-        {
-          "title": "🛂 Cutover | Run the production cutover: migration, flag flip and resets",
-          "url": "https://github.com/tinacms/tinacloud/issues/3497",
-          "assignees": "brookjeynes-ssw",
-          "estimate": 16,
+          "title": "✨ Plugin System - Content - TinaCloud indexes v4 projects",
+          "url": "https://github.com/tinacms/tinacms/issues/7854",
+          "assignees": "harley-j",
+          "estimate": 8,
           "status": "inProgress",
           "origin": "carryOver",
-          "bold": true
+          "bold": false
         },
         {
           "title": "🔐 Identity service secret handling - encrypt GitHost secrets and webhook headers at rest",
@@ -115,19 +88,19 @@
           "bold": false
         },
         {
-          "title": "⚡ Content API | Cut the 2.6 s graphql package load on a cold router",
-          "url": "https://github.com/tinacms/tinacloud/issues/4600",
-          "assignees": "kulesy",
+          "title": "✨ Editorial Workflow - Branch Switcher Plugin",
+          "url": "https://github.com/tinacms/tinacms/issues/6893",
+          "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "inProgress",
           "origin": "carryOver",
           "bold": false
         },
         {
-          "title": "Prototype: Render SES emails from one layout module instead of copied HTML",
-          "url": "https://github.com/tinacms/tinacloud/issues/4677",
-          "assignees": "designbyalex",
-          "estimate": 1,
+          "title": "⚡ Content API | Cut the 2.6 s graphql package load on a cold router",
+          "url": "https://github.com/tinacms/tinacloud/issues/4600",
+          "assignees": "kulesy",
+          "estimate": 4,
           "status": "inProgress",
           "origin": "carryOver",
           "bold": false

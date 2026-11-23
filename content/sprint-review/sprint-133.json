@@ -13,9 +13,9 @@
   },
   "goals": [
     {
-      "status": "missed",
+      "status": "done",
       "title": "🎊 Run WorkOS Migration in Prod",
-      "text": "The production cutover is still in progress (tinacloud#3497)."
+      "text": "The production cutover (tinacloud#3497) is done."
     }
   ],
   "sections": [
@@ -43,12 +43,48 @@
       "heading": "1. Sprint Backlog",
       "items": [
         {
+          "title": "🛂 Cutover | Run the production cutover: migration, flag flip and resets",
+          "url": "https://github.com/tinacms/tinacloud/issues/3497",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 16,
+          "status": "done",
+          "bonus": false,
+          "bold": true
+        },
+        {
+          "title": "🛂 Cutover | Build the cutover switches: sign-up freeze and canary",
+          "url": "https://github.com/tinacms/tinacloud/issues/4398",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 8,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
           "title": "✨ TinaCloud - Deploy new projects from a starter to Cloudflare Workers",
           "url": "https://github.com/tinacms/tinacloud/issues/4606",
           "assignees": "joshbermanssw",
           "estimate": 4,
           "status": "done",
           "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "🛂 Migration | Prepare the password reset dispatch script for the cutover",
+          "url": "https://github.com/tinacms/tinacloud/issues/4249",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 4,
+          "status": "done",
+          "bonus": true,
+          "bold": false
+        },
+        {
+          "title": "🛂 Cutover | Prepare the production cutover: runbook, staging flip, dry run and go/no-go",
+          "url": "https://github.com/tinacms/tinacloud/issues/4576",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 4,
+          "status": "done",
+          "bonus": true,
           "bold": false
         },
         {
@@ -65,6 +101,15 @@
           "url": "https://github.com/tinacms/tinacloud/issues/4714",
           "assignees": "joshbermanssw",
           "estimate": 4,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "🔭 UI/UX Review - UX Copy",
+          "url": "https://github.com/tinacms/tinacms/issues/7925",
+          "assignees": "designbyalex",
+          "estimate": 2,
           "status": "done",
           "bonus": false,
           "bold": false
@@ -106,6 +151,24 @@
           "bold": false
         },
         {
+          "title": "💄 Auth | Style the WorkOS sign-in page with the Tina design system",
+          "url": "https://github.com/tinacms/tinacloud/issues/4480",
+          "assignees": "designbyalex",
+          "estimate": 1,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "Prototype: Render SES emails from one layout module instead of copied HTML",
+          "url": "https://github.com/tinacms/tinacloud/issues/4677",
+          "assignees": "designbyalex",
+          "estimate": 1,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
           "title": "UI | Viewing the page at other sizes",
           "url": "https://github.com/tinacms/tinacms/issues/8044",
           "assignees": "joshbermanssw",
@@ -124,26 +187,8 @@
           "bold": false
         },
         {
-          "title": "✨ Plugin System - Content - TinaCloud indexes v4 projects",
-          "url": "https://github.com/tinacms/tinacms/issues/7854",
-          "assignees": "harley-j",
-          "estimate": 8,
-          "status": "inReview",
-          "bonus": false,
-          "bold": false
-        },
-        {
           "title": "💄 Emails | Align automated emails with the Tina style guide",
           "url": "https://github.com/tinacms/tinacloud/issues/4695",
-          "assignees": "designbyalex",
-          "estimate": 2,
-          "status": "inReview",
-          "bonus": false,
-          "bold": false
-        },
-        {
-          "title": "🔭 UI/UX Review - UX Copy",
-          "url": "https://github.com/tinacms/tinacms/issues/7925",
           "assignees": "designbyalex",
           "estimate": 2,
           "status": "inReview",
@@ -160,22 +205,13 @@
           "bold": false
         },
         {
-          "title": "💄 Auth | Style the WorkOS sign-in page with the Tina design system",
-          "url": "https://github.com/tinacms/tinacloud/issues/4480",
-          "assignees": "designbyalex",
-          "estimate": 1,
-          "status": "inReview",
-          "bonus": false,
-          "bold": false
-        },
-        {
-          "title": "🛂 Cutover | Run the production cutover: migration, flag flip and resets",
-          "url": "https://github.com/tinacms/tinacloud/issues/3497",
-          "assignees": "brookjeynes-ssw",
-          "estimate": 16,
+          "title": "✨ Plugin System - Content - TinaCloud indexes v4 projects",
+          "url": "https://github.com/tinacms/tinacms/issues/7854",
+          "assignees": "harley-j",
+          "estimate": 8,
           "status": "inProgress",
           "bonus": false,
-          "bold": true
+          "bold": false
         },
         {
           "title": "🔐 Identity service secret handling - encrypt GitHost secrets and webhook headers at rest",
@@ -205,19 +241,19 @@
           "bold": false
         },
         {
+          "title": "✨ Editorial Workflow - Branch Switcher Plugin",
+          "url": "https://github.com/tinacms/tinacms/issues/6893",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "inProgress",
+          "bonus": true,
+          "bold": false
+        },
+        {
           "title": "⚡ Content API | Cut the 2.6 s graphql package load on a cold router",
           "url": "https://github.com/tinacms/tinacloud/issues/4600",
           "assignees": "kulesy",
           "estimate": 4,
-          "status": "inProgress",
-          "bonus": false,
-          "bold": false
-        },
-        {
-          "title": "Prototype: Render SES emails from one layout module instead of copied HTML",
-          "url": "https://github.com/tinacms/tinacloud/issues/4677",
-          "assignees": "designbyalex",
-          "estimate": 1,
           "status": "inProgress",
           "bonus": false,
           "bold": false
@@ -237,7 +273,7 @@
     },
     {
       "heading": "2. Sprint Burnup",
-      "body": "![](/uploads/sprint-133/burnup-final.png)\n\nSprint Burnup - 21 of 93 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-17\\&end_date=2026-11-24)\n",
+      "body": "![](/uploads/sprint-133/burnup-closed.png)\n\nSprint Burnup - 57 of 109 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-17\\&end_date=2026-11-24)\n",
       "placeholder": "",
       "_template": "figures"
     },
