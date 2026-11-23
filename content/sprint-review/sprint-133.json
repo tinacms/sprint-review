@@ -52,6 +52,24 @@
           "bold": false
         },
         {
+          "title": "Support - Monitor Discord Chat - Sprint 133",
+          "url": "https://github.com/tinacms/tinacloud/issues/4713",
+          "assignees": "joshbermanssw, brookjeynes-ssw",
+          "estimate": 4,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
+          "title": "Support - Tech Debt Payback - Sprint 133",
+          "url": "https://github.com/tinacms/tinacloud/issues/4714",
+          "assignees": "joshbermanssw",
+          "estimate": 4,
+          "status": "done",
+          "bonus": false,
+          "bold": false
+        },
+        {
           "title": "✨ Forms System Rebuild - Save All button",
           "url": "https://github.com/tinacms/tinacms/issues/8060",
           "assignees": "joshbermanssw",
@@ -212,33 +230,6 @@
           "status": "ready",
           "bonus": false,
           "bold": false
-        },
-        {
-          "title": "Support - Monitor Discord Chat - Sprint 133",
-          "url": "",
-          "assignees": "kulesy, brookjeynes-ssw",
-          "estimate": 4,
-          "status": "ready",
-          "bonus": false,
-          "bold": false
-        },
-        {
-          "title": "Support - Tech Debt Payback - Sprint 133",
-          "url": "",
-          "assignees": "kulesy",
-          "estimate": 4,
-          "status": "ready",
-          "bonus": false,
-          "bold": false
-        },
-        {
-          "title": "🐛 Error when connecting a new repo",
-          "url": "https://github.com/tinacms/tinacms/issues/7236",
-          "assignees": "joshbermanssw",
-          "estimate": 1,
-          "status": "ready",
-          "bonus": false,
-          "bold": false
         }
       ],
       "note": "",
@@ -246,7 +237,7 @@
     },
     {
       "heading": "2. Sprint Burnup",
-      "body": "![](/uploads/sprint-133/burnup.png)\n\nSprint Burnup - 13 of 81 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-17\\&end_date=2026-11-24)\n",
+      "body": "![](/uploads/sprint-133/burnup-final.png)\n\nSprint Burnup - 21 of 93 points closed - [Sprint Burnup · TinaCloud](https://github.com/orgs/tinacms/projects/38/insights/4?period=custom\\&start_date=2026-11-17\\&end_date=2026-11-24)\n",
       "placeholder": "",
       "_template": "figures"
     },

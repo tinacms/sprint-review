@@ -158,15 +158,6 @@
           "status": "ready",
           "origin": "new",
           "bold": false
-        },
-        {
-          "title": "🐛 Error when connecting a new repo",
-          "url": "https://github.com/tinacms/tinacms/issues/7236",
-          "assignees": "joshbermanssw",
-          "estimate": 1,
-          "status": "ready",
-          "bold": false,
-          "origin": "carryOver"
         }
       ],
       "note": "",
