@@ -455,7 +455,9 @@
     },
     {
       "heading": "R&D",
-      "entries": [],
+      "entries": [
+        "TinaCMS v4 - Josh"
+      ],
       "placeholder": "Added at the review",
       "_template": "list"
     },
@@ -471,26 +473,26 @@
         {
           "person": "Josh (10x)",
           "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2), Codex 6.1 Sol\n",
-          "limits": "150% used (used a reset)",
-          "utilizationToday": "50% left (Thu 5pm reset)"
+          "limits": "99% used",
+          "utilizationToday": "71% left (Thu 5pm reset)"
         },
         {
           "person": "Brook (Plus)",
           "tools": "Codex (GPT-6.1 Terra)\n",
-          "limits": "90% used",
-          "utilizationToday": "54% left (Fri 6:30am reset)"
+          "limits": "70% used (took leave)",
+          "utilizationToday": "68% left (Wed 7:31am reset)"
         },
         {
           "person": "Alex (10x)",
           "tools": "Claude Code (Opus 5.5)\n",
-          "limits": "90% used",
-          "utilizationToday": "10% left (Tue 7pm reset)"
+          "limits": "N/A",
+          "utilizationToday": "N/A"
         },
         {
           "person": "Harley (5x)",
           "tools": "Claude Code (Opus 5.5 & Sonnet 5.5)\n",
           "limits": "N/A ",
-          "utilizationToday": "93% left (Thu 9am reset)"
+          "utilizationToday": "N/A"
         }
       ],
       "_template": "teamAiTools"
