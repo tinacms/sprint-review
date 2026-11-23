@@ -15,8 +15,8 @@
   "goals": [
     {
       "status": "suggested",
-      "title": "🎊 Run WorkOS Migration in Prod",
-      "text": "continue and finish running the migration."
+      "title": "🖥️ TinaCloud CLI",
+      "text": "Release the CLI & YouTube video "
     }
   ],
   "scopeNote": "The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.",
@@ -24,6 +24,15 @@
     {
       "heading": "Forecast Backlog",
       "items": [
+        {
+          "title": "TinaCloud CLI - Release CLI",
+          "url": "https://github.com/tinacms/tinacloud-cli/issues/81",
+          "assignees": "brookjeynes-ssw",
+          "estimate": 4,
+          "status": "ready",
+          "origin": "",
+          "bold": true
+        },
         {
           "title": "🔒 Assets | Presigned upload URL does not sign the content type",
           "url": "https://github.com/tinacms/tinacloud/issues/4360",
@@ -115,15 +124,6 @@
           "bold": false
         },
         {
-          "title": "TinaCloud CLI - Release CLI",
-          "url": "https://github.com/tinacms/tinacloud-cli/issues/81",
-          "assignees": "brookjeynes-ssw",
-          "estimate": 4,
-          "status": "ready",
-          "origin": "new",
-          "bold": false
-        },
-        {
           "title": "Social media - Monitor Tina socials - Sprint 134",
           "url": "",
           "assignees": "",
@@ -157,9 +157,9 @@
     {
       "heading": "AI Stats - Copilot",
       "body": "",
+      "placeholder": "Added at the review",
       "items": [],
-      "_template": "figures",
-      "placeholder": "Added at the review"
+      "_template": "figures"
     },
     {
       "body": "This is as per the rule [Do you create a Sprint Forecast?](https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)\n",
