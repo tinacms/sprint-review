@@ -205,7 +205,8 @@ const Deployments: SectionRenderer = ({ section }) => {
   );
 };
 
-const Metrics: SectionRenderer = ({ section }) => {
+const Metrics: SectionRenderer = (props) => {
+  const { section } = props;
   const items: Maybe<Metric>[] = section.items ?? [];
   if (!hasItems(section)) return <Pending tinaField={field(section, "items")}>Add the metrics</Pending>;
   return (
@@ -240,7 +241,7 @@ const Metrics: SectionRenderer = ({ section }) => {
       </Grid>
       {isFigureBodyEmpty(section.body) ? null : (
         <Block top={16}>
-          <Figures section={section} />
+          <Figures {...props} />
         </Block>
       )}
       {section.note ? <Note tinaField={field(section, "note")}>{section.note}</Note> : null}
