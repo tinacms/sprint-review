@@ -156,8 +156,8 @@
     },
     {
       "heading": "AI Stats - Copilot",
-      "body": "",
-      "placeholder": "Added at the review",
+      "body": "![](/uploads/sprint-134/ai-forecast.png)**Figure: ❌ Copilot was incorrect with the main item to complete next sprint**\n",
+      "placeholder": "",
       "items": [],
       "_template": "figures"
     },
