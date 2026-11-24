@@ -500,7 +500,7 @@
     {
       "heading": "AI Stats",
       "subsection": false,
-      "body": "![](/uploads/sprint-133/ai-review.png)**Figure: ❌ AI was incorrect with the main item completed this sprint**\n",
+      "body": "![](/uploads/sprint-133/ai-review.png)**Figure: ✅ AI was correct with the main item completed this sprint**\n",
       "placeholder": "",
       "items": [],
       "_template": "figures"
