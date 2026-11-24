@@ -472,7 +472,7 @@
       "items": [
         {
           "person": "Josh (10x)",
-          "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2), Codex 6.1 Sol\n",
+          "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2)\n",
           "limits": "99% used",
           "utilizationToday": "71% left (Thu 5pm reset)"
         },
@@ -500,8 +500,8 @@
     {
       "heading": "AI Stats",
       "subsection": false,
-      "body": "![](/uploads/sprint-133/ai-review.png)**Figure: ❌ AI was incorrect with the main item completed this sprint**\n",
-      "placeholder": "",
+      "body": "",
+      "placeholder": "Added at the review",
       "items": [],
       "_template": "figures"
     }
