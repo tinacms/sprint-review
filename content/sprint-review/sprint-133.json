@@ -500,8 +500,8 @@
     {
       "heading": "AI Stats",
       "subsection": false,
-      "body": "",
-      "placeholder": "Added at the review",
+      "body": "![](/uploads/sprint-133/ai-review.png)**Figure: ❌ AI was incorrect with the main item completed this sprint**\n",
+      "placeholder": "",
       "items": [],
       "_template": "figures"
     }
