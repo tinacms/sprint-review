@@ -474,13 +474,13 @@
           "person": "Josh (10x)",
           "tools": "Claude Code (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2)\n",
           "limits": "99% used",
-          "utilizationToday": "71% left (Thu 5pm reset)"
+          "utilizationToday": "29% used (Thu 5pm reset)"
         },
         {
           "person": "Brook (Plus)",
           "tools": "Codex (GPT-6.1 Terra)\n",
           "limits": "70% used (took leave)",
-          "utilizationToday": "68% left (Wed 7:31am reset)"
+          "utilizationToday": "32% used (Wed 7:31am reset)"
         },
         {
           "person": "Alex (10x)",
